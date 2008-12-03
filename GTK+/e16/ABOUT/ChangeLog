@@ -1,0 +1,50 @@
+GTK+ For Enlightenment ChangeLog
+--------------------------------
+
+Apr 26 01:53 CDT  James M. Cape  <jcape@jcinteractive.com>
+
+	* Moved the SIDE border style to SIDE_LEFT and added SIDE_RIGHT,
+	  SIDE_TOP, and SIDE_BOTTOM border styles.
+	* Changed the appearanced of the maximize, iconify, and shade buttons
+	* Darkened the focused titlebar and added another curved line to it.
+
+Apr 11 01:43 CDT  James M. Cape  <jcape@jcinteractive.com>
+
+	* Changed focused titlebar look to look similar to the MiniGUE/Helix
+	  look.
+
+Mar 25 01:08 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Re-arranged window buttons and removed the "Stick" button.
+
+Mar 02 00:00 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Changed focused window titlebar color to blue.
+	* Added padding between the Kill and Minimize/Maximize buttons.
+	
+Feb 26 10:29 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Added more window matches for Gimp, Glade, and XMMS.
+
+Jan 09 00:41 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Redesigned the SIDE border style and added a grippy to it.
+	* Removed black separator lines around the resizable borders.
+	* Added window matches for most Gimp dialogs to automatically use the
+	  appropriate borders.
+	* Added window match for Enlightenment DOX to use the BORDER_ONLY border
+	  style.
+	* Fixed busted Glade Projects window match.
+	* Added FIXED_SIZE_GTK border style.
+	* Added TRANSIENT_FIXED_GTK border style.
+
+Nov 21 00:00 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Changed focused titlebar to be a lighter color to improve distinction.
+
+Oct 13 14:34 CST  James M. Cape  <jcape@jcinteractive.com>
+
+	* Reorganized theme around the BrushedMetal (aka WorthlessSubdirectory)
+	  Format.
+	* Added images for Eterm's Auto mode.
+	* Added images for Epplets. Tres Cool.

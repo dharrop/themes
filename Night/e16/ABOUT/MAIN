@@ -1,0 +1,21 @@
+EDOC
+512 400 16
+Edoc_bg.png 5 5 5 5
+Edoc_title1.png 50 2 2 2 Edoc_title2.png 50 2 2 2 Edoc_title3.png 50 2 2 2
+Edoc_prev1.png 2 2 2 2 Edoc_prev2.png 2 2 2 2 Edoc_prev3.png 2 2 2 2
+Edoc_next1.png 2 2 2 2 Edoc_next2.png 2 2 2 2 Edoc_next3.png 2 2 2 2
+Edoc_exit1.png 2 2 2 2 Edoc_exit2.png 2 2 2 2 Edoc_exit3.png 2 2 2 2
+page 0
+image 5 5 Night-Title.png Night-Title.png Night-Title.png  
+text e 17 0 0 5 150 502 85
+.      This is my theme which I call Night Theme.  This is a work in
+. progress and will be updated hopefully frequently.  If you want to
+. make a suggestion for this theme, email me at mcrites@infinet.com
+. and I will see if I can do it or not.  Of course, if I don't then
+. you can make the change yourself!
+text e 17 0 0 5 240 502 85
+.      Please visit my homepage at http://www.infinet.com/~mcrites.  
+. I haven't updated it in a while, but there is some useful info
+. on doing linux related things, such as installing programs, etc.
+. If you can't contact me via one of the above mentioned ways, then
+. I will usually be on #E at efnet.  Thanks for using my theme.

@@ -1,0 +1,42 @@
+Fri Apr 23 13:12 EDT 1999
+(mk)
+Added About this theme section
+
+Fri May 14 07:30 EDT 1999
+(mk)
+Replaced startup bg with a larger version.
+
+Fri May 14 08:04 EDT 1999
+(mk)
+Added new sounds
+
+Fri Oct 22 15:00 EDT 1999
+(mk)
+Added Eterm automode support
+Added iconbox widgets
+Modified cursor colors
+Began cleaning up directories
+epplet widgets are next
+Added one-click middle button on title bar to shade windows
+
+Fri Oct 22 18:00 EDT 1999
+(mk)
+Modified dialogs to use marble background instead of brass - this seems a
+little more appropriate for a theme called "marble"
+
+Fri Oct 22 22:46 EDT 1999
+(mk)
+Completed epplet widgets
+Tile menu backgrounds - little more attractive this way\
+
+Tue Oct 26 14:00 EDT 1999
+(mk)
+Merged my recent changes in with Steven Ponsford's directory restructuring.  Should be ready for release - let me know if you see anything amiss.
+
+Additional Changes by Steven: new fonts, iconbox (his was a bit nicer than mine
+:-), two additional backgrounds - Thanks Steven!
+
+Also added Steven's gkrellm themes to the directory structure - if you haven't
+checked this program out and you like gadgets, see http://web.wt.net/~billw/gkrellm/gkrellm.html - nice piece of software.
+
+Anyone for a XMMS theme?

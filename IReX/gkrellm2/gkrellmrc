@@ -1,0 +1,64 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Nolan D. Goodnight (n_goodnight@coloradocollege.edu)"
+
+frame_width = 6
+chart_width_min = 50
+chart_width_max = 200
+#chart_width_ref = 140
+
+allow_scaling = true
+
+chart_grid_mode = 1
+
+large_font = -adobe-helvetica-bold-r-normal-*-12-100-*-*-p-*-iso8859-1
+label_font = "-winfonts-vixar asci-bold-r-normal-*-*-120-*-*-p-*-iso8859-1"
+alt_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+label_draw_effect = shadow
+time_draw_effect = shadow
+meter_draw_effect = shadow
+alt1_draw_effect = none
+alt2_draw_effect = shadow
+
+label_color = #eae9e3
+meter_color = #eae9e3
+time_color = #eae9e3
+alt1_color = #000000
+alt2_color = #eae9e3
+
+rx_led_x = -1
+rx_led_y = 12
+tx_led_x = 1
+tx_led_y = 12
+
+# Borders for images are specified with comma separated numbers in the order:
+#    left border, right border, top border, bottom border
+
+# Borders for bg_meter and bg_meter_xxx
+style meter.panel_border = 5,5,5,5
+style meter.mem.panel_border = 5,5,5,5
+style meter.swap.panel_border = 5,5,5,5
+style meter.apm.panel_border = 5,5,5,5
+style meter.fs.panel_border = 5,5,5,5
+
+style chart.panel_border = 4,4,4,4
+
+bordered_border = 5,5,5,5
+frame_top_border = 15,15,2,2
+frame_bottom_border = 15,15,2,2
+
+# Alignments for the different labes
+style chart.label = 0
+style chart.cpu.label = 50
+style chart.proc.label = 50
+style chart.disk.label = 50
+style chart.net.label = 50
+style meter.label = 50
+style meter.mem.label = 100
+style meter.swap.label = 100
+
+style  meter.krell_depth = 1
+style  meter.krell_x_hot = -1    # -1 means center
+

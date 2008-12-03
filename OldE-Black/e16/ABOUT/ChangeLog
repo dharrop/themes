@@ -1,0 +1,28 @@
+Sat Mar 13 01:05:09 CST 1999
+
+        Works with E DR0.15 release.
+
+Thu Feb 18 23:06:44 CST 1999
+
+	Fixed shading and minimize/maximize buttons showing with window
+	shaded.. Stupid me had __ON set for the KEEP_WHEN_SHADED with
+	those two items.
+
+	Changed configure "hammer" to run e-conf.
+
+Wed Feb 17 08:43:09 CST 1999
+
+        Updated to include DIALOG and DIALOG_BUTTON stuff in init.cfg
+
+
+Thu Feb  4 11:08:53 CST 1999
+
+	Fixed problem with desktop background and segfaulting when enabling
+	certain things with e-conf.  Removed startup background from 
+	desktops.cfg
+
+Wed Feb  3 10:47:21 CST 1999
+
+	Updated to work with current CVS E.  Removed control.cfg,
+	keybindings.cfg, and menus.cfg.  Also fixed some new problems with
+	menuborders, and some other things.  Now in new *.etheme format.

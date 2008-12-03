@@ -1,0 +1,26 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#88dddd>
+<img src=DarkAlloy.png x=155 y=20>
+<font face=vixar/14 color=#888866>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p align=50%>
+This is the Brass theme for Enlightenment DR-0.16.
+It was created, and is maintained, by DarkAlloy with support
+from smoke.
+
+<p align=50%>
+email: scarab@egyptian.net
+<br>
+homepage: http://www.egyptian.net/~scarab

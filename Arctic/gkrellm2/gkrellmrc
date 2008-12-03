@@ -1,0 +1,47 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "egggman <egggman@linuxfreak.com> alternative by: -(n0l0G1k)- <n0l0g1k@sdf.lonestar.org> Http://n0l0g1k.de.st"
+theme_alternatives = 5
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_in_color = grey
+chart_in_color_grid = blue
+chart_out_color = white
+chart_out_color_grid = blue
+
+bg_grid_mode = 1
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #ffffff #000000 shadow
+StyleChart  *.alt_textcolor = #ffffff #000000 shadow
+
+StyleMeter  *.border = 2,2,4,4
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+#StyleMeter  *.label_position = 50
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  fs.label_position = 0
+StyleMeter cal.textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #ffffff #000000 shadow
+
+StylePanel  *.border = 2,2,2,3
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #ffffff #000000 shadow
+#StylePanel  net.border = 0,0,3,0
+#StylePanel  net.label_position = 35
+

@@ -1,0 +1,51 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "egggman <egggman@linuxfreak.com>"
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_in_color = #4d5f74
+chart_in_color_grid = #051b33
+chart_out_color = #625c5d
+chart_out_color_grid = grey
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+bg_grid_mode = 1
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+
+StylePanel  *.border = 2,2,2,3          # Top border of 3 moves labels down.
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+
+StyleMeter  *.border = 2,2,4,4
+#StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+
+StyleMeter  fs.label_position = 0
+
+#alt2_color
+StyleChart  *.textcolor = #ffffff #000000 shadow
+StyleChart  *.alt_textcolor = #ffffff #000000 shadow
+
+#label_color
+StylePanel  *.textcolor = #ffffff #000000 shadow
+
+#alt1_color
+StylePanel  *.alt_textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #ffffff #000000 shadow
+
+#time_color
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+

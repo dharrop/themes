@@ -1,0 +1,38 @@
+<page columns=1 padding=10 name=front background=aboutbg.png>
+<font face=augie/9" color=#ffffff> 
+<br>
+<br>
+<img src=dblogo.png x=120 y=30>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+Wow, someones' actually using this !<br>
+This theme is still not quite finished. It could do with some better buttons, 
+if anyone wants to make some :) Graphics created using The Gimp 
+and Bryce 2. To get the backgrounds included with the theme you'll have to select them manually or remove your .enlightenment dir and restart with the theme<br>
+The excellent font, Augie, is by Steven J. Lundeen. Details in augie.txt
+<br>
+Any comments/suggestions/questions/buttons to
+<br>
+Russ Wood ( visu ) <br>
+russ@cafenet.co.uk <br>
+<img src=dblogo.png x=120 y=305>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

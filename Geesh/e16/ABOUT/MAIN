@@ -1,0 +1,21 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+
+<img src=title.png x=150 y=15>
+
+<font face=aircut3/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the new Geesh theme. It is a port from my sawfish theme of the same name. 
+Geesh was born when i was messing arrounfd with a few of my older themes.
+<br>
+<br>
+Hope ya like it
+
+Thanks, egggman
+

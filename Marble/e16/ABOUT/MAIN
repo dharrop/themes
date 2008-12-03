@@ -1,0 +1,25 @@
+<page columns=1 padding=8 name=front background=../artwork/common/bg.png>
+<font face=benjamingothic/30 color=#000000>
+<p align=50%>
+Marble<br>
+<font face=benjamingothic/10 color=#000000>
+<br>
+<br>
+Special thanks out to Steven Ponsford (sponsfor@ix.netcom.com) for helping with
+this release - He restructured the directories and added a few features to help
+make it compliant with the Enlightenment 0.16 series.  Also included in this
+release are two backgrounds furnished by Steven.  See the ChangeLog included
+in the archive for additional information.
+<br>
+<br>
+This theme was designed using Tigert's Brushed-Metal theme as a base and was
+inspired by my Marble GTK theme.  As with the GTK theme, all images were
+created in the GIMP.  Patterns were used for the Marble & wood, gradients were
+used for the brass look.<br>
+Feel free to send comments and suggestions to the address below.<br>
+This theme is under the GPL.
+<br>
+<br>
+Matthew Kirsch<br>
+http://www.kirsch.cx<br>
+kirsch@kirsch.cx

@@ -1,0 +1,55 @@
+<page columns=1 padding=12 name=index background=Edoc_bg.png>
+<img src=bild3.jpg x=75 y=16>
+<font face=hatten/20 color=#FFFFFF
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+Welcome to Le_Mans
+<br>
+<font face=hatten/14 color=#FFFFFF>
+<p align=90%>
+The Enlightenment Theme
+
+<br>
+<font face=hatten/12 color=#FFFFFF>
+<p align=10%>
+About. . .<br>
+. . .this _theme(about) [Le_Mans] <br>
+. . .the _author(author) [zosima]
+
+<page columns=1 padding=12 name=about background=Edoc_bg.png>
+<font face=hatten/16 color=#FFFFFF>
+<p align=50%>
+The theme itself was inspired by the big Le_Mans race, you can see a picture of the winner on the previous page.</p><br>
+<p align=50%>
+As you have noticed, it isn't just Shiny_Metal with a new suit on, or another OS lookalike,  and that is the way I like it.  Though it may look a little confusing, once you settle in with it the theme is fairly intuitive.  Well, we are almost finished here!  I hope you enjoy it, and happy Enlightening.<br>
+<font face=hatten/12 color=#FFFFFF>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Graphics by the GIMP<br>
+Edited with VIM<br>
+<br>
+_back(index)
+</p>
+
+<page columns=1 padding=12 name=author background=Edoc_bg.png>
+<font face=hatten/16 color=#FFFFFF>
+<p align=50%>Well, thanks for taking an interest in who I am!<br><br>
+I am currently a Junior at the Ohio State University studying Computer Science Engineering.  I love linux becuase it gives me CHOICE, and that is why I love E.  I also like the culture of linux and the idea that quality software can come from people who want to code, not just people chasing after green.<br><br>
+I love cars, and that is why I made this theme.  I also wanted to come up with something original.  The themeing itself was quite an experience.  I did it in between my spring and summer quarters, and it took quite a while.<br><br>
+I would love to hear what you think of the theme.  Also, if you are themeing and need some help, I might be able to help.  I can be contacted at zosima@geocities.com.  Thanks.</p>
+<br>
+<br>
+<br><p align=50%>
+<font face=hatten/12 color =#FFFFFF>
+_back(index)</p>

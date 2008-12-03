@@ -1,0 +1,187 @@
+<page columns=1 padding=12 name=start linkcolor=#313330 background=bg.png>
+<font face=aircut3/32 color=#313330>
+<p align=50%>
+<br>
+Welcome to LCDonE
+<font face=aircut3/10 color=#313330>
+<p align=50%>
+Version 0.6.9
+<br>
+<font face=LCD/14 color=#313330>
+<p align=50%>
+<br>
+index:
+<br>
+About this _theme(about)
+<br>
+View _bugs(bugs)
+<br>
+View _ToDo(todo)
+<br>
+View _Changelog(changelog1)
+
+<page columns=1 padding=12 name=about linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+about this theme
+<font face=aircut3/12 color=#313330>
+<p>
+The background included in this theme is Graden-Of-The-Insane-2 from Propaganda-E.
+<br>
+More to come
+<br>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start)
+
+<page columns=1 padding=12 name=bugs linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+bugs:
+<br>
+<font face=aircut3/12 color=#313330>
+<p>
+None found at the moment
+<font face=LCD/18 color=#313330>
+<p align=50%>
+<br>
+_back_to_index(start)
+
+<page columns=1 padding=12 name=todo linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+TODO-FILE:
+<br>
+<font face=aircut3/12 color=#313330>
+<p>
+The deskray thingy
+<br>
+Do the Shaped window style
+<br>
+More window styles
+<br>
+The small "clouds" in tooltips are not what they should be
+<br>
+I have to do somthing about the startup, dont know what
+<br>
+Buttons
+<br>
+Sound
+<br>
+Remove unused actionclasses
+<br>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start)
+
+<page columns=1 padding=12 name=changelog1 linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+changelog 1/5:
+<font face=aircut3/12 color=#313330>
+<p>
+<br>Tue Jun 22 1999
+<br>
+<br>- Stated to modify the icE theme
+<br>- Changelog started
+<br>
+<br>Fri Jun 25 12:21:49 CEST 1999
+<br>
+<br>- Found a new background Garden-Of-The-Insane-2 from Propaganda-E
+<br>- Started work on menus
+<br>- Fixed "FIXEDSIZE" window style
+<br>- Changed the title to be black when active
+<br>- Changed background & colors in "About This Theme"
+<br>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start) 
+<br>
+_next(changelog2)
+
+<page columns=1 padding=12 name=changelog2 linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+changelog 2/5:
+<font face=aircut3/12 color=#313330>
+<p>
+<br>Sat Jun 26 20:49:52 CEST 1999
+<br>
+<br>- Finished the menus
+<br>- Changed linkcolor in "About This Theme"
+<br>
+<br>Sun Jun 27 13:14:28 CEST 1999
+<br>
+<br>- Fixed a menu-bug
+<br>- Did the dragbar & lower/raise buttons
+<br>- Changed background in internal settings dialogs
+<br>- Did some cleanup
+<br>- Did the vertical dragbar
+<br>- Also did the widgets, I think they are pretty cool
+<br>- INITIAL RELEASE: Version 0.5
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start) 
+<br>
+_next(changelog3)
+
+<page columns=1 padding=12 name=changelog3 linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+changelog 3/5:
+<font face=aircut3/12 color=#313330>
+<p>
+<br>
+<br>Tue Jun 29 14:10:15 CEST 1999
+<br>
+<br>- The "virtual desktop settings" was bugged, so I fixed it
+<br>- Top of titlebar now resize in the DEFAULT window-style
+<br>- Added move cursor
+<br>- The NOTITLEBAR needed a few cursors in the top
+<br>- FIXEDSIZE needed a hand, because I changed the DEFAULT
+<br>- Found an unused picture (/pix/grayish.png  86 bytes)
+<br>- Moved changelog & todo to "About this theme".
+<br>- So you dont need to unpack when you wanna see them.
+<br>- RELESE: Version 0.6 & new screenshot
+<br>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start)
+<br>
+_next(changelog4)
+
+<page columns=1 padding=12 name=changelog4 linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+changelog 4/5:
+<font face=aircut3/12 color=#313330>
+<p>
+<br>
+<br>Wed Jun 30 19:06:18 CEST 1999
+<br>
+<br>- Changed the font, yeah
+<br>- Relese: Version 0.6.5
+<br>
+<br>Sat Jul  3 14:45:57 CEST 1999
+<br>
+<br>- Windowops button now has several functions
+<br>- Relese: Version 0.6.8 & new screenshot
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start)
+<br>
+_next(changelog5)
+
+<page columns=1 padding=12 name=changelog5 linkcolor=#313330 background=bg.png>
+<font face=LCD/18 color=#313330>
+<p align=50%>
+changelog 5/5:
+<font face=aircut3/12 color=#313330>
+<p>
+<br>Wed Jul 28 21:12:23 CEST 1999
+<br>
+<br>- Added some support for the new iconbox(E CVS). Not finished yet, dont know how I want the buttons, so I included the buttons from brushed-metal.
+<br>- Relese: Version 0.6.9 & new screenshot
+<font face=LCD/18 color=#313330>
+<p align=50%>
+_back_to_index(start)

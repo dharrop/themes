@@ -1,0 +1,25 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Eric Yang <eric@simweb.com>"
+
+chart_in_color = #0081c4
+chart_in_color_grid = #006290
+chart_out_color = #00b084
+chart_out_color_grid = #00805d
+bg_grid_mode = 1
+
+normal_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-*-*"
+StyleChart *.font = normal
+StyleChart *.alt_font = normal
+StyleChart *.textcolor = #000000 #000000 none
+StyleChart *.alt_textcolor = #000000 #000000 none
+StyleMeter *.font = normal
+StyleMeter *.alt_font = normal
+StyleMeter *.textcolor = #000000 #000000 none
+StyleMeter *.alt_textcolor = #0081c4 #000000 none
+StylePanel *.font = normal
+StylePanel *.alt_font = normal
+StylePanel *.textcolor = #000000 #000000 none
+StylePanel *.alt_textcolor = #000000 #000000 none
+

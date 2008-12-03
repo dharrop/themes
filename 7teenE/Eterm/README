@@ -1,0 +1,45 @@
+Eterm 0.9.2 BlueBrushedMetal Theme
+----------------------------------
+
+This theme provides a nice purpley-blue Eterm theme which looks good with
+the BrushedMetal enlightenment theme and is an alternative to the
+green-blue of its Eterm theme.
+
+Like all other flea.org releases, this theme is released under the terms of
+the GNU General Public Licence, obtainable at
+http://www.gnu.org/copyleft/gpl.html.
+
+Installation
+------------
+
+1. In ~/.Eterm/themes/ or /usr/share/Eterm/themes/ (or wherever else you
+store your Eterm themes) run the following command: 
+
+	tar zxvf BlueBrushedMetal-Eterm-theme.tar.gz
+
+2. To run Eterms with this theme run the following command:
+
+	Eterm -t BlueBrushedMetal
+
+Custom Configuration
+--------------------
+
+The default theme has the same font and window size settings as the
+original BrushedMetal Eterm theme.  
+
+To set your personal requirements put a file called user.cfg in
+~/.Eterm/themes/BlueBrushedMetal/ with settings as required.  See any
+theme.cfg file to view the manny settings that can be changed.
+
+Mine looks like this, the main effect of which is to give me smaller
+windows and a funkier font (Raster's nexus font):
+
+<Eterm-0.9.2>
+ begin attributes
+     geometry 80x24
+     font 2 nexus
+ begin toggles
+   visual_bell on
+ end toggles
+
+(C) under the GNU GPL Felicity Palmer <flea@flea.org>

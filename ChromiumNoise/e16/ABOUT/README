@@ -1,0 +1,43 @@
+                                                     C H R O M I U M   N O I S E
+                                                                        (DAE_V2)
+                                                          for Enlightenment 0.16
+
+
+          - = < R E A D M E > = -
+
+
+Thanks for giving this theme a spin, I hope you enjoy it :)
+
+ Bonus Bits
+ /* When I get theme finished anyway ;) */
+   CNTerm: Eterm theme (not just an automode theme, changed colours to balance
+   with the Etheme).
+
+   Install this by changing dir into ~/.Eterm/themes type cp -r <path to
+   cn_eterm>. Then simply type Eterm -t cn_eterm
+
+ GKrellm Theme
+
+   cn_gkrellm: The gkrellm match
+
+   Install this by changing into ~/.gkrellm/themes and typing cp -r
+   <path to cn_gkrellm>. It should now be available in you gkrellm theme
+   selector.
+
+The inspiration for this one was Gridlocks V theme for sawfish. I liked it,
+I liked it a lot! But, I wanted something more E! so I merged parts of the V
+idea with DAE and voila (origional title :/) (DAE_V2) Chromium Noise.
+
+This is far from complete but, is way more useable than the origional (DAE)!
+besides that the title is way cooler ;)
+
+All the graphics have been hand rendered using the Gimp's powerful features,
+mainly the airbrush. (not just gradients this time). These images have been
+"hand painted" for a better feel. D.A.E. was just a bunch of gradients but,
+you knew that allready ;)
+
+I'm hoping to keep this one in development through E17 failing that I'll just
+start some more themes and never finish them when E17 comes out.
+
+P.S. i guess you'll be wondering where the chrome is? errrr, pretend like it's
+     dirty or something ;)

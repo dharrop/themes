@@ -1,0 +1,21 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=0 y=0>
+<font face=aircut3/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the Brushed Metal theme for Enlightenment. This theme is the Default
+theme shipped with Enlightenment and thus is maintained to the highest 
+standards to ensure it supports all new features in Enlightenment.
+<p align=50%>
+The original artwork was done by Tigert (http://tigert.gimp.org/) and 
+subsequent artwork, cleaning up, configuration files and maintenance are done
+by The Rasterman (http://www.rasterman.com).
+<p align=50%>
+I hope you enjoy this theme, and that it meets your expectations of a good 
+looking interface.

@@ -1,0 +1,39 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "-(n0l0G1k)- <n0l0G1k@sdf.lonestar.org> Http://n0l0G1k.de.st"
+
+frame_left_width = 4
+frame_right_width = 4
+
+bg_grid_mode = 1
+
+large_font = tixus
+normal_font = tixus
+small_font = tixus
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+
+StylePanel  *.border = 2,2,2,3
+StylePanel  *.margin = 3
+
+StyleMeter  *.border = 2,2,4,4
+StylePanel  *.margin = 3
+StyleMeter  fs.label_position = 0
+
+StyleChart  *.textcolor = #000000 #000000 none
+StyleChart  *.alt_textcolor = #000000 #000000 none
+
+StylePanel  *.textcolor = #000000 #000000 none
+StyleMeter cal.textcolor = #000000 #000000 none
+
+StylePanel  *.alt_textcolor = #000000 #000000 none
+StyleMeter  host.textcolor = #000000 #000000 none
+
+StyleMeter  *.textcolor = #000000 #000000 none
+StyleMeter  *.alt_textcolor = #000000 #000000 none

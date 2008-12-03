@@ -1,0 +1,138 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Tom <tom@allroy.de>"
+
+chart_width_min = 64
+chart_width_max = 64
+chart_width_ref = 64
+allow_scaling = false
+
+# Frame sizes set to 0 means render frames to drawn dimension
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+# Borders for images are specified with comma separated numbers in the order:
+#    left border, right border, top border, bottom border
+frame_top_border = 2,2,0,0
+frame_bottom_border = 2,2,0,0
+frame_left_border = 0,0,0,0
+frame_right_border = 0,0,0,0
+
+# Colors for drawing data on charts.  These apply to all chart monitors
+# so style settings for these are not possible.  These do not apply
+# if you have data_in/out images.
+chart_in_color = #ffffff
+chart_in_color_grid = #006600
+chart_out_color = #ff0000
+chart_out_color_grid = #990000
+
+# 0 (do) 1 (don't) draw top/bottom grid lines on charts.
+bg_grid_mode = 1
+
+# Placement of the Rx/Tx LEDs in the panel area of net Chart monitors.
+rx_led_x = -1
+rx_led_y = 13
+tx_led_x = -14
+tx_led_y = 13
+
+# Horizontal placement of the time online display and button of the
+# timer_button Meter monitor.  Negative x means place x pixels from right edge
+timer_time_x = 1
+timer_button_x = -4
+
+# used only if the theme has a bg_timer image.
+bg_timer_border = 2,2,2,2
+
+button_panel_border = 2,2,2,2
+button_meter_border = 2,2,2,2
+
+# Fonts to use in the Style settings below.
+large_font = "-adobe-helvetica-medium-r-normal-*-*-120-*-*-p-*-*-*"
+normal_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-*-*"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-*-*"
+
+
+#Set the borders for the background slider trough images.
+bg_slider_panel_border = 1,1,1,1
+bg_slider_meter_border = 1,1,1,1
+
+
+# ========= Style settings for the monitors. ============
+# Settings for the chart areas of all Chart monitors.
+StyleChart  *.border = 6,7,6,7
+StyleChart  *.font = normal_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #ffffff #ffffff none
+StyleChart  *.alt_textcolor = #ffffff #ffffff none
+
+# Settings for the panel areas of all Chart monitors.
+StylePanel  *.border = 0,0,11,2
+StylePanel  *.font = normal_font
+StylePanel  *.alt_font = normal_font
+StylePanel  *.textcolor = #ffffff #ffffff none
+StylePanel  *.alt_textcolor = #ffffff #ffffff none
+StylePanel  *.label_position = 50
+StylePanel  net.label_position = 0
+StylePanel  *.margin = 3
+StylePanel  *.krell_x_hot = 63
+StylePanel  *.krell_depth = 65
+StylePanel  *.krell_yoff = 3
+
+# Settings for the meter areas of all Meter monitors.
+StyleMeter  *.border = 0,0,5,5
+StyleMeter  mem.border = 0,0,11,4
+StyleMeter  swap.border = 0,0,11,2
+StyleMeter  gkrellmms.border = 0,0,11,3
+StyleMeter  *.font = normal_font
+StyleMeter  *.alt_font = small_font
+StyleMeter  *.textcolor = #ffffff #ffffff none
+StyleMeter  *.alt_textcolor = #ffffff #ffffff none
+StyleMeter  *.label_position = 50
+StyleMeter  mem.label_position = 0
+StyleMeter  swap.label_position = 0
+StyleMeter  volume.label_position = 0
+StyleMeter  *.margin = 3
+StyleMeter  *.krell_x_hot = 63
+StyleMeter  mail.krell_x_hot = -1
+StyleMeter  *.krell_depth = 65
+StyleMeter  *.krell_yoff = 4
+
+# These are some of the custom settings for the meter areas of specific
+# meter monitors for the default theme.
+# These override any general '*' settings.
+# StyleMeter  apm.border = 0,0,12,2
+# StyleMeter  apm.font = normal_font
+
+* cal.font and cal.textcolor is for day of week and month name
+StyleMeter  cal.font = med_font
+StyleMeter  cal.textcolor = #ffffff #ffffff none
+
+# cal.alt_font is day of month
+StyleMeter  cal.alt_font = large_font
+
+* clock.font and clock.textcolor is for hours & minutes
+# clock.alt_font and clock.alt_textcolor would be used for seconds or am/pm
+StyleMeter  clock.font = large_font
+StyleMeter  clock.textcolor = #ffffff #ffffff none
+
+StyleMeter  apm.border = 0,0,11,2
+StyleMeter  fs.border = 0,0,11,2
+StyleMeter  timer.border = 0,0,2,5
+StyleMeter  host.border = 0,0,2,5
+StyleMeter  cal.border = 0,0,3,2
+StyleMeter  clock.border = 0,0,2,5
+StyleMeter  uptime.border = 0,0,4,3
+StyleMeter  fs.label_position = 0
+StyleMeter  fs.alt_font = normal_font
+StyleMeter  host.textcolor = #ffffff  #ffffff none
+StyleMeter  mail.alt_textcolor = #ffffff #ffffff none
+StyleMeter  timer.textcolor = #ffffff  #ffffff none
+StyleMeter  uptime.textcolor = #ffffff #ffffff none
+StyleMeter  *.textcolor = #ffffff #ffffff none
+
+krell_slider_depth = 65
+krell_slider_x_hot = 63
+

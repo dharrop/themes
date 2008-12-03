@@ -1,0 +1,61 @@
+# pli-skin, v2 (made for Licq version 0.51)
+# by boone, kirsch@kirsch.cx
+
+[skin]
+
+frame.pixmap = Frame.gif
+frame.mask = none
+frame.border.top = 28
+frame.border.bottom = 30
+frame.border.left = 4
+frame.border.right = 5
+frame.hasMenuBar = 0
+
+lblStatus.rect.x1 = 59
+lblStatus.rect.y1 = -26
+lblStatus.rect.x2 = -6
+lblStatus.rect.y2 = -6
+lblStatus.color.fg = white
+lblStatus.color.bg = #374e3a
+lblStatus.frameStyle = 51
+lblStatus.pixmap = none
+lblStatus.margin = 5
+
+btnSys.rect.x1 = 4
+btnSys.rect.y1 = -26
+btnSys.rect.x2 = 54
+btnSys.rect.y2 = -6
+btnSys.pixmapUpFocus = button.xpm
+btnSys.pixmapUpNoFocus = button.xpm
+btnSys.pixmapDown = button_clicked.xpm
+btnSys.color.fg = white
+btnSys.color.bg = #374e3a
+btnSys.caption = default
+
+lblMsg.rect.x1 = 4
+lblMsg.rect.y1 = 5
+lblMsg.rect.x2 = -6 
+lblMsg.rect.y2 = 25
+lblMsg.color.fg = white
+lblMsg.color.bg = #374e3a
+lblMsg.frameStyle = 51
+lblMsg.pixmap = none
+lblMsg.margin = 5
+
+cmbGroups.rect.x1 = 1
+cmbGroups.rect.y1 = 1
+cmbGroups.rect.x2 = 1
+cmbGroups.rect.y2 = 1
+cmbGroups.color.fg = default
+cmbGroups.color.bg = default
+
+# --- colors ---
+colors.online = white
+colors.away = grey80
+colors.offline = grey67
+colors.newuser = yellow
+colors.background = #374e3a
+#3c3e3c
+colors.gridlines = grey76
+
+# End of file

@@ -1,0 +1,55 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Dan Erat  <erat@cats.ucsc.edu - danerat@mindspring.com>"
+theme_alternatives = 3
+
+large_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
+normal_font = "-ttf-vixar asci-medium-r-normal-regular-0-0-0-0-p-0-iso8859-1"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_width_min = 50
+chart_width_max = 200
+chart_width_ref = 60
+
+allow_scaling = true
+
+chart_in_color = #0081c4
+chart_in_color_grid = #006290
+chart_out_color = #00b084
+chart_out_color_grid = #00805d
+
+bg_grid_mode = 1
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #efd097 #000000 shadow
+StyleChart  *.alt_textcolor = #efd097 #000000 shadow
+
+StylePanel  *.border = 2,2,2,3
+StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #99e38e #000000 shadow
+
+StyleMeter  *.border = 2,2,4,4
+StyleMeter  *.label_position = 50
+StyleMeter  fs.label_position = 0
+StyleMeter  mem.label_position = 100
+StyleMeter  swap.label_position = 100
+StyleMeter  *.textcolor = #93dbff #000000 shadow
+StyleMeter  fs.textcolor = #9c9bb5 #000000 shadow
+StyleMeter  cal.textcolor = #ffffff #000000 none
+StyleMeter  mem.textcolor = #9c9bb5 #000000 shadow
+StyleMeter  host.textcolor = #99e38e #000000 shadow
+StyleMeter  swap.textcolor = #9c9bb5 #000000 shadow
+StyleMeter  mail.textcolor = #9c9bb5 #000000 shadow
+StyleMeter  *.alt_textcolor = #93dbff #000000 shadow
+

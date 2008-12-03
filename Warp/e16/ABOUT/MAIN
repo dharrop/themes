@@ -1,0 +1,17 @@
+<page columns=1 padding=16 name=front background=../artwork/backgrounds/bigblu.png linkcolor=#88dddd>
+<font face=arialbd/24 color=#ffffff>
+<p align=50%>
+<br>
+Warp<br>
+<font face=arialbd/12 color=#ffffff>
+By Ivan Jager
+
+<font face=arial/12 color=#ffffff>
+<p> AFAIK this is the only theme for enlightenment that looks like OS/2. It was made to look like OS/2 Warp 4. I wrote a gimp script so that you can configure some of the colors. see the README
+	<p> does anyone knoW how I can copy the WarpSans font to Linux? I couldn't find the ttf. I would also like to know how to write to a file in a Script-Fu so that you could configure the text also. If you can help me please mailto:ivanjager@bigfoot.com
+<br>
+:-)
+
+
+
+

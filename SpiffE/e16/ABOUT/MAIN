@@ -1,0 +1,62 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#555599
+name=page1>
+<font face=verdana/24 color=#ffffff>
+<p align=50%>
+
+spiffE
+
+<font face=verdana/7 color=#000000>
+"the spiffiest theme for E" [tm]
+
+<font face=verdana/11 color=#000000>
+<p>
+I made this theme since I wanted a fast, clean, small, good looking, 
+and original theme for Enlightenment.
+
+<p>
+As most themes, this is a work in progress. I hope to further refine it in the
+future according to your suggestions and ideas.
+
+
+<p align=50%>
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+<p>
+It's useful to note that the right mouse button performs a handy window shading
+feature. Essentially, I have swapped the right and middle mouse buttons to
+facilitate rolling up windows on a two button input device (such as my laptop),
+but I have found that it works quite well on a three button trackball as well.
+*grin*
+
+<p align=50%>
+<font face=verdana/11 color=#444444>
+_continued_on_page_2...(page2)
+
+<page columns=1 padding=11 name=front background=Edoc_bg.png linkcolor=#555599
+name=page2>
+<font face=verdana/11 color=#ffffff>
+<p>
+[ _Page_1(page1) ]  [ Page 2 ]
+
+<font face=verdana/11 color=#000000>
+<p>
+If you dislike this feature (you should at least try it out first) and want to
+get the defaults back, rename the actionclasses.cfg in this theme's directory,
+purge the config cache, restart, and you should be happy.
+
+<p>
+I have put a lot of work into this theme (making it 0.16.x compliant as well),
+and I hope you enjoy it!
+
+<p>
+For more info, consult http://themes.org/ or http://linuxart.com/
+<br>
+(Linuxart.com also has several hundred pictures I took with my digital camera
+-- Great for backgrounds, etc.)
+<hr>
+
+<p>
+Thanks for using my theme,
+
+<p>
+Garrett LeSage<br>
+garrett@linux.com

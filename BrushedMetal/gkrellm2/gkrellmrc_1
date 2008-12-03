@@ -1,0 +1,7 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+chart_in_color = #10d3d3
+chart_out_color = #f4ac4a
+
+bg_grid_mode = 1

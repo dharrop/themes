@@ -1,0 +1,21 @@
+<page columns=1 padding=16 name=front background=back.png linkcolor=#88dddd>
+<img src=title2.png x=10 y=10>
+<font face=vixar/14 color=#ffffff>
+<p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the nqBe (not quite Be) theme for Enlightenment DR16.  This
+theme attempts to approximate as closely as possible the look and feel
+of the BeOS.  Subsequent pages of the DOX file will explain how to
+mimic other things that aren't possible directly in the theme.
+<p>
+The artwork and configuration were done by sellout
+(http://technomadic.org/sellout/).  If you have any suggestions
+(authenticity comes before convenience) please send them along to
+sellout@technomadic.org.  Thanks.
+<img src=title.png x=208 y=350>

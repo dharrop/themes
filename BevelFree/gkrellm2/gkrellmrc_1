@@ -1,0 +1,49 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "xinit <xinit@null.net>"
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_in_color = #cc0000
+chart_in_color_grid = #ffff66
+chart_out_color = #448800
+chart_out_color_grid = #ffff66
+
+bg_grid_mode = 0
+
+large_font = "-*-helvetica-bold-r-*-*-*-120-*-*-p-*-*-*"
+normal_font = "-*-helvetica-bold-r-*-*-*-100-*-*-p-*-*-*"
+small_font = "-*-helvetica-bold-r-*-*-*-80-*-*-p-*-*-*"
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #000000 #ffffff noshadow
+StyleChart  *.alt_textcolor = #000000 #ffffff noshadow
+
+StyleMeter  *.border = 2,2,4,4
+#StyleMeter  *.label_position = 50
+StyleMeter  *.textcolor = #000000 #ffffff noshadow
+StyleMeter  *.alt_textcolor = #000000 #ffffff noshadow
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  fs.label_position = 0
+StyleMeter cal.textcolor = #000000 #ffffff noshadow
+StyleMeter  host.textcolor = #000000 #ffffff noshadow
+
+StylePanel  *.border = 2,2,2,3
+StylePanel  *.margin = 3
+#StylePanel  *.label_position = 50
+StylePanel  *.textcolor = #ffffff  #ffffff noshadow
+StylePanel  *.alt_textcolor = #000000 #ffffff noshadow
+#StylePanel  net.border = 0,0,3,0
+StylePanel  net.label_position = 50
+StylePanel  *.krell_x_hot = 1
+StylePanel  *.krell_depth = 1
+StylePanel  *.krell_yoff = 1
+

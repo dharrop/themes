@@ -1,0 +1,27 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#88dddd>
+<img src=aqua.jpg x=170 y=99>
+<font face=vixar/14 color=#000000>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br>
+<p align=50%>
+This is the Aqua theme for Enlightenment DR-0.16.
+<br>
+It was created, and is maintained, by aada, a.k.a. Eric Yang.
+
+<p align=50%>
+More information is available through the README file in this theme's main
+directory.
+
+<p align=50%>
+email: eric@simweb.com
+<br>
+homepage: http://www.simweb.net/eric/

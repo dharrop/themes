@@ -1,0 +1,25 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=250 y=300>
+<img src=../common/images/a_fool.gif x=360 y=70>
+<font face=aircut3/12 color=#ffffff>
+<p align=0%>
+<br>
+<br>
+This is the EvilJester theme for Enlightenment.
+<br>
+<br>
+This is my first theme, so
+it might have some bugs. 
+<br>
+I have used the Arctic theme has a base for this one (thanks a lot egggman)
+<br>
+<br>
+If I am missing something, if you find a bug or you
+want to comment, feel free to email me at evil.jester@videotron.ca. 
+<palign=0%> 
+<br>
+<br>
+<br>
+Enjoy..., Lafo
+<br> 
+Version 1.2

@@ -1,0 +1,38 @@
+*** Guide for installing the dE-theme for Enlightenment 0.15.x / 0.16.x ***
+***
+There aren't really many things to do for a complete installation, some things
+needs to be installed properly though for the best result.
+***
+1. The PCF-font.
+---
+I've added a nice looking font, which also is full ansi.
+It's a font of the type PCF, which means you'll be able to use it in an rxvt or xterm for example.
+If you haven't already got it, install it like this:
+<prompt>cd fonts
+<prompt>cp outcast.pcf /usr/lib/X11/fonts/misc
+<prompt>cd /usr/lib/X11/fonts/misc
+<prompt>mkfontdir
+<prompt>xset fp rehash
+Should be done. Try to start an rxvt with the parameter -fn outcast.
+
+2. The icons.
+---
+As I hope you've noticed, I've placed three icons in the right lower corner.
+One for terminals, one for networkingapplications and finally one for editors.
+As you might know, the root-menu is individually, which means it doesn't change from one theme to another.
+However, with icons this is not the case.
+I've used my personal commands, which I am PRETTY sure you wanna edit.
+Do it like this:
+<prompt>xemacs actionclasses.cfg
+- Use the search-option in the Edit-menu.
+- Type 'IES'.
+- You should now be at the section of the terminal-icon.
+- You'll see the commands used, just change them all to your personal ones.
+- Type 'IES' again at the search-option.
+- You should be at the section of the networking-icon.
+- Change the commands to your personal ones.
+- Type 'IES' once more at the search-option.
+- You should now be at the section of the editor-icon.
+- Change the commands to your personal ones.
+- Save the file and restart the theme.
+It should now be fixed, your own commands are now used instead of mine.

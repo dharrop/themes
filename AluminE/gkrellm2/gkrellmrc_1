@@ -1,0 +1,53 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "sondoobie <btcal@earthlink.net>"
+
+frame_left_width = 3
+frame_right_width = 3
+
+chart_in_color = #000000
+chart_in_color_grid = #BDD6B4
+chart_out_color = #000000
+chart_out_color_grid = #BDD6B4
+
+bg_grid_mode = 1
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = -4
+rx_led_y = 4
+tx_led_x = -4
+tx_led_y = 9
+
+StyleChart  *.border = 6,3,2,2
+StylePanel  *.border = 6,2,2,3
+StylePanel  *.margin = 9
+StyleMeter  *.margin = 9
+StyleMeter  *.border = 6,2,4,4
+StyleMeter  *.label_position = 100
+StylePanel  *.label_position = 5 
+StylePanel  net.label_position = 3
+StylePanel  *.margin = 3
+
+StyleChart  *.textcolor = #000000 #000000 #000000
+StyleChart  *.alt_textcolor = #000000 #000000 #000000
+StylePanel  *.textcolor = #000000 #000000 #000000
+StyleMeter cal.textcolor = #000000 #000000 #000000
+StylePanel  *.alt_textcolor = #000000 #000000 #000000
+StyleMeter  host.textcolor = #000000 #000000 #000000
+
+# time
+StyleMeter  *.textcolor = #000000 #000000 #000000
+StyleMeter  *.alt_textcolor = #000000 #000000 #000000
+
+# meter
+StyleMeter fs.textcolor = #000000 #000000 #000000
+StyleMeter mem.textcolor = #000000 #000000 #000000
+StyleMeter swap.textcolor = #000000 #000000 #000000
+StyleMeter mail.textcolor = #000000 #000000 #000000
+
+krell_slider_depth = 63
+krell_slider_x_hot = 65

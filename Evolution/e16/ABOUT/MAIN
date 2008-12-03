@@ -1,0 +1,25 @@
+<page columns=1 padding=16 name=front background=pixel-blak.png linkcolor=#88dddd>
+<img src=evo-title.png x=160 y=30>
+<font face=vixar/14 color=#c4c4c4>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p align=50%>
+You are experiencing the Evolution theme for Enlightenment DR16.
+<br>
+Created by Christopher Lennert, Dec. 2000 and maitained thereafter. Your comments and suggestions will allow the continued development and refinement of this theme. 
+
+<p align=50%>-
+<p align=50%>
+More information is available through the README file in this theme's main
+directory.
+
+<p align=50%>-
+<p align=50%>
+Email: lennert@mindspring.com, chris.lennert@shawgrp.com

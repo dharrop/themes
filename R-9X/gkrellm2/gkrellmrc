@@ -1,0 +1,52 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Original Design: Dangeruss & Hippy (GkRellm Version: Gef <gef_d@users.sourceforge.net>)"
+theme_alternatives = 5
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_in_color = #6666bb
+chart_in_color_grid = #6666bb
+chart_out_color = #ccccff
+chart_out_color_grid = #ccccff
+
+bg_grid_mode = 1
+bg_separator_height = 2
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = -10
+rx_led_y = 3 
+tx_led_x = -4
+tx_led_y = 3 
+
+#                     l,r,t,b
+button_panel_border = 0,0,2,2
+button_meter_border = 0,0,2,2
+
+StylePanel  *.margin = 0
+StyleMeter  *.margin = 4
+#StyleMeter  fs.label_position = 5
+
+#alt2_color
+StyleChart  *.textcolor = #ddeeff #000000 shadow
+StyleChart  *.alt_textcolor = #ddeeff #000000 shadow
+#label_color
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StyleMeter cal.textcolor = #ffffff #000000 shadow
+#alt1_color
+StylePanel  *.alt_textcolor = #ddeeff #000000 shadow
+StyleMeter  host.textcolor = #ddeeff #000000 shadow
+#time_color
+StyleMeter  *.textcolor = #ddeeff #000000 shadow
+StyleMeter  *.alt_textcolor = #ddeeff #000000 shadow
+#meter_color
+StyleMeter fs.textcolor = #ffffff #000000 shadow
+StyleMeter mem.textcolor = #ffffff #000000 shadow
+StyleMeter swap.textcolor = #ffffff #000000 shadow
+StyleMeter mail.textcolor = #ffffff #000000 shadow
+

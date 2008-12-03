@@ -1,0 +1,152 @@
+Shade version 0.1
+------------------------------------------
+This theme is based on rephorm's Winter. I've made the theme for my own use
+and only modified the parts that are visible to me in everyday use. 
+I'm however very open to suggestions and 'patches' if you'd like 
+something changed. You can contact me through IRC or email. I'll often
+be idling under the nick 'luopio' at #e. 
+
+-lauri kainulainen <http://lauri.sokkelo.net> 
+
+
+Changes from Winter
+------------------------------------------
+---- 0.48 ----------
++ a MUCH cooler startup screen to replace the temporary one. 
+---- 0.41 ----------
++ changed packaging to .etheme instead of .tar.gz (thanks to Sven Rudolph)
+---- 0.4 -------------
++ a few color corrections with iconbox and coordinates
++ A lot nicer menu outlook
+---- 0.3 -------------
++ close-button prettier
++ added a slightly different border for sticky windows
+
+---- 0.2 -------------
++ made the buttons smaller and prettier, but also expanded the 
+  active-area (usability++)
++ made new buttons for inactive windows
++ added a simple border for iconbox
++ better menu (works with glass-transparency, etc)
+
+---- 0.1 -------------
++ Default border style and buttons changed
++ Changed menuborders and background
++ Changed dialog background
++ Borderstyle SHADER and SHADER_CHAT added. 
++ Removed RIGHT_SHADER
++ Font changed in window titles and menutitles (now uses homespun)
++ Modified the focuslist
+
+
+
+
+
+Enlightenment Theme standard:
+------------------------------------------
+if you wish to make themes as of 0.16 of E you MUSt conforom to this standard.
+there hasnt been a de-facto CLEAN standard forthcoming from the theme makers,
+so I have imposed one. It goes as follows:
+
+your theme must contain the base cfg files as in shown in this tarball:
+borders.cfg
+buttons.cfg
+colormodifiers.cfg
+cursors.cfg
+desktops.cfg
+imageclasses.cfg
+init.cfg
+menustyles.cfg
+slideouts.cfg
+sound.cfg
+tooltips.cfg
+windowmatches.cfg
+
+you must include the directories and cfg files and their paths:
+
+backgrounds/images
+backgrounds/backgrounds.cfg
+borders/common/images
+borders/[BORDER_NAME]/images
+borders/[BORDER_NAME]/border.cfg
+borders/borders.cfg
+borders/common/borders.cfg
+buttons/images
+buttons/buttons.cfg
+common/images
+coords/images
+coords/coords.cfg
+cursors/bw_images
+cursors/images
+cursors/cursors.cfg
+dialogs/images
+dialogs/dialogs.cfg
+dock/images
+dock/dock.cfg
+dragbar/images
+dragbar/dragbar.cfg
+focuslist/images
+focuslist/focuslist.cfg
+iconbox/images
+iconbox/iconbox.cfg
+init/images
+init/init.cfg
+menustyles/images
+menustyles/menustyles.cfg
+pager/images
+pager/pager.cfg
+slideouts/images
+slideouts/slideouts.cfg
+sound/samples
+sound/sound.cfg
+tooltips/images
+tooltips/tooltips.cfg
+ttfonts/
+
+if your theme doesnt have any data for that element of a theme keep the base
+cfg file(s) that #includes others, and just have the #included files be empty
+(see buttons.cfg for an example)
+
+button should ONLY be used for decoration - ie making round corners like a
+macos screen or such. they shouls also contain apporpriate actionclasses
+from one of the actionclasses below. parts of a window border shoudl only use
+ythe list of actionclasses below (note in future this list may be expanded.
+using actionclasses not in this list for parts of window borders is
+considered ``illegal''. if you REALLY REALLy need to create a custom
+imageclass that is in the border.cfg or buttons.cfg file just before the
+border or button section and sname it CUSTOM_THEME_something - CUSTOM_THEME
+namespace will remain reserved for themes. if you thik your actionclass is
+a good generic one to have please mail the e-devel mailing list suggesting it
+and it may be adopted for the next revision).
+
+ACTION_BUTTON_DRAG
+ACTION_GOTO_DESK_NEXT
+ACTION_GOTO_DESK_PREV
+ACTION_MOVE
+ACTION_SHADE
+ACTION_RESIZE
+ACTION_RESIZE_H
+ACTION_RESIZE_V
+ACTION_KILL
+ACTION_MAXH
+ACTION_MAXW
+ACTION_MAX
+ACTION_SEND_NEXT
+ACTION_SEND_PREV
+ACTION_SNAPSHOT
+ACTION_ONLY_SHADE
+ACTION_MENU
+ACTION_ICONIFY
+ACTION_RAISE
+ACTION_LOWER
+ACTION_STICK
+
+these actions do pretty much what they say they do. use them appropriately.
+in future these actions will be uses configurable so do ont always expect
+them to to EXACTLY what they say - users may re-configure them.
+
+please keep all data local to the object its for (ie images used for pagers
+put int he pagers/images directory and declate the imageclasses etc. in
+pagers.cfg) - common/ is inteded for data that is shared.
+
+- The Rasterman <raster@rasterman.com>

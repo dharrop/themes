@@ -1,0 +1,110 @@
+<page columns=1  linkcolor=#e0e0ff padding=8 name=front background=background.png>
+<img src=ganymede.png x=40 y=40>
+<font face=ganymede/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Welcome to the Ganymede Theme!
+<br>
+<br>
+<br>
+<font face=ganymede/10 color=#d0d0f0>
+Please click _here(theme) or go on to the next page to find out more about this theme's predefined items, their intended usage and their configurability.
+<br>
+<br>
+This theme is (c) Christian Kreibich, April 1999.
+<br>
+Feel free to mail any comments & suggestions to the author at
+<font face=ganymede/12 color=#ffffff>
+chrisk @ engr.uconn.edu
+<br>
+<br>
+<font face=ganymede/10 color=#e0e0e0>
+Release 0.5, E Config Level 0, December 27, 1999
+
+
+
+
+<page columns=1 padding=8 name=theme linkcolor=#ffff00 background=background.png>
+<img src=bullet.gif x=8 y=42>
+<font face=ganymede/12 color=#ffffff>
+<p align=50%>
+The Ganymede Theme -- Features:
+<p>
+Window Borders:
+<font face=ganymede/6 color=#d0d0f0><p>
+<font face=ganymede/10 color=#d0d0f0>
+Ganymede comes with the following window borders:
+<font face=ganymede/10 color=#ffffff><p>DEFAULT and BORDLERLESS:<font face=ganymede/10 color=#d0d0f0><br>
+the obvious.<br>
+<font face=ganymede/10 color=#ffffff>DEFAULT_SHADE_DOWNWARD:<font face=ganymede/10 color=#d0d0f0><br>
+like DEFAULT, except that it shades to its bottom edge. Useful for windows you usually have near the screen bottom.<br>
+<font face=ganymede/10 color=#ffffff>ROTATED:<font face=ganymede/10 color=#d0d0f0><br>
+intended for narrow windows, with control items on the right and rotated fonts.<br>
+<font face=ganymede/10 color=#ffffff>TRANSIENT:<font face=ganymede/10 color=#d0d0f0><br>
+for dialog windows.<br>
+<font face=ganymede/10 color=#ffffff>PAGER, PAGER_LEFT, PAGER_RIGHT, PAGER_BOTTOM:<font face=ganymede/10 color=#d0d0f0><br>
+for the pagers, with an alternative for the position of the grab area. For example, if you like your pagers on the right side of the screen, choose PAGER_LEFT, which will give you the grab area on the left and shading to the right.<br>
+<font face=ganymede/10 color=#ffffff>MENU_BORDER and MENU_NOTITLE:<font face=ganymede/10 color=#d0d0f0><br>
+for menus, comes in a titled flavour and a simpler, rectangular one.<br>
+
+
+
+<page columns=1 padding=8 name=theme2 linkcolor=#ffff00 background=background.png>
+<img src=bullet.gif x=8 y=8>
+<img src=econtrol.png x=8 y=127>
+<img src=pulldowns.png x=8 y=185>
+<p align=0%>
+<font face=ganymede/12 color=#ffffff>
+The Buttons:
+<p>
+<font face=ganymede/10 color=#d0d0f0>
+Ganymede's buttons reside at the window top and work like pulldown menus. However, buttons by default are currently disabled in Enlightenment. If you want to use these buttons anyway, please go to the Ganymede directory and run ACTIVATE_BUTTONS. The buttons as shown below will appear on your screen top. The buttons are divided in two categories:
+<p>
+<p>
+<font face=ganymede/10 color=#d0d0f0>
+The Control Pulldown is on the topleft of the screen and shows all the E control buttons when clicked.
+<p>
+<p>
+The other pulldowns are on the topright and open menus for certain topics: Editors, Mailers etc.
+<p>
+<font face=ganymede/10 color=#d0d0f0>
+You can configure these pulldown menus at runtime (they are defined as FILE_MENUs) using the following files in your ~/.enlightenment:
+<font face=ganymede/10 color=#d0d0f0>
+<p>
+ganymede.editors.menu,  ganymede.mailers.menu,  ganymede.net.menu,  ganymede.graphics.menu,  ganymede.terminals.menu
+<p>
+<font face=ganymede/10 color=#d0d0f0>
+Just use the same syntax like for your file.menu. Remember that you don't need to restart E after changes. CTRL-ALT-C shows/hides the E Control Button, CTRL-ALT-B all of the Buttons. The pulldowns will feel far better when you have menu sliding enabled.
+
+
+
+
+
+<page columns=1 padding=8 name=theme2 linkcolor=#ffff00 background=background.png>
+<img src=bullet.gif x=8 y=43>
+<p align=0%>
+<font face=ganymede/12 color=#ffffff>
+Border items:
+<p>
+<font face=ganymede/10 color=#d0d0f0>
+All border items show tooltips after a little time, so they should be self-explanatory.
+<p>
+<p>
+That's it. I hope you have as much fun using this theme as I had designing it. Ganymede has been created entirely using the Gimp and POV-Ray.
+<p>
+<font face=ganymede/10 color=#ffffff>
+I'd like to thank Raster, Mandrake and all the other people who contributed to E for this amazing piece of code.
+<p>
+<p align=72%>
+Have fun,
+<p align=80%>
+Christian Kreibich, October 99.

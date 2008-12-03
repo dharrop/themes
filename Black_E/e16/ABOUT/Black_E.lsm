@@ -1,0 +1,17 @@
+Begin
+Title:          Black E
+Version:        0.16-3
+Entered-date:   Oct 31 1999
+
+Description:    Theme for the Enlightenment window manager. 
+
+Keywords:       Enlightenment themes
+Author:         iceman@cyberia.net.lb (Hisham Mardam Bey)
+Maintained-by:  iceman@cyberia.net.lb (Hisham Mardam Bey)
+
+Primary-site:   e.themes.org /php3/download.phtml?query=download&bject=e.theme.934230327&rev=DR16&server=themes.org
+
+Platform:       X11 i386 (help me here ;)
+	
+Copying-policy: GNU GENERAL PUBLIC LICENSE
+End

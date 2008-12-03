@@ -1,0 +1,55 @@
+Eterm 0.9.2 StarEnli Theme
+--------------------------
+
+This theme was designed to go with the StarEnli theme for Enlightenment.
+Find the theme at http://www.flea.org/starenli/
+
+Like all other flea.org releases, this theme is released under the terms of
+the GNU General Public Licence, obtainable at
+http://www.gnu.org/copyleft/gpl.html. 
+
+Installation
+------------
+
+1. In ~/.Eterm/themes/ or /usr/share/Eterm/themes/ (or wherever else you
+store your Eterm themes) run the following command:
+
+        tar zxvf StarEnli-Eterm-theme.tar.gz
+
+2. To run Eterms with this theme run the following command:
+
+        Eterm -t StarEnli
+
+Custom Configuration
+--------------------
+
+The default theme has the same font and window size settings as the
+BrushedMetal Eterm theme.
+
+To set your personal requirements put a file called user.cfg in
+~/.Eterm/themes/StarEnli/ with settings as required.  See any
+theme.cfg file to view the many settings can be changed.
+
+Mine looks like this, the main effect of which is to give me smaller
+windows and a funkier font (Raster's nexus font). The commented section
+allows me to control whether I want to show a background image or not.
+
+<Eterm-0.9.2>
+ begin attributes
+     geometry 80x24
+     font 2 nexus
+ end attributes
+#Uncomment the lines below for a black background
+# begin imageclasses
+#   begin image
+#         type background
+#         mode solid
+#         state normal
+#         border 0 0 0 0
+#   end image
+# end
+ begin toggles
+   visual_bell on
+ end toggles
+
+(C) under the GNU GPL Felicity Palmer <flea@flea.org>

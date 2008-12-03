@@ -1,0 +1,16 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=200 y=0>
+<font face=aircut3/12 color=BLACK>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the SolarE theme for enlightenment. It is a DR16 port of the sun etheme for DR15.
+<p align=50%>
+
+Thanks, egggman
+

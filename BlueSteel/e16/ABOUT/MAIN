@@ -1,0 +1,33 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#88dddd>
+<img src=logo.png x=170 y=60>
+<font face=vixar/14 color=#ffffff>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p align=50%>
+This is the BlueSteel theme for Enlightenment.
+<br>
+It was created, and is maintained, by hunchback, a.k.a. Daniel Erat.
+
+<p align=50%>
+-
+
+<p align=50%>
+More information is available through the README file in this theme's main
+directory.
+
+<p align=50%>
+-
+
+<p align=50%>
+email: erat@cats.ucsc.edu, danerat@mindspring.com
+<br>
+homepage: http://www2.ucsc.edu/~erat/

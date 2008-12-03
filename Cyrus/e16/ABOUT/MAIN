@@ -1,0 +1,73 @@
+<page columns=1 padding=12 name=index background=Edoc_bg.png>
+<font face=1979/20 color=#000000>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Welcome to Cyrus
+<br>
+<font face=1979/14 color=#000000>
+<p align=90%>
+cyrus for Enlightenment 
+
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=30%>
+About...<br>
+...this _theme(about) <br>
+...the _author(author)
+
+
+
+<page columns=1 padding=12 name=about background=Edoc_bg.png>
+<font face=avgardm/11 color=#000000>
+<br>
+<p align=50%>
+	I started to create the Cyrus Theme during some days I had a flu
+	in January 1999.
+        It should give a professional but dark look and feel to Enlightenment and 
+        is supposed to be nice in behavior as well as in appearance. <br>
+        From month to month it got darker and weirder to meet my very personal 
+        opinion of aesthetics.
+</p>
+<p align=50%>
+	Some well-designed themes emulate the look of other OS, 
+	but through the years Linux developed into a powerful OS which 
+	does not need to hide. 
+</p>
+<p align=50%>
+	Thanks to all the people who inspired and encouraged me, and of course to all those
+	who use this theme.
+</p>
+<p align=50%>
+	get enlightened:-)
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(index)
+
+
+
+<page columns=1 padding=16 name=author background=Edoc_bg.png>
+<font face=avgardm/11 color=#000000>
+<br>
+<p align=50%>
+I am running Linux since kernel 1.1.20, that was about four years ago.<br>
+It was the time I sold my Amiga to buy a PC. I made my first expriences with 
+M$ Windows 3.11 and I hated it from the first moment;
+looking for alternatives I found Linux.
+<br> 
+While studying computer science at Dortmund University I got skilled in programming 
+BETA and C/C++, and Linux was the platform fitting my needs best.<br>
+With Enlightenment/GNOME I got a functional and good-looking environment.
+<font face=avgardm/8 color=#000000>
+<p align=90%>
+_back(index)
+<br>
+<br>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=50%>
+http://kniebes.de  -  m.kniebes@c2h8.de

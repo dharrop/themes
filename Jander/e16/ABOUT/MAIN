@@ -1,0 +1,51 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#008800>
+<img src=title.png x=185 y=40>
+<font face=aircut3/12 color=#009900>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p align=50%>
+This is the Jander theme for Enlightenment DR16<br>
+by Jean-Paul Bizet (jp-bizet@bigfoot.com)
+<p align=50%>
+It was done using Brused Metal as a base and is designed<br>
+to fit the Jander theme for GTK. 
+<p align=50%>
+The original artwork was done by<br>
+David Conde Lagoa (dclagoa@atlas.uvigo.es).
+<p align=50%>
+_more...(more)<br>
+<p align=50%>
+Enjoy the theme !
+
+
+
+<page columns=1 padding=16 name=more background=bg.png linkcolor=#008800>
+<img src=title.png x=185 y=40>
+<font face=aircut3/12 color=#009900>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+The screenshot on themes.org shows a<br>
+slightly different Jander GTK-theme<br>
+that can be found at www.freeyellow.com/members/jpb/
+<p align=50%>
+The background is taken from LinuxArt.com<br>by Garrett LeSage.
+<p align=50%>
+Last update June 8 2000.
+<p align=50%>
+_back(front)

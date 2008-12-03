@@ -1,0 +1,42 @@
+SilverMania Theme for E16
+-------------------------
+
+1. Iconbox
+2. Theme configuration
+3. Border Shadow
+
+1. Iconbox
+The icondefs.cfg file included in SilverMania uses the official
+Gentoo Icontheme. To activate the icons delete or move your
+~/.enlightenment/icondefs.cfg. You can view all included icons
+here:
+http://www.gentoo.org/dyn/icons.xml
+
+and download them from here:
+http://www.gentoo.org/images/icons/icons.tar.bz2
+
+There also also some not yet included icons used. You could download
+them from here:
+http://linux.brachttal.net/gentoo/icons/png/
+
+You must copy or link the icons from the package to
+/home/andreas/.enlightenment/icons/gentoo to make it possible
+for SilverMania to find the icons.
+
+Also the setting "Use Enlightenment Icon, Snapshot Window" from 
+"Iconbox Settings Dialog" should be enabled.
+
+
+2. Theme configuration
+Edit the script 'reconfigure' and change it to your needs. Then
+exec 'reconfigure' and restart enlightenment to see the changes.
+
+
+3. Border Shadow
+Currently border shadow is an experimental feature. To activate it
+set border style of a window to SHADOW. To see the fading border you
+need E16.7-pre5 or later (but *not* pre-6) or a current CVS version
+installed. And beware it's only pseudo transparency! So please don't
+expect to much. It looks only really good on the background. And 
+there are currently still some bugs in the shadow!
+

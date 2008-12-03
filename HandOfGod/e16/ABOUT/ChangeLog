@@ -1,0 +1,69 @@
+Tuesday April 10th 2001
+-----------------------
+Theme been released onto http://e.themes.org
+
+* The 5 errors have been corrected. Missing __END was the fix. (Too much caffiene)
+* Fonts are corrected.
+
+Basically everything been done and tidied up.
+
+Changes in future:
+------------------
+
+I would probably change the dialogs stuff for the settings area. So far, I am
+happy with them :) I probably will dump the sounds but then I leave them there
+for now.
+
+Tuesday April 3rd 2001
+-----------------------
+Now we enter beta v0.2 - Never released to public. Private only.
+
+* Border fixed except for that ANNOYING top right side :(
+* Side dragbar isn't there! Argh!
+* Menu needs fixing. Keeps appearing in the top left corner :( Same for changing
+  border, closing etc.
+* Need to resize the fonts to fit perfectly in the border bar
+* 5 errors!?!!? Time to find them.
+
+ADDING:
+
+* Cursor changes (Still needed to be changed)
+
+FIXED:
+
+* Tooltips
+* Dragbar Side
+* Various border problems AND that annoying bug! woo!
+
+REMOVED:
+
+* Various sound to save the big download.
+* Clearing up various part of theme. 6.8mb > 3.6mb. On par with spiffE size.
+
+Needed:
+
+* Newer border. Ideas are in the frying pan.
+* Epplet changes?
+* Fonts fiddling....
+
+Monday April 2nd 2001
+---------------------
+
+Currently in beta v0.1 at the moment. So far, the bugs are:
+
+* Border on left, minor graphic glitch top right and bottom right graphic are
+  basically screwed :\ Finding those annoying problems and get it resolved asap.
+* Dragbar images isn't there. Ho hum.
+* Focuslist, iconbox and init graphics needs doing
+* Menustyles is completely strange... That needs fixing.
+* Various minor bugs needed to be cleared up.
+
+Friday March 30th 2001
+---------------------
+
+First beta-testing. Impressive so far. Time to clear up the bugs.
+
+--
+
+Craigo
+http://www.linux2k.freeserve.co.uk

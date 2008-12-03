@@ -1,0 +1,25 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#a0a0b0>
+<img src=../pix/logo.png x=0 y=0>
+<font face=arial/10 color=#000000>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+BrushedMotif is a theme for the Enlightenment window manager.  It uses the
+texture from the BrushedMetal theme with a slate tint to emulate the look and
+feel of Motif (MWM).  The interface is easy to navigate and it is very clean
+and not as graphically intense as many other Enlightenment themes.  Perfect
+for those who like a clean professional look, but a bit more graphical, rather
+than the same flat boring colors day-in and day-out.
+<p align=50%>
+Epplet textures and configuration were taken from the BrushedMetal theme, with
+slight modifications.  All credit is due to Tigert and Raster.
+<p align=50%>
+I hope this theme works for you, and feel free to change anything you would
+like.  I created this theme for fun, and there's something about Motif's look
+that I can't seem to shake.  You may contact me at cocidius@telebot.net via
+Email if you would like to comment upon this theme, ask questions, or just
+bitch about and flame me for such an un-original looking theme.  Whatever the
+reasons be, feel free to do as you will.

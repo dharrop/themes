@@ -1,0 +1,111 @@
+author	=	"Fabien Piuzzi - Reefab@demenzia.net"
+
+allow_scaling  	 =    false
+theme_alternatives    =    3
+chart_width_min  = 64
+chart_width_max  = 64
+chart_width_ref  = 64
+
+frame_top_height  	= 4
+frame_bottom_height 	 = 4
+frame_left_width  	= 4
+frame_right_width     = 5
+
+chart_in_color		= #2e2e51
+chart_in_color_grid	   =	#aca398
+chart_out_color		   =	#efeff2
+chart_out_color_grid	  =    #aca398
+
+bg_grid_mode			  =	1
+
+rx_led_x 				 = -1
+rx_led_y 				 = 13
+tx_led_x 				 = -10
+tx_led_y 				 = 13
+
+large_font				=	-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font				=	-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font				=	-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+StyleChart  *.border = 6,7,6,7
+StyleChart  *.font = normal_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #ffffff #ffffff none
+StyleChart  *.alt_textcolor = #ffffff #ffffff none
+StyleChart  *.transparency = 1
+
+StylePanel  *.border = 0,0,11,2
+StylePanel  *.font = normal_font
+StylePanel  *.alt_font = normal_font
+StylePanel  *.textcolor = #000000 #000000 none
+StylePanel  *.alt_textcolor = #000000 #000000 none
+StylePanel  *.label_position = 50
+StylePanel  net.label_position = 0
+StylePanel  *.margin = 5
+StylePanel  *.krell_x_hot = 63
+StylePanel  *.krell_depth = 65
+StylePanel  *.krell_yoff = 3
+
+
+StyleMeter  *.krell_depth		  =	1   
+StyleMeter  volume.margin 		 =    3
+StyleMeter  *.font = normal_font
+StyleMeter  *.alt_font = small_font
+StyleMeter  *.label_position = 50
+StyleMeter  mem.label_position = 0
+StyleMeter  swap.label_position = 0
+StyleMeter  volume.label_position = 0
+StyleMeter  *.margin = 3
+StyleMeter  *.krell_x_hot = 63
+StyleMeter  mail.krell_x_hot = -1
+StyleMeter  *.krell_depth = 65
+StyleMeter  *.krell_yoff = 4
+
+# borders
+StyleMeter  *.border = 0,0,5,5
+StyleMeter  mem.border = 0,0,11,4
+StyleMeter  swap.border = 0,0,11,2
+StyleMeter  apm.border = 0,0,11,2
+StyleMeter  fs.border = 0,0,11,2
+StyleMeter  timer.border = 0,0,2,5
+StyleMeter  timer.transparency = 1
+StyleMeter  host.border = 0,0,2,5
+StyleMeter  cal.border = 0,0,3,2
+StyleMeter  clock.border = 0,0,2,5
+StyleMeter  uptime.border = 0,0,4,3
+StyleMeter  uptime.textcolor = #ffffff #000000 none
+StyleMeter  fs.label_position = 0
+
+#colors
+#alt2_color
+StyleChart  *.textcolor = #ffffff #767c6f none 
+StyleChart  *.alt_textcolor = #ffffff #7676c6f none 
+
+#label_color
+StylePanel  *.textcolor = #000000 #ffffff  shadow
+StyleMeter  cal.textcolor = #ffffff #ffffff none
+StyleMeter	cal.transparency = 1
+StyleMeter clock.transparency = 1 
+StyleMeter uptime.transparency = 1
+
+#alt1_color
+StylePanel  *.alt_textcolor = #0000cd #000000 none
+StyleMeter  host.textcolor = #ffffff #ffffff none 
+StyleMeter  host.transparency = 1
+
+#time_color
+StyleMeter  *.textcolor =  #fffff #fffff shadow 
+StyleMeter  *.alt_textcolor = #ffffff #ffffff none 
+
+#meter_color
+StyleMeter	fs.textcolor = #ffffff #ffffff none 
+StyleMeter	fs.transparency = 1
+StyleMeter	mem.textcolor =  #ffffff #ffffff none 
+StyleMeter	mem.transparency = 1
+StyleMeter	swap.textcolor = #ffffff #ffffff none 
+StyleMeter	swap.transparency = 1
+StyleMeter	mail.textcolor = #0000cd #ffffff shadow
+StyleMeter	volume.textcolor = #ffffff #767c6f none  
+StyleMeter	volume.transparency = 1
+krell_slider_depth = 65
+krell_slider_x_hot = 63

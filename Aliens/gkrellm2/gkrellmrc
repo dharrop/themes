@@ -1,0 +1,36 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = Alan Swanson <swanson@uklinux.net>
+theme_alternatives = 2
+
+frame_top_border = 28,68,0,0
+frame_bottom_border = 40,40,0,0
+frame_left_border = 0,0,0,44
+frame_right_border = 0,0,34,68
+
+chart_width_min = 60
+
+bg_grid_mode = 1
+
+normal_font = -adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1
+large_font = -adobe-helvetica-medium-r-normal-*-*-120-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = -13
+rx_led_y = 0
+tx_led_x = -2
+tx_led_y = 0
+
+StyleMeter  *.border = 3,3,2,2
+
+StylePanel  net.label_position = 30
+
+StyleChart  *.textcolor = #cdca94 black shadow
+StyleChart  *.alt_textcolor = #cdca94 black shadow
+StyleChart  *.font = small_font
+StylePanel  *.textcolor = #cdca94 black shadow
+StylePanel  *.alt_textcolor = #cdca94 black shadow
+StyleMeter  *.textcolor = #cdca94 black shadow
+StyleMeter  *.alt_textcolor = #cdca94 black shadow
+StyleMeter  fs.font = small_font

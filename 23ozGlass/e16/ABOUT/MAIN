@@ -1,0 +1,118 @@
+<page columns=1 padding=16 name=front background=Edoc_Front.png edge_scaling linkcolor=#c5d4dc>
+  <font face=vixar/32 color=#3c3c3c>
+  <p>
+  <p>
+  <p>
+  <p align=50%>
+  23 Ounces Of
+  <p>
+  <font face=vixar/52 color=#c5d4dc>
+  <p align=50%>
+  _Glass(main)
+
+<page columns=1 padding=16 name=main background=Edoc_bg.png edge_scaling linkcolor=#004266>
+
+  <font face=vixar/22 color=#3c3c3c>
+  <p align=100%>
+  . : 23 OUNCES OF GLASS : :
+  <p>
+  <font face=vixar/14 color=#3c3c3c>
+  <p align=100%>
+  for Enlightenment 0.16.x
+    <p>
+    <p>
+    <p align=100%>
+    . : _About(About)
+    <p>
+    <p>
+    <p align=100%>
+    . : _Credits(Credits)
+    <p>
+    <p>
+    <p align=100%>
+    . : _Copyright(Copyright)
+    <p>
+    <p>
+    <p align=100%>
+    Excessive square root of glass.
+
+<page columns=1 padding=16 name=About background=Edoc_bg.png edge_scaling linkcolor=#004266>
+  <font face=vixar/22 color=#3c3c3c>
+  <p align=100%>
+  . : 23 OUNCES OF GLASS | ABOUT : :
+  <p>
+  <font face=vixar/14 color=#3c3c3c>
+    I know the whole glass effect is old, tried, tested and tired. I just wanted to make
+    A theme out of it. I am not a big fan of the generic mac ports, so I figured I'd try
+    something a little different.
+    <p>
+    <p>
+    <p>
+    This theme came about after a conversation between myself and everdark concerning the
+    lack of killer n?x themes. I decided it was time to make a bit more effort. Blue Steel, 
+    bluehEart & any darkalloy (Brass, Anomaly etc...) theme still hold up today, but there
+    seems to be a lack of new themes that can compete on this level.
+    <p>
+    <p>
+    <p>
+    I am in NO WAY suggesting that this theme is great, I am also NOT saying this is the best
+    theme to be made since 2001, I'm just hoping that you feel that this is another step
+    in the right direction.
+    <p align=100%>
+    . : Next | _Credits(Credits)
+
+<page columns=1 padding=16 name=Credits background=Edoc_bg.png edge_scaling linkcolor=#004266>
+  <font face=vixar/22 color=#3c3c3c>
+  <p align=100%>
+  . : 23 OUNCES OF GLASS | CREDITS : :
+    <p align=100%>
+    <font face=vixar/14 color=#3c3c3c>
+    ... Brought to you by
+    <br>
+    <font face=vixar/14 color=#3c3c3c>
+    <p align=100%>
+    ...Nathan Baxter |  X Babyhead
+    <br>
+    http://pixelmasochist.deviantart.com
+    <p>
+    <p>
+    I would like to thank all the friends that I have made at deviantart and all those great
+    Skin designers that reside there. You guys have inspired me beyond my own expectations.
+    By viewing the work of others, I have learned a great deal,
+    <p align=50%>
+    Thanks!
+    <p>
+    Extra special thanks go to Hippy (http://hippy.deviantart.com) for the glass tutorial,
+    It may have been for paint shop, but it gave me pointers and taught me more about gimp ;) Also to Azundris for pointing out my error in the check /
+radio buttons.
+    <p>
+    <p align=100%>
+    . : Next | _Copyright(Copyright)   
+
+<page columns=1 padding=16 name=Copyright background=Edoc_bg.png edge_scaling linkcolor=#c5d4dc>
+  <font face=vixar/22 color=#3c3c3c>
+    <p>
+    Copyright 2002 Nathan Baxter
+    <font face=vixar/14 color=#3c3c3c>
+    <p>
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to
+    deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+    sell copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    <p>
+    The above copyright notice and this permission notice shall be included in
+    all copies of the Software, its documentation and marketing & publicity 
+    materials, and acknowledgment shall be given in the documentation, materials
+    and software packages that this Software was used.
+    <p>
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+    THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    <p>
+    <p align=100%>
+    END.

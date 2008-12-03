@@ -1,0 +1,66 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "TaoX { Brian Hinson; } (TaoX@pobox.com)"
+
+large_font = "-adobe-courier-medium-r-normal-*-*-120-*-*-m-*-iso8859-1"
+normal_font = "-adobe-courier-medium-r-normal-*-*-100-*-*-m-*-iso8859-1"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
+
+chart_width_min = 50
+chart_width_max = 200
+
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+# Borders for the frame images
+frame_top_border = 20,45,2,2
+frame_bottom_border = 60,10,2,2
+frame_left_border = 7,3,60,160
+frame_right_border = 0,0,50,0
+
+chart_in_color = #737384
+chart_in_color_grid = #424a63
+chart_out_color = #424a63
+chart_out_color_grid = #737384
+
+bg_grid_mode = 0
+
+rx_led_x = 0
+rx_led_y = 0
+tx_led_x = -1
+tx_led_y = 0
+
+#StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #8494b5 #000000 shadow
+StyleChart  *.alt_textcolor = #8494b5 #000000 shadow
+
+StylePanel  *.border = 3,20,4,7
+StylePanel  inet.border = 0,0,1,7
+StylePanel  net.border = 21,21,2,7
+StylePanel  *.margin = 3
+StylePanel  *.label_position = 0
+StylePanel  inet.label_position = 50
+StylePanel  net.label_position = 50
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #7a87ab #17161a shadow
+
+#StyleMeter *.border = 4,4,4,4
+StyleMeter  clock.border = 2,2,0,2
+StyleMeter  cal.border = 2,2,4,4
+StyleMeter  host.border = 2,2,2,0
+StyleMeter  *.label_position = 50
+StyleMeter  fs.label_position = 0
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  cal.textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #7a87ab #17161a shadow
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  fs.textcolor = #8494b5 #000000 none
+StyleMeter  mem.textcolor = #8494b5 #000000 none
+StyleMeter  swap.textcolor = #8494b5 #000000 none
+StyleMeter  mail.textcolor = #8494b5 #000000 none
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+

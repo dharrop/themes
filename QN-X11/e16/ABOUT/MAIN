@@ -1,0 +1,19 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling linkcolor=#88dddd>
+<img src=title.png x=0 y=0>
+<font face=aircut3/12 color=#000000>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the minEguE2 theme. It is based on the QN-X11 Sawfish theme which is based on some QNX borders. This is a rough draft using many pieces of my minEguE theme. That theme was based on earlier QNX screenshots from last summer. Thanks to Aubin Paul (aubin@narnia.webhosting.com) for suggesting I give this theme a try. and of course Rowan Kerr (rowan2stasis.org) for making the QN-X11 theme.
+<P>
+Send any suggestions, etc. to me. I'm curious what you think.
+<P>--Ben
+<BR>frantb@rpi.edu 
+<BR>(soon to be something like bfrantd@hmc.edu)
+<BR>http://www.rpi.edu/~frantb
+<BR>(soon to be something like http://www3.hmc.edu/~bfrantd)

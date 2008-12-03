@@ -1,0 +1,9 @@
+Winter.Changelog
+
+FIXED_SIZE/TRANSIENT button focus issues with the titlebar
+Some border styles for example: FIXED_SIZE and TRANSIENT: window titles where at a different height
+STICKY_STATE: 
+PAGER_SNAPSHOTS (im)
+Iconbox: scrollknob had an incorrect image_scale setting
+Iconbox: new scrollbar 
+Iconbox: Window border had two states. Active/inactive: removed inactive

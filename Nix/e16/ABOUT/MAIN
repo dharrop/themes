@@ -1,0 +1,256 @@
+<page columns=1 padding=12 name=index background=Edoc_bg.jpg linkcolor=#7b68ee>
+<font face=1979/20 color=#000000>
+<br>
+<img src=nix.png x=172 y=55>
+<br>
+<br>
+<br>
+<font face=1979/16 color=#000000>
+<p align=18%>
+Under Enlightenment
+
+<br>
+<font face=alien/11 color=#FFFFFF>
+<p align=90%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+About...<br>
+...this _theme(about) <br>
+...the _author(author) <br> <br>
+   how to _customize(config) <br>
+
+
+<page columns=1 padding=12 name=about background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>
+	Ok. This theme is somewhat thicker than most. It all began as an early
+	release of hoax's BlueHeart theme that didn't have a fully working slideout.
+	So I started editing the .cfg files. Then I found an equally blue theme on
+	Litestep.net that kicked ass, and I figured hell, enough LS themes are
+	ports of E themes....why not port a worthy LS theme to Enlightenment? So
+	this is basically nIxStep blue, a theme by "nIx" aka Lee Nichols, who can be
+	contacted at lnichols@netcomuk.co.uk  or  e.s.c@netcomuk.co.uk <br>
+	- all done with permission of course ;)
+<br>
+</p>
+<p align=50%>
+	I've heard of plots and schemes towards _getting_rid(plea) of the desktop buttons.
+	WHY!? nIx is heavilly based on buttons and can not exist without them! Besides, isn't 
+	Enlightenment all about choices and possibilities? 
+	
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(index)
+
+<font face=avgardm/9 color=#FFFFFF>
+<p align=50%>
+<br>
+	The main audio wavs are clips from Clive Barker's Lord of Illusions, 
+	a cool movie with an even cooler villan who happens to be named "nIx".
+
+
+<page columns=1 padding=16 name=author background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>
+Windows sucks. <br> 
+We all know it. <br>
+We are the smart ones.<br> 
+We chose Linux; <br>
+<br>
+<br>
+And thus we were Enlightened... 
+<br> 
+<br>
+<br>
+<br>
+<font face=avgardm/11 color=#FFFFFF>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+DNAspark99
+<br>
+jedeye_one@hotmail.com<br>
+<br><font face=alien/19 color=#636363>
+ShadowOps
+<font face=avgardm/8 color=#000000>
+<p align=90%>
+_back(index)
+
+
+<page columns=1 padding=16 name=config background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>
+	To customize this theme to suit your needs you no longer need to make your own pixmaps; all you have to do is edit 3 	files; actionclasses.cfg, buttons.cfg, and slideouts.cfg. Just add a new actionclass for what you want executed, add in a 	new button in the appropriate location in buttons.cfg, using a new label and don't forget to point it to your new 	actionclass. Then add the button name in slideouts.cfg in the posisition you want.
+<br>      
+You're going to need an example, you say? Very well...pay attention.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	Q: What goes in _actionclasses.cfg?(action) <br>
+	Q: What goes in _buttons.cfg?(buttons) <br>
+	Q: What goes in _slideouts.cfg?(slide) <br>
+<br>
+<br>	
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(index)
+
+
+
+
+<page columns=1 padding=16 name=action background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>	
+
+	This is a sufficient actionclass for a new button; <br>	
+	For cleanliness you should put it in "wharf/wharf_actions.cfg"
+	instead of just actionclasses.cfg
+<br>
+<br>
+<br>
+<img src=aclass.png x=100 y=90>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+	Where "NAME" is the new name for your ACLASS, <br>
+	"TOOLTIP TEXT" is obviously what is displayed for the tooltip, <br>
+	And "ACTION A EXEC" executes the given command. Easy, huh? <br>
+</p>
+<p align=90%>
+<font face=avgardm/9 color=#000000>
+_next(buttons)
+
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(config)
+
+<page columns=1 padding=16 name=buttons background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>	
+
+	Then define the new item in "wharf/wharf_buttons.cfg" ; <br>
+	
+<img src=bclass.png x=100 y=70>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+	Where "NAME" is the new name for your BUTTON; <br>
+	"ACLASS" should correspond to your new actionclass, <br>
+	And "LABEL" is the text that will be on the button itself. 
+<br>
+</p>
+<p align=90%>
+<font face=avgardm/9 color=#000000>
+_next(slide)
+
+<page columns=1 padding=16 name=slide background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>	
+	And then just add the new button in whatever slideout you desire;<br>
+	(This can go in plain old slideouts.cfg)
+<br>
+<br>	
+<br>
+<img src=slide.png x=100 y=70>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+	  There. That's it. Easy to configure, and no more mis-matched pixmap fonts!
+	  As you can see, you just place the new BUTTON in it's respective posiistion
+	  in the slideout.<br>
+<br>
+	  That's it. Restart Enlightenment and the changes should take effect.
+<br>
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_home(index)
+
+
+
+
+
+<page columns=1 padding=16 name=plea background=Edoc_bg2.jpg linkcolor=#7b68ee>
+<font face=avgardm/27 color=#FFFFFF>
+<br>
+<p align=50%>
+	NO!!
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<p align=50%>
+<br>
+
+	I don't see why desktop buttons are all of a sudden considered
+	lame and undesireable. Without them Enlightenment themes will be 
+	confined to "just borders." I understand that with a theme like nIx it 
+	may be difficult for a newbie to realize that to edit the files they 
+	must untar the theme; and then  have deal with finding the right file
+	to edit, but hey, this is Linux here. If they want ease of configuration they should just stick with that famous "start" button!
+<br>
+<br>
+	As long as buttons are not completely removed, I'll be happy, and
+	nIx will survive. 
+<br>
+<br>
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(about)
+	    
+	    

@@ -1,0 +1,61 @@
+<page columns=1 padding=12 name=index background=Edoc_bg.png>
+<font face=1979/20 color=#000000>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Welcome to MetalliquE
+<br>
+<font face=1979/14 color=#000000>
+<p align=90%>
+MetalliquE for Enlightenment 
+
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=30%>
+About...<br>
+...this _theme(about) <br>
+...the _author(author)
+
+
+
+<page columns=1 padding=12 name=about background=Edoc_bg.png>
+<font face=avgardm/11 color=#000000>
+<br>
+<p align=50%>
+  This MetalliquE theme is a try to give the Enlightenment desktop a fully
+  metallic and industrial look. It is completely based on the excellent
+  'Cyrus' theme by Markus Kniebes. Only most of the graphics have been
+  changed (not the Epplets and Eterm ones, yet) using The Gimp (thanx to
+  the gradient tool and the Gimpressionist filter).
+</p>
+<p align=50%>
+	...And Enlightenment For All...
+</p>
+<p align=90%>
+<font face=avgardm/8 color=#000000>
+_back(index)
+
+
+
+<page columns=1 padding=16 name=author background=Edoc_bg.png>
+<font face=avgardm/11 color=#000000>
+<br>
+<p align=50%>
+  I am running Linux Slackware 7, and I have been using lots of window
+  managers, ending my journey with Enlightenment, the most impressive of
+  them all. I am not an artist, in fact, but I have already shared my time
+  with many open projects.
+<br>
+  Don't hesitate to contact me, whatever you have to say.
+<font face=avgardm/8 color=#000000>
+<p align=90%>
+_back(index)
+<br>
+<br>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=50%>
+a_beraud@lemel.fr

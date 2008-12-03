@@ -1,0 +1,49 @@
+<page columns=2 padding=8 name=front background=../artwork/common/bg_init.jpg>
+<font face=ganymede/30 color=#FFFFFF>
+<p>
+Sleep
+<br>
+<font face=ganymede/10 color=#CFCFFF>
+<p>
+Welcome to the Sleep Enlightenment theme. 
+<p>
+The Sleep background is courtesy of Tony Tubbiolo (http://www.nic.com/~tlt).
+<p>
+This theme is hopefully kept up to date with the latest version of Enlightenment,
+so please drop me a line if you are experiencing problems with it running on your
+system.
+<p>
+<font face=ganymede/10 color=#FFFFFF>
+Lindsay Taylor (taylor@tabq.com.au)
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<br>
+<font face=ganymede/14 color=#FFFFFF>
+<p>
+Update
+<font face=ganymede/10 color=#FFFFFF>
+November 19th 1999
+<font face=ganymede/10 color=#CFCFFF>
+<p>
+- Fixed some small bugs.
+<p>
+<font face=ganymede/10 color=#FFFFFF>
+November 4th 1999
+<font face=ganymede/10 color=#CFCFFF>
+<p>
+- Added Eterm automode support. There are a few things you might need to know
+before you can use it though:
+<p>
+1.  You need Eterm 0.9. The easiest way of running with automode is to use the auto theme. (As in
+"Eterm -t auto").
+<p>
+2.  The auto theme in the current Eterm snapshot has a few issues, including not
+including the it's own menu file, having bold font for the font menu but none of
+the others and having black menu text. These can all be fairly easily fixed by a
+bit of editing in the appropriate theme files.
+<br>

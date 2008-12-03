@@ -1,0 +1,580 @@
+/***** Includes *****/
+#include <definitions>
+
+/***** Macros *****/
+#define BP_START(name,action,shade) \
+__BORDER_PART __BGN ; \
+	__ICLASS name ; \
+	__ACLASS action ; \
+	__KEEP_WHEN_SHADED shade
+
+#define BP_END __END
+
+#define BP_SIZE(iw,ih,aw,ah) \
+	__MIN_WIDTH iw ; \
+	__MIN_HEIGHT ih ; \
+	__MAX_WIDTH aw ; \
+	__MAX_HEIGHT ah
+
+#define BP_TL(xp,xa,yp,ya) \
+	__TOPLEFT_ORIGIN -1 ; \
+	__TOPLEFT_X_PERCENTAGE xp ; \
+	__TOPLEFT_X_ABSOLUTE xa ; \
+	__TOPLEFT_Y_PERCENTAGE yp ; \
+	__TOPLEFT_Y_ABSOLUTE ya
+	
+#define BP_BR(xp,xa,yp,ya) \
+	__BOTTOMRIGHT_ORIGIN -1 ; \
+	__BOTTOMRIGHT_X_PERCENTAGE xp ; \
+	__BOTTOMRIGHT_X_ABSOLUTE xa ; \
+	__BOTTOMRIGHT_Y_PERCENTAGE yp ; \
+	__BOTTOMRIGHT_Y_ABSOLUTE ya
+
+/*
+******************************************************************************
+* Window border settings
+******************************************************************************
+*/
+
+/*
+* Must have a BORDERLESS window type
+*/
+__BORDER __BGN
+/*
+* This bordertype is the default borderless window type.
+* notice, no borderparts, or anything of that sort.
+*/
+  __NAME BORDERLESS
+  __BORDER_SIZE_LEFT 0
+  __BORDER_SIZE_RIGHT 0
+  __BORDER_SIZE_TOP 0
+  __BORDER_SIZE_BOTTOM 0
+__END
+
+/*
+* the DEFAULT window border to use for windows unless a specific one is
+* selected
+*/
+
+/*
+
+
+*/
+
+__BORDER __BGN
+  __NAME DEFAULT
+  __BORDER_SIZE_LEFT 16
+  __BORDER_SIZE_RIGHT 16
+  __BORDER_SIZE_TOP 16
+  __BORDER_SIZE_BOTTOM 16
+  __SHADE_DIRECTION __UP
+  __CHANGES_SHAPE __ON
+
+  /*
+  ** Snow on Top
+  */
+
+  BP_START(SNOW_UPPER_LEFT, ACTION_RESIZE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,0,0,0)
+    BP_BR(0,16,0,16)
+  BP_END
+
+  BP_START(SNOW_ICONIZE_BUTTON, ACTION_ICONIFY, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,16,0,0)
+    BP_BR(0,32,0,16)
+  BP_END
+
+  BP_START(SNOW_SHADE_BUTTON, ACTION_SHADE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,32,0,0)
+    BP_BR(0,48,0,16)
+  BP_END
+
+  BP_START(SNOW_TITLE_BAR, ACTION_MOVE, __ON)
+    __TCLASS TEXT1
+    __FLAGS __FLAG_TITLE
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,0,0)
+    BP_BR(1024,-49,0,16)
+  BP_END
+
+  BP_START(SNOW_STICKY_BUTTON, ACTION_STICK, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-48,0,0)
+    BP_BR(1024,-32,0,16)
+  BP_END
+
+  BP_START(SNOW_KILL_BUTTON, ACTION_KILL, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-32,0,0)
+    BP_BR(1024,-16,0,16)
+  BP_END
+
+  BP_START(SNOW_UPPER_RIGHT, ACTION_RESIZE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-16,0,0)
+    BP_BR(1024,0,0,16)
+  BP_END
+
+  /*
+  ** Icicles (On sides)
+  */
+
+  BP_START(ICICLE_LEFT, ACTION_RESIZE_H, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(0,0,0,16)
+    BP_BR(0,16,0,84)
+  BP_END
+
+  BP_START(ICICLE_RIGHT, ACTION_RESIZE_H, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(1024,-16,0,16)
+    BP_BR(1024,0,0,84)
+  BP_END
+
+  /*
+  ** Ridge (On Bottom)
+  */
+
+  BP_START(RIDGE_LEFT, ACTION_RESIZE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(0,16,1024,-16)
+    BP_BR(0,48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAX_BUTTON, ACTION_MAX, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,48,1024,-16)
+    BP_BR(0,64,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAXV_BUTTON, ACTION_MAXH, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,64,1024,-16)
+    BP_BR(0,80,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAXH_BUTTON, ACTION_MAXW, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,80,1024,-16)
+    BP_BR(0,96,1024,0)
+  BP_END
+
+  BP_START(RIDGE_BAR, ACTION_RESIZE_V, __OFF)
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,96,1024,-16)
+    BP_BR(1024,-48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_RIGHT, ACTION_RESIZE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(1024,-48,1024,-16)
+    BP_BR(1024,-16,1024,0)
+  BP_END
+
+__END
+
+/*
+* Custom borders - defined here and applied to windows using the
+* Bordermatchclasses
+*/
+
+/************************************************************************
+**
+** Fixed Size Windows
+**
+*************************************************************************/
+
+__BORDER __BGN
+  __NAME FIXEDSIZE
+  __BORDER_SIZE_LEFT 16
+  __BORDER_SIZE_RIGHT 16
+  __BORDER_SIZE_TOP 16
+  __BORDER_SIZE_BOTTOM 16
+  __SHADE_DIRECTION __UP
+  __CHANGES_SHAPE __ON
+
+  /*
+  ** Snow on Top
+  */
+
+  BP_START(SNOW_UPPER_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,0,0,0)
+    BP_BR(0,16,0,16)
+  BP_END
+
+  BP_START(SNOW_ICONIZE_BUTTON, ACTION_ICONIFY, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,16,0,0)
+    BP_BR(0,32,0,16)
+  BP_END
+
+  BP_START(SNOW_SHADE_BUTTON, ACTION_SHADE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,32,0,0)
+    BP_BR(0,48,0,16)
+  BP_END
+
+  BP_START(SNOW_TITLE_BAR, ACTION_MOVE, __ON)
+    __TCLASS TEXT1
+    __FLAGS __FLAG_TITLE
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,0,0)
+    BP_BR(1024,-49,0,16)
+  BP_END
+
+  BP_START(SNOW_STICKY_BUTTON, ACTION_STICK, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-48,0,0)
+    BP_BR(1024,-32,0,16)
+  BP_END
+
+  BP_START(SNOW_KILL_BUTTON, ACTION_KILL, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-32,0,0)
+    BP_BR(1024,-16,0,16)
+  BP_END
+
+  BP_START(SNOW_UPPER_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-16,0,0)
+    BP_BR(1024,0,0,16)
+  BP_END
+
+  /*
+  ** Icicles (On sides)
+  */
+
+  BP_START(ICICLE_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(0,0,0,16)
+    BP_BR(0,16,0,84)
+  BP_END
+
+  BP_START(ICICLE_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(1024,-16,0,16)
+    BP_BR(1024,0,0,84)
+  BP_END
+
+  /*
+  ** Ridge (On Bottom)
+  */
+
+  BP_START(RIDGE_LEFT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(0,16,1024,-16)
+    BP_BR(0,48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_FIXED, ACTION_MOVE, __OFF)
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,1024,-16)
+    BP_BR(1024,-48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_RIGHT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(1024,-48,1024,-16)
+    BP_BR(1024,-16,1024,0)
+  BP_END
+__END
+
+/************************************************************************
+**
+** Transient Windows
+**
+*************************************************************************/
+
+__BORDER __BGN
+  __NAME TRANSIENT
+  __BORDER_SIZE_LEFT 0
+  __BORDER_SIZE_RIGHT 0
+  __BORDER_SIZE_TOP 16
+  __BORDER_SIZE_BOTTOM 16
+  __SHADE_DIRECTION __UP
+  __CHANGES_SHAPE __ON
+
+  /*
+  ** Snow on Top
+  */
+
+  BP_START(SNOW_UPPER_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,0,0,0)
+    BP_BR(0,16,0,16)
+  BP_END
+
+  BP_START(SNOW_ICONIZE_BUTTON, ACTION_ICONIFY, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,16,0,0)
+    BP_BR(0,32,0,16)
+  BP_END
+
+  BP_START(SNOW_SHADE_BUTTON, ACTION_SHADE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,32,0,0)
+    BP_BR(0,48,0,16)
+  BP_END
+
+  BP_START(SNOW_TITLE_BAR, ACTION_MOVE, __ON)
+    __TCLASS TEXT1
+    __FLAGS __FLAG_TITLE
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,0,0)
+    BP_BR(1024,-49,0,16)
+  BP_END
+
+  BP_START(SNOW_STICKY_BUTTON, ACTION_STICK, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-48,0,0)
+    BP_BR(1024,-32,0,16)
+  BP_END
+
+  BP_START(SNOW_KILL_BUTTON, ACTION_KILL, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-32,0,0)
+    BP_BR(1024,-16,0,16)
+  BP_END
+
+  BP_START(SNOW_UPPER_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-16,0,0)
+    BP_BR(1024,0,0,16)
+  BP_END
+
+  /*
+  ** Ridge (On Bottom)
+  */
+
+  BP_START(RIDGE_LEFT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(0,0,1024,-16)
+    BP_BR(0,32,1024,0)
+  BP_END
+
+  BP_START(RIDGE_FIXED, ACTION_MOVE, __OFF)
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,32,1024,-16)
+    BP_BR(1024,-32,1024,0)
+  BP_END
+
+  BP_START(RIDGE_RIGHT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(1024,-32,1024,-16)
+    BP_BR(1024,0,1024,0)
+  BP_END
+__END
+
+/************************************************************************
+**
+** Shaped Windows
+**
+*************************************************************************/
+
+__BORDER __BGN
+  __NAME SHAPED
+  __BORDER_SIZE_LEFT 1
+  __BORDER_SIZE_RIGHT 1
+  __BORDER_SIZE_TOP 16
+  __BORDER_SIZE_BOTTOM 5
+  __SHADE_DIRECTION __UP
+
+  /*
+  ** Snow on Top
+  */
+
+  BP_START(SNOW_UPPER_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,0,0,0)
+    BP_BR(0,16,0,16)
+  BP_END
+
+  BP_START(SNOW_ICONIZE_BUTTON, ACTION_ICONIFY, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,16,0,0)
+    BP_BR(0,32,0,16)
+  BP_END
+
+  BP_START(SNOW_SHADE_BUTTON, ACTION_SHADE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,32,0,0)
+    BP_BR(0,48,0,16)
+  BP_END
+
+  BP_START(SNOW_TITLE_BAR, ACTION_MOVE, __ON)
+    __TCLASS TEXT1
+    __FLAGS __FLAG_TITLE
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,0,0)
+    BP_BR(1024,-49,0,16)
+  BP_END
+
+  BP_START(SNOW_STICKY_BUTTON, ACTION_STICK, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-48,0,0)
+    BP_BR(1024,-32,0,16)
+  BP_END
+
+  BP_START(SNOW_KILL_BUTTON, ACTION_KILL, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-32,0,0)
+    BP_BR(1024,-16,0,16)
+  BP_END
+
+  BP_START(SNOW_UPPER_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-16,0,0)
+    BP_BR(1024,0,0,16)
+  BP_END
+
+  /*
+  ** Icicles (On sides)
+  */
+
+  BP_START(ICICLE_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(0,0,0,16)
+    BP_BR(0,16,0,84)
+  BP_END
+
+  BP_START(ICICLE_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,68)
+    BP_TL(1024,-16,0,16)
+    BP_BR(1024,0,0,84)
+  BP_END
+
+  /*
+  ** Ridge (On Bottom)
+  */
+
+  BP_START(RIDGE_LEFT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(0,16,1024,-16)
+    BP_BR(0,48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAX_BUTTON, ACTION_MOVE, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,48,1024,-16)
+    BP_BR(0,64,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAXV_BUTTON, ACTION_MOVE, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,64,1024,-16)
+    BP_BR(0,80,1024,0)
+  BP_END
+
+  BP_START(RIDGE_MAXH_BUTTON, ACTION_MOVE, __OFF)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,80,1024,-16)
+    BP_BR(0,96,1024,0)
+  BP_END
+
+  BP_START(RIDGE_BAR, ACTION_MOVE, __OFF)
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,96,1024,-16)
+    BP_BR(1024,-48,1024,0)
+  BP_END
+
+  BP_START(RIDGE_RIGHT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(1024,-48,1024,-16)
+    BP_BR(1024,-16,1024,0)
+  BP_END
+__END
+
+/************************************************************************
+**
+** Side Windows
+**
+*************************************************************************/
+
+/************************************************************************
+**
+** Menus
+**
+*************************************************************************/
+
+__BORDER __BGN
+  __NAME MENU_BORDER
+  __BORDER_SIZE_LEFT 0
+  __BORDER_SIZE_RIGHT 0
+  __BORDER_SIZE_TOP 16
+  __BORDER_SIZE_BOTTOM 16
+  __SHADE_DIRECTION __LEFT
+
+  /*
+  ** Snow on Top
+  */
+
+  BP_START(SNOW_UPPER_LEFT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,0,0,0)
+    BP_BR(0,16,0,16)
+  BP_END
+
+  BP_START(SNOW_ICONIZE_BUTTON, ACTION_ICONIFY, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,16,0,0)
+    BP_BR(0,32,0,16)
+  BP_END
+
+  BP_START(SNOW_SHADE_BUTTON, ACTION_SHADE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(0,32,0,0)
+    BP_BR(0,48,0,16)
+  BP_END
+
+  BP_START(SNOW_TITLE_BAR, ACTION_MOVE, __ON)
+    __TCLASS TEXT1
+    __FLAGS __FLAG_TITLE
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,48,0,0)
+    BP_BR(1024,-49,0,16)
+  BP_END
+
+  BP_START(SNOW_STICKY_BUTTON, ACTION_STICK, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-48,0,0)
+    BP_BR(1024,-32,0,16)
+  BP_END
+
+  BP_START(SNOW_KILL_BUTTON, ACTION_KILL, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-32,0,0)
+    BP_BR(1024,-16,0,16)
+  BP_END
+
+  BP_START(SNOW_UPPER_RIGHT, ACTION_MOVE, __ON)
+    BP_SIZE(16,16,16,16)
+    BP_TL(1024,-16,0,0)
+    BP_BR(1024,0,0,16)
+  BP_END
+
+  /*
+  ** Ridge (On Bottom)
+  */
+
+  BP_START(RIDGE_LEFT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(0,0,1024,-16)
+    BP_BR(0,32,1024,0)
+  BP_END
+
+  BP_START(RIDGE_FIXED, ACTION_MOVE, __OFF)
+    BP_SIZE(4,16,99999,16)
+    BP_TL(0,32,1024,-16)
+    BP_BR(1024,-32,1024,0)
+  BP_END
+
+  BP_START(RIDGE_RIGHT, ACTION_MOVE, __OFF)
+    BP_SIZE(32,16,32,16)
+    BP_TL(1024,-32,1024,-16)
+    BP_BR(1024,0,1024,0)
+  BP_END
+__END

@@ -1,0 +1,7 @@
+"Ganymede Graphics"
+"Blender"		GRAPHIC 	exec "blender"
+"The Gimp" 		GIMP		exec "gimp-remote"
+"Electric Eyes"  	EE		exec "ee"
+"xv"			GRAPHIC		exec "xv"
+"xfig"			GRAPHIC		exec "xfig"
+"dia"			GRAPHIC		exec "dia"

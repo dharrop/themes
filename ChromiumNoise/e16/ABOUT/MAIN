@@ -1,0 +1,101 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling
+linkcolor=#20cef6>
+  <font face=vixar/24 color=#009ec6>
+  <p align=100%>
+  C h r o m i u m - N o i s e
+  <font face=vixar/14 color=#009ec6>
+  <br>
+  >(DAE_V2)<br>
+  for Enlightenment 0.16
+    <p>
+    <p>
+    <p align=100%>
+    ... _About(About)
+    <p>
+    <p>
+    <p align=100%>
+    ... _Credits(Credits)
+    <p>
+    <P>
+    <p align=100%>
+    ... _Author(Author)
+    <p>
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    Thanks for giving this theme a spin, I hope you enjoy it :)
+<page columns=1 padding=16 name=About background=Edoc_bg.png edge_scaling
+linkcolor=#20cef6>
+  <font face=vixar/24 color=#009ec6>
+  <p align=100%>
+  About
+  <br>
+  <font face=vixar/17 color=#009ec6>
+  The theme that D.A.E. should have been!
+    <p align=0%>
+    <font face=vixar/14 color=#009ec6>
+    The inspiration for this one was Gridlocks V theme for sawfish. I liked it,
+    I liked it a lot! But, I wanted something more E! so I merged parts of the V
+    idea with DAE and voila (DAE_V2) 
+    <p align=75%>
+    ...Chromium Noise.
+    <p>
+    This is far from complete but, is way more useable than the origional (DAE)!
+    besides that, the title is way cooler.
+    <p>
+    All the graphics have been hand rendered using the Gimp's powerful features,
+    mainly the airbrush. (not just gradients this time). These images have been
+    "hand painted" for a better feel. D.A.E. was just a bunch of gradients but,
+    you knew that allready.
+    <p>
+    I'm hoping to keep this one in development through E17 failing that I'll
+    just start some more themes and never finish them when E17 comes out.
+    <p>
+    P.S. i guess you'll be wondering where the chrome is? errrr, pretend like
+    it's dirty or something.
+
+<page columns=1 padding=16 name=Credits background=Edoc_bg.png edge_scaling
+linkcolor=#20cef6>
+  <font face=vixar/24 color=#009ec6>
+  <p align=100%>
+  Credits
+    <p align=0%>
+    <font face=vixar/14 color=#009ec6>
+    <p>
+    Many thanks to Gridlock for alowing me to port V to Enlightenment. It was
+    during the porting experiments that this theme came up.
+    <p>
+    Thanks to Kyle for beta testing and a few bits I missed (IMAGE WINDOW close
+    button).
+    <p>
+    Thanks to AceMC03 for trying to convince me DAE doesn't suck and for
+    getting me to create the larger widget set.
+
+<page columns=1 padding=16 name=Author background=Edoc_bg.png edge_scaling
+linkcolor=#20cef6>
+  <font face=vixar/24 color=#009ec6>
+  <p align=100%>
+  Author
+    <font face=vixar/14 color=#009ec6>
+    <p align=100%>
+    Nathan Baxter
+    <p>
+    <p>
+    I'm basically lost in the mid 80's still listening to S.I.D. chip tunes
+    somewhere around 85 I think.
+    <p>
+    <p>
+    I used to be a fanatical Amigan until 8 bit quality audio didn't cut it
+    anymore but I still have a special fondness of the amiga interface & style.
+    Been using Linux since my 
+    amiga died of old age (and a screwdriver to the hard drive).
+    <p>
+    <p>
+    In my spare time I write music and make enlightenment themes.
+    <p>
+    <p>
+    <p align=100%>
+    (x mElvin_cha0s)
+    <p align=100%>
+    that verucca_gnome guy

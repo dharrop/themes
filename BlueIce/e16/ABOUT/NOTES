@@ -1,0 +1,7 @@
+Blue Ice Theme
+	Created by t'Sade
+	All parts in this theme copyright (c) 1998, t'Sade
+	All parts GNU copyleft, any version
+
+Changed startup_background from png to jpg. It was just too big
+for a theme (3MB for the startup image they saw for a few seconds)

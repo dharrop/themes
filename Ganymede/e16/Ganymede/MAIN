@@ -1,0 +1,169 @@
+<Eterm-0.7>
+begin main
+
+  begin color
+
+# Foreground, background, cursor, scrollbar, pointer colors
+    foreground #e0e0ff
+    background black
+    cursor #d0d0d0
+    cursor_text #880000
+    scrollbar #404080
+    unfocusedscrollbar #202060
+    pointer white
+
+# video attribute can either be "normal" or "reverse"
+    video normal
+
+    color  0 #ffffff
+    color  1 #ffff00
+    color  2 #ffffff
+    color  3 #ffffff
+    color  4 #ffffff
+    color  5 #ffffff
+    color  6 #ffffff
+    color  7 #ff0000
+    color  8 #000000
+    color  9 #a0ffa0
+    color 10 #ffffff
+    color 11 #ffffff
+    color 12 #f0f0d0
+    color 13 #f0f0ff
+    color 14 #d0e0ff
+    color 15 #ffffff
+    color bd #000000
+    color ul #ffffff
+
+# This ends the color section.  Any text after the word "end" is
+# assumed to be a comment and ignored.
+  end color
+
+# The X11 attributes section.  Should be fairly self-explanatory,
+# but if not, consult the X man page.
+  begin attributes
+
+# Geometry == widthxheight+x_offset+y_offset, offsets from top left
+#             if +, bottom right if -
+#    geometry 132x50+100+100
+#    title %appname()
+    name "[ Eterm ]"
+#    iconname Eterm
+
+# Set the fonts.  These must be monospace fonts.  The values shown are
+# the Eterm defaults.  The "bold" font is the font used if color BD has
+# not been set and Eterm cannot map the foreground color to one of the
+# high-intensity colors (8-15).
+    font 0 fixed
+    font 1 6x10
+    font 2 6x13
+    font 3 8x13
+    font 4 9x15
+#    font bold 7x14
+  end attributes
+
+# This section is for pixmap definitions.  The only one used currently
+# is "background".  The supplied numbers work just like they do for
+# Enlightenment:  first is X (width), second is Y (height).  -1 to
+# scale 100%, 0 to tile, any other number specifies W/H in pixels
+  begin pixmaps
+    background -1 -1 blue.ppm
+  end
+
+# The Kanji support options.  Same goes for these fonts as for the normal
+# ones.  The "encoding" attribute can be either "eucj" or "sjis".
+#  begin kanji
+#    font 0 k14
+#    font 1 jiskan16
+#    font 2 jiskan18
+#    font 3 jiskan24
+#    font 4 jiskan26
+#    encoding eucj
+#  end kanji
+
+# Boolean variables.  The values can be "1", "on", or "true" for TRUE, or "0",
+# "off", or "false" for FALSE.
+  begin toggles
+
+# If true, Eterm will un-iconify itself when it receives a beep (ASCII 0x07)
+    map_alert on
+
+# If true, Eterm will flash rather than sending a beep.
+    visual_bell off
+
+# If true, Eterm will prepend '-' to the shell name when calling it.
+    login_shell true
+
+# If true, Eterm will display the scroll bar
+    scrollbar on
+
+# If true, Eterm will attempt to make an entry in the utmp file to record the
+# login information.  Eterm *must* run privileged to do this.
+    utmp_logging on
+
+# If true, Eterm will handle the Meta (Alt) + keypress to set the 8th bit.
+# If false, Eterm will handle the Meta + keypress as an escape prefix. (default)
+#    meta8 false
+
+# If true, Eterm will start iconified.
+    iconic false
+
+# If true, Eterm will jump to the bottom of the window when something is echoed
+# to the terminal, either by program output or user input.
+    home_on_echo 1
+
+# If true, Eterm will jump to the bottom of the window when you refresh the
+# screen (^L).
+    home_on_refresh 1
+
+# If true, Eterm will put the scrollbar on the right of the window (default is left).
+    scrollbar_right true
+
+# If true, the scrollbar will have no trough.
+    scrollbar_floating false
+
+# If true, Eterm will run with no window borders.
+    borderless false
+
+  end toggles
+
+  begin keyboard
+
+# Use the supplied keysym to reduce/enlarge the font
+    smallfont_key LessThan
+    bigfont_key GreaterThan
+
+# You can also associate a given keysym (0xff00 - 0xffff) with a string
+#    keysym.0xFFFF "\r\n\e\007\t"
+
+# Greek keyboard mode.  First the word "greek", then its boolean
+# state, then its mode (either "iso" or "ibm").
+#    greek off iso
+  end keyboard
+
+  begin misc
+
+# The command to which to pipe print requests (printscreen)
+#    print_pipe "lpr"
+
+# The number of lines in the scrollback buffer.  More lines, more memory needed.
+    save_lines 1024
+
+# The characters to use as word delimiters for double-click selection
+    cut_chars "\t\\\`\\\"\'&() *,;<=>?@[]{|}"
+
+# Defines the width of the border between the terminal window and the client window.
+# (Default is 5).
+    border_width 5
+
+# File to read for menubar
+#    menu Eterm.menu
+
+# Value to use for $TERM
+    term_name xterm
+
+# Program to exec (intended for use with themes)
+#    exec foo
+
+  end misc
+
+end main

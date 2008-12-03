@@ -1,0 +1,23 @@
+Industrial Theme ChangeLog
+--------------------------
+
+October 20, 1999 - Added more borders
+
+Added a PAGER_LEFT and a PAGER_RIGHT border.
+Also added SIDE border for the gimp. The
+fixed size and transient borders are on
+the way.
+
+October 18, 1999 - Added Warning Background
+
+Designed a background to go with the theme. It is
+now used as the startus background.
+
+October 10, 1999 - Started Writing Industrial
+
+Took some images from the Industrial skin for WinAMP
+and made some of my own. Currently supports DR16. 
+The theme has full pager and iconbox support, has
+a full set of widgets. The theme currently only has
+a few border types. Transient, Fixed, and other
+borders will come soon.

@@ -1,0 +1,83 @@
+StarEnli-DR16 Change Log [most recent changes first]
+------------------------
+
+15 Jan 2001
+-----------
+- Changed a few buttons on the slideout (max, stick, menu) to make them
+  (hopefully) more intuitive.  Removed max_h, max_w from the slideout.
+
+09 Jan 2001
+-----------
+- add move cursor to topright and topleft of PAGER and RIGHT_PAGER -- done 
+- add check-button style scrollknob to iconbox -- done
+
+06 Jan 2001
+-----------
+- incorporate sounds from Youngblood's StarEnliWs4.  Rewrite sound config and
+  remove excess sound files -- done
+- attempt to fix bug with horizontally resizing DEFAULT windows (black text
+  background starts poking out the other size, still does it a little but
+  not quite as much) -- done
+- create AUTHORS, README, ChangeLog  -- done 
+- create ABOUT/MAIN file etc. --done
+
+26 Dec 2000 to 05 Jan 2001
+--------------------------
+- create FIXED_SIZE and SHAPED borders (based on TRANSIENT) and add to
+  windowmatches.cfg --done
+- rename LEFT and LEFT_HEADER to SIDE and SIDE_HEADER to be more consistent
+  with most other themes.  --done 
+- rename MENU_FRAMED to TRANSIENT to better reflect its use --done
+- fix up appearance of MENU_FRAMED and BORDER_ONLY border styles [see
+  PAGER] -- done
+- rename misspelled files (*hilted* --> *hilited*) and revise appropriate
+  imageclass definitions -- done
+- rename LEFT_NARROW border to LEFT -- done
+- make LEFT_HEADER more narrow; ditch LEFT_WIDE --done
+- fix image flow-through in parts of LEFT_* borders [pixel work]  -- done
+- create LEFT_NARROW border for Gimp etc.  -- done
+- improve appearance of bottom black line of MENU_FRAMED theme -- done
+- create new BLEFT_TOPRIGHT image class for LEFT_* borders to avoid
+  confusion (created by using BDEFAULT_BOTTOMRIGHT twice) and to create new
+images which merge better with the LEFT_* top border -- done
+- add ICONIFY button to the default titlebar. -- done 
+- rename WIDE_LEFT and WIDE SPECIAL to LEFT_BORDER and LEFT_HEADER -- done
+- fix up WIDE_LEFT and WIDE_SPECIAL borders, perhaps conglomerate styles --
+  done
+- fix DEFAULT top and left borders so it doesn't look terrible around a
+  small window -- done
+- resize all slideout buttons and return them to the slideout -- done
+- incorporate images and border styles from Canin's StarEnli-snapshot of
+  01/01/00 -- done
+- indicate sticky window -- done
+- decide what to do with slideout menu -- done -- iconify; stick; shade;
+  maximise_v; 
+- change menu border config style so that you (mostly) don't get ... in the
+  middle of menu titles
+- fix background problem in virtual desktop settings and multiple desktop
+  settings dialog -- done
+- fix ED / TE /M* tooltip issue on navi console -- done. Generally ok,
+  though still dodgy, but seems unfixable.
+- use mouse images (TOOLTIP_ACTION_TEXT) in theme-defined tooltips -- done
+- define tooltips for pager -- done
+- define tooltips for iconbox -- done
+- reorder slideout bar -- done
+- clean up action classes, tooltips [use default tooltips]  and images on
+  slideout bar - done
+- clean up (remove) action classes in borders/common/borders.cfg -- done
+- add CUR_KILL cursor to exit button
+- fix ugly cursors (particularly on border top) -- done
+- get border action class definitions out of slideouts/slideouts.cfg --
+  done
+- fix spelling in image names and image classes
+- fix MENU_FRAMED, ICONBOX and DEFAULT border ugliness -- done
+- make RIGHT_PAGER border style -- done
+- fix PAGER shading -- done
+- fix up listing of epplets, backgrounds etc. so they don't go off the
+  screen -- done
+- go through config files, cleaning up the comments and rogue #includes
+  etc. -- done
+- clean up action classes, tooltips and images on navi key -- done [navi
+  key renamed navi console] -- done
+- make slideouts go to the left -- done
+- convert StarEnli-0.13/ to proper DR 16 compliance -- done

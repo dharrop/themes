@@ -1,0 +1,63 @@
+/* eMac for Enlightenment 0.16.x
+ *
+ * Author: Jon Rista
+ * File: emac-colors
+ * Modified: 11/7/99
+ *
+ */
+
+/* eMac Colors - Defines what colors to use
+ * Available Colors:
+ *
+ * BONDIBLUE
+ * BLUEBERRY
+ * GRAPE
+ * STRAWBERRY
+ * TANGERINE
+ * LIME
+ *
+ * EMNORMAL
+ *
+ * EMNORMAL is the default, and uses the standard MacOS
+ * apple menu icon and task menu icon. Select one of the
+ * other 6 colors to use an iMac color for the apple
+ * menu and task menu icons, as well as selected item
+ * colors.
+ */
+
+#define EMNORMAL
+
+/* eMac Font - Defines what font to use
+ * Currently Broken, Charcoal font does not work.
+ * Do not use until fixed, otherwize you can't
+ * read well enough to log out correctly. :)
+ * Available Fonts:
+ *
+ * Chicago
+ * Charcoal
+ *
+ * Can be used on the following:
+ * FN_<FONTNAME>	-	Use everywhere
+ * MNU_<FONTNAME>	-	Use on menus
+ * WIN_<FONTNAME>	-	Use on windows
+ */
+
+#define WIN_CHICAGO
+#define MNU_CHICAGO
+
+/* eMac Sounds Configuration
+ * Available Options
+ *
+ * StartupSound - If defined, eMac plays the Mac boot sound
+ * FocusSound - If defined, a change of focus makes a click
+ * MenuSound - If defined, menus make noise
+ * OtherSound
+ * 
+ * Tips:
+ * Simply add _OFF to the end of any sound group to turn it off,
+ * or remove _OFF to turn it on.
+ */
+#define StartupSound_OFF
+#define FocusSound
+#define MenuSound
+#define OtherSound_OFF

@@ -1,0 +1,13 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<font face=aircut3/18 color=#ffffff>
+<p align=50%>
+
+This is the Shiny Metal theme for Enlightenment.  This theme was previously the
+default theme (0.15.0) and has been subsequently rewritten and hopefully
+conforms to the new theme standard (and if not you should use Brushed Metal to
+copy from anyways).
+<p align=50%>
+Hope you enjoy it.
+<p>
+Mandrake (http://mandrake.net)
+

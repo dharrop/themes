@@ -1,0 +1,105 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling linkcolor=#f0f0f0>
+
+  <font face=vixar/24 color=#d3e5ff>
+  <p align=100%>
+  . : R - 9 X : .
+  <font face=vixar/14 color=#d3e5ff>
+  <p align=100%>
+  for Enlightenment 0.16.x
+    <p>
+    <p>
+    <p align=100%>
+    ... _About(About)
+    <p>
+    <p>
+    <P align=100%>
+    ... _Useage(Useage)
+    <p>
+    <p>
+    <p align=100%>
+    ... _Credits(Credits)
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    A Mixed combination of Port/Hack/Cover version
+
+<page columns=1 padding=16 name=About background=Edoc_bg.png edge_scaling linkcolor=#f0f0f0>
+  <font face=vixar/20 color=#d3e5ff>
+  <p align=100%>
+  About
+  <p>
+    <font face=vixar/14 color=#d3e5ff>
+    So, here it is kids...
+    <p>
+    <p>
+    ...My interperetation of Shamrock/Transition for enlightenment.
+    I didn't change too much, just the basic colour scheme (and maybe a few
+    parts of the border layout). In effect all the hard work has been done by
+    other people, I just glued the bits together.
+    <p>
+    <p>
+    This theme was inspired by the screenshot of transition by dangeruss
+    http://dangeruss.deviantart.com and the shamrock theme by hippy
+    http://hippy.deviantart.com Both afore mentioned designers have given me 
+    permission to create this.
+    <p>
+    <p>
+    I just got a bit carried away with a few of the elements so I'm guessing
+    this is more of a hack than a port.
+    <p>
+    <p align=100%>
+    Still aiming for clean tho...
+
+<page columns=1 padding=16 name=Useage background=Edoc_bg.png edge_scaling linkcolor=#f0f0f0>
+  <font face=vixar/20 color=#d3e5ff>
+  <p align=100%>
+  Concept & Useage
+  <p>
+    <font face=vixar/14 color=#d3e5ff>
+
+    The origional theme (to the best of my knowledge) had mouse over ONLY widgets. I
+    decided to change this and replace the top right close with a raise/lower button 
+    (right click = raise/ left click = lower)
+    <p>
+    I also added the close button to the left hand side (to avoid accidental closeage
+    ;) It sits pretty much out of the way until needed.
+    <p>
+    Most of the dialogs were a total re-fit and the colour scheme was inspired by the
+    R-9 fighter (yes, the one from R-Type) hence the name.
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    I hope you all enjoy useing this theme
+    <p align=100%>
+    bugs, hassles etc... mailto:babyhead@lostmypants.net
+
+<page columns=1 padding=16 name=Credits background=Edoc_bg.png edge_scaling linkcolor=#f0f0f0>
+  <font face=vixar/20 color=#d3e5ff>
+  <p align=100%>
+  Credits
+  <p>
+    <font face=vixar/14 color=#d3e5ff>
+    <p align=100%>
+    Original Design & Concept : Dangeruss & Hippy
+    <br>
+    http://hippy.deviantart.com
+    <br>
+    http://dangeruss.deviantart.com
+    <p>
+    <p>
+    <p align=100%>
+    Enlightenment Port : Babyhead
+    <br>
+    http://babyhead.deviantart.com
+    <br>
+    http://babyhead.lostmypants.net
+    <p>
+    <p>
+    <p align=100%>
+    The Enlightenment Development Team :
+    <br>
+    http://www.enlightenment.org

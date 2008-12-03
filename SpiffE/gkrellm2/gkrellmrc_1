@@ -1,0 +1,68 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "||:n0l0G1k:|| n0l0g1k@sdf.lonestar.org Http://n0l0g1k.aspekt.net"
+
+frame_left_width = 4
+frame_right_width = 4
+
+bg_grid_mode = 1
+
+large_font = nexus
+normal_font = nexus
+small_font = nexus
+
+rx_led_x = 3
+rx_led_y = 4
+tx_led_x = -3
+tx_led_y = 4
+
+StyleChart  *.border = 3,3,1,1
+StyleChart *.label_position = 50
+StyleChart  *.font = small_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #ffffff #000000 none
+StyleChart  *.alt_textcolor = #ffffff #000000 none
+
+StylePanel  *.border = 4,4,1,2
+StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  *.textcolor = #ffffff #000000 none
+StylePanel  *.alt_textcolor = #ffffff #000000 none
+
+StylePanel  cpu.label_position = 50
+StylePanel  proc.label_position = 50
+
+StyleMeter  *.border = 4,4,3,3
+StyleMeter  *.label_position = 0
+StyleMeter  *.margin = 4
+StyleMeter  *.textcolor = #ffffff #000000 none
+StyleMeter  *.alt_textcolor = #ffffff #000000 none
+StyleMeter  host.textcolor = #ffffff #000000 none
+StyleMeter  host.border = 2,2,1,2
+StyleMeter  clock.alt_font = small_font
+StyleMeter  cal.textcolor = #ffffff #000000 none
+StyleMeter  mem.label_position = 100
+StyleMeter  mem.border = 4,4,2,0
+#StyleMeter  mem.krell_x_hot = 62
+#StyleMeter  swap.krell_x_hot = 62
+#StyleMeter  mem.krell_depth = 65
+StyleMeter  swap.label_position = 100
+StyleMeter  swap.border = 4,4,0,3
+StyleMeter  fs.label_position = 0
+StyleMeter  fs.border = 4,16,3,2
+
+# Defs for plugins
+spacer_top_height gkrellmms 3
+spacer_bottom_height gkrellmms 3
+set_image_border gkrellmms_bg_scroll 7,7,2,2
+StyleMeter  gkrellmms.label_position = 0
+StyleMeter  gkrellmms.border = 7,7,2,3
+StyleMeter  gkrellmms.alt_textcolor = #5e86ff #d7dbe5 shadow
+StyleMeter  gkrellmms.textcolor = #222222 #000000 none
+
+spacer_top_height volume 3
+spacer_bottom_height volume 3
+StyleMeter  volume.label_position = 0
+StyleMeter  volume.border = 2,4,3,3
+

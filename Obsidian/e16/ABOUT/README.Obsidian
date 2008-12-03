@@ -1,0 +1,7 @@
+Well here it is...a port of Obsidian to DR0.15 CVS.
+It's not even close to being finished, but the buttons, window borders are
+done, and the root menus and icons are close enough.  I know it ain't perfect,
+but who cares.  Hack it up and make it work the way you want to :) Right now
+internally its a mess...someone else can clean that up, my work is done :P
+
+Tynian - bma@debian.org

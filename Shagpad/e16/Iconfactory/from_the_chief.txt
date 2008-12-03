@@ -1,0 +1,146 @@
+    <http://www.iconfactory.com>
+
+    The Iconfactory <http://www.iconfactory.com> 
+    Dotico.com <http://www.dotico.com> 
+    The DeskBase <http://www.iconfactory.com/linkfeature.asp> 
+    The Desk Stop <http://www.thedeskstop.com>
+
+
+    *Introduction*
+    		
+    June 12th, 2002
+    Tribal Masks by Gedeon Maheux
+
+    I had been wanting to create a set of icons based on primitive
+    tribal art for some time. Since I've been lagging way behind in my
+    OS X icon making skills, I decided to make this next release
+    optimized for OS X. After gathering reference images from some great
+    African and South Pacific websites, I set out to graphically
+    translate what I had found. It took several attempts to find the
+    right blend of line weight, color treatment and shading before I was
+    happy with the result, but in the end (and after several round of
+    tweaking) I was pleased with how they turned out.
+
+    I've always enjoyed tribal masks, art, patterns and carvings ever
+    since I can remember. I think it might have started when my parents
+    and I visited Walt Disney World and stayed in the Polynesian Resort
+    Hotel <http://home.cfl.rr.com/omniluxe/poly.htm>. I remember the
+    sights, sounds, decorative artwork and motifs that adorned the
+    hotel, and although it was an Americanized version of the subject, I
+    was drawn to it.
+
+    I hope you enjoy this small set of icons based on cultures and folk
+    art from Tribes around the world. I had a great deal of fun making
+    the set and seeing how spooky or how festive I could make the
+    individual masks. I think there is something here for everyone. Have
+    fun!
+
+    PS - The IconDropper <http://www.iconfactory.com/id_home.asp> pack
+    of this collection contains special bonus icons that the set does
+    not. This is my way of saying thanks to all of you who support our
+    efforts by registering our software. Those of you using OS X can use
+    the pack in conjunction with the factory's IconBrowser utility
+    <http://www.iconfactory.com/ibr_home.asp>.
+
+    *Work Notes*
+    These icons were created using Macromedia Freehand, Adobe Photohop
+    6.0 and IconBuilder Pro and are designed for use with OS 8.5 thru OS
+    X. All icons lovingly crafted by hand.
+
+    *Legality*
+    The icons and images represented by these icon are Copyright ©2002
+    The Iconfactory. The icons contained in this set are intended for
+    personal desktop use ONLY. These icons MAY NOT BE REDISTRIBUTED,
+    SOLD OR EXCHANGED FOR ANY GOODS OR SERVICES WHATSOEVER. In addition,
+    the read-me file must accompany the set at all times. By downloading
+    this file you are agreeing to be bound by these terms of use.
+
+    *Icons in Mac OS X*
+    The first thing you need to know is that getting information for a
+    file or folder works a little differently than it does in Mac OS 9.
+    In Mac OS 9 (and earlier), when you press Command-I, you get a Get
+    Info window for each item you have selected in the Finder. With Mac
+    OS X, there is no Get Info.
+
+    Get Info has been replaced with an "Inspector". The inspector is
+    shown or hidden when you press Command-I. It also behaves
+    differently; every time you select something in the Finder, the
+    inspector shows additional information about the item. The good news
+    is that even though the Inspector works differently, it still allows
+    you to change icons for most desktop items.
+
+    Here is a step-by-step guide for setting a folder icon:
+    1) Select a file or folder that has the icon you want to use.
+    2) Press Command-I to bring up the Inspector panel.
+    3) Click on the icon once. You should see a gray border around the
+       icon (see figure.)
+    4) Press Command-C to copy the icon. Do NOT close the inspector panel.
+    5) Select the file or folder that you want to customize. Press
+    Command-V to paste the icon.
+       That's it!
+
+    *Setting Classic Icons*
+    The most common use of custom icons is as a replacement for the
+    standard file and folder icons that are built into your Mac's
+    operating system. Many people find that it is much easier to find a
+    file that you are looking for by spotting a cool, colorful icon
+    rather than by its name. Icons can be cut and pasted onto almost any
+    item on the Macintosh. For the most part however, they are just a
+    whole lot of fun. As for how to apply them, here is the most
+    straight forward way:
+
+    1. On your desktop, select the icon you would like to use
+    2. Select "Get Info" (command-I) from the File Menu for that icon
+    3. Click on the icon in the upper left of the window
+    4. Choose "Copy" (command-C) from the Edit menu
+    5. Close the window
+    6. Select the file/folder you want to apply that icon to
+    7. Select "Get Info" (File menu) for that icon
+    8. Click on the icon in the upper left of the window
+    9. Select "Paste" (command-V) from the Edit Menu.
+       (this method won't work on the trash can)
+    10. You're done!
+
+    *Contact The Author*
+    Gedeon Maheux - gedeon@iconfactory.com <mailto:gedeon@iconfactory.com>
+
+    The Iconfactory - webmaster@iconfactory.com
+    <mailto:webmaster@iconfactory.com>
+
+    *More Goodies*
+    As a showcase for all of our pixel-pushing icon work, we've
+    created a place called The Iconfactory. The Iconfactory has quickly
+    established itself as a premiere web destination for Macintosh
+    icons. If you love to collect top-quality freeware icons for your
+    Mac, then The Iconfactory is for you! We would love to have you add
+    The Iconfactory to your list of bookmarks. The URL is:
+
+    http://www.iconfactory.com
+
+    If desktop patterns are more your cup of tea, then you'll want to
+    visit The DeskStop. The DeskStop serves as a one-stop source for
+    cool, desktop pictures, wallpapers, icons and more for use on the
+    web, with 3D modeling software or just on your Mac's desktop. Drop
+    by The DeskStop today at:
+
+    http://www.thedeskstop.com
+
+    *Thanks*
+    A tip of the hat goes out to artist Josh Agle
+    <http://www.shag-art.com/> (a.k.a. Shag) for the sub-conscious
+    inspiration to create this set. Shag's style and approach is just so
+    darned cool, it makes me want spend the rest of my days hanging out
+    in one of his retro Tiki lounges.
+
+    Thanks also to Stuart Sandler for putting me onto Shag in the first
+    place.
+
+    More thanks go out to Jen over at PixelDecor
+    <http://www.pixeldecor.com/> for her continued support of The
+    Iconfactory and for making such groovy, retro patterns.
+
+    And last, but certainly not least, thanks to Mindy for her continual
+    support and feedback on my work. You are the best sweetie!
+
+    		Copyright © 2002 The Iconfactory, All Rights Reserved.
+

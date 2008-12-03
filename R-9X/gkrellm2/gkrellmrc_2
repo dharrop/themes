@@ -1,0 +1,26 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+rx_led_x = -10
+rx_led_y = 3
+tx_led_x = -4
+tx_led_y = 3
+
+#alt2_color
+StyleChart  *.textcolor = #ddeeff #000000 shadow
+StyleChart  *.alt_textcolor = #ddeeff #000000 shadow
+#label_color
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StyleMeter cal.textcolor = #ffffff #000000 shadow
+#alt1_color
+StylePanel  *.alt_textcolor = #ddeeff #000000 shadow
+StyleMeter  host.textcolor = #ddeeff #000000 shadow
+#time_color
+StyleMeter  *.textcolor = #ddeeff #000000 shadow
+StyleMeter  *.alt_textcolor = #ddeeff #000000 shadow
+#meter_color
+StyleMeter fs.textcolor = #ffffff #000000 shadow
+StyleMeter mem.textcolor = #ffffff #000000 shadow
+StyleMeter swap.textcolor = #ffffff #000000 shadow
+StyleMeter mail.textcolor = #ffffff #000000 shadow
+

@@ -1,0 +1,43 @@
+frame_left_width  = 4
+frame_right_width  = 4
+
+chart_in_color       = #3b537a
+chart_in_color_grid  = #006290
+chart_out_color      = #7590bd
+chart_out_color_grid = #00805d
+
+bg_grid_mode = 1
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font   = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -2
+tx_led_y = 8
+
+#StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #a1c5f3 #000000 shadow
+StyleChart  *.alt_textcolor = #a1c5f3 #000000 shadow
+
+#StyleMeter  *.border = 2,2,4,4
+#StyleMeter  *.label_position = 50
+StyleMeter  *.textcolor = #a1c5f3 #000000 shadow
+StyleMeter  *.alt_textcolor = #a1c5f3 #000000 shadow
+StyleMeter  fs.label_position = 0
+StyleMeter	fs.textcolor = #ffffff #000000 shadow
+StyleMeter	cal.textcolor = #ffffff #000000 shadow
+StyleMeter	mem.textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #a1c5f3 #000000 shadow
+StyleMeter	swap.textcolor = #ffffff #000000 shadow
+StyleMeter	mail.textcolor = #ffffff #000000 shadow
+
+#StylePanel  *.border = 2,2,2,3
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #a1c5f3 #000000 shadow
+#StylePanel  net.border = 0,0,3,0
+#StylePanel  net.label_position = 35
+

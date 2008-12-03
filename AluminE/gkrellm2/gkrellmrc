@@ -1,0 +1,61 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "<btcal@earthlink.net> Based on Moonlight's theme""
+theme_alternatives = 1
+
+frame_left_width = 3
+frame_right_width = 3
+
+chart_in_color = #000000
+chart_in_color_grid = #BDD6B4
+chart_out_color = #000000
+chart_out_color_grid = #BDD6B4
+
+bg_grid_mode = 1
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = -4
+rx_led_y = 4
+tx_led_x = -4
+tx_led_y = 10
+
+StyleChart  *.border = 3,3,2,2
+StylePanel  *.border = 2,2,2,3
+StylePanel  *.margin = 2
+
+StyleMeter  *.margin = 3
+StyleMeter  *.border = 2,2,4,4
+StyleMeter  *.label_position = 0
+StyleMeter  fs.label_position = 0
+
+#alt2_color
+StyleChart  *.textcolor = #000000 #000000 #000000
+StyleChart  *.alt_textcolor = #000000 #000000 #000000
+
+#label_color
+StylePanel  *.textcolor = #000000 #000000 #000000
+StyleMeter cal.textcolor = #000000 #000000 #000000
+
+#alt1_color
+StylePanel  *.alt_textcolor = #000000 #000000 #000000
+StyleMeter  host.textcolor = #000000 #000000 #000000
+
+#time_color
+StyleMeter  *.textcolor = #000000 #000000 #000000
+StyleMeter  *.alt_textcolor = #000000 #000000 #000000
+
+#meter_color
+StyleMeter fs.textcolor = #000000 #000000 #000000
+StyleMeter mem.textcolor = #000000 #000000 #000000
+StyleMeter swap.textcolor = #000000 #000000 #000000
+StyleMeter mail.textcolor = #000000 #000000 #000000
+
+StyleMeter volume.margin = 0
+StyleMeter gkrellmms.margin = 0
+
+krell_slider_x_hot = 0
+krell_slider_depth = 1

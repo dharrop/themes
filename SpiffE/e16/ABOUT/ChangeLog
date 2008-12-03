@@ -1,0 +1,50 @@
+ Sun Apr 09, 2000
+------------------
+
+Theme scheme time! You can use the spiffomatic.pl script to modify colors for
+spiffE. It's very cool. If you'd like the default colors back, just hit enter
+when prompted for a value.
+
+* Added spiffomatic.pl
+* Added template images
+* Modified theme config files slightly
+
+ Mon Jan 17, 2000
+------------------ 
+
+Everything has been updated.
+
+* There are now 21 borderstyles.
+* The epplets have gotten an overhaul.
+* There is a new maximize button at Trae "OctobrX" McCombs' request
+* The other buttons got tweaked also.
+* New borders for pagers, iconbox, etc.
+* Iconbox minimizing issue resolved (thanks Ian Crawford for the motivation!)
+* Titlebar fonts are *not* TTF now -- more speed and crisper rendering.
+* Menus restyled, including new image menu.
+* The computer speech wavs (pref sounds) have been removed, slicing the 
+	size of the theme in half!
+* Titlebar / winops menus now have the ability to shade.
+* Border_only window style added, as it can be useful.
+* Two new backgrounds -- older are kept as well (they are only a few bytes)
+* Misc fixes and speedups based on time spent w/ Raster & Mandrake 
+	(in person and on irc)
+* Dragbar becomes 12 pixels when you remove your settings 
+	(remove your ...e_session-XXXXXX ...e_session-XXXXXX.snapshots.0 in
+	 ~/.enlightenment/ for this)
+* Did I mention that epplets got an overhaul?
+* Whole bunch of other stuff as well.
+
+Thanks go out to Moss from Themes.org for constantly pestering me to release
+a new version of spiffE, as well as being my most active beta tester. *g*
+
+In addition, I would also like to thank both Carsten and Geoff for putting
+up with my random pesterings.
+
+Also, I'd like to thank the users of this theme. *g*
+
+-- 
+Garrett LeSage
+<garrett@linux.com>
+http://linux.com/
+http://linuxart.com/

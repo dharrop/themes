@@ -1,0 +1,34 @@
+<page columns=1 padding=10 name=front background=about-back.png linkcolor=#ffffff>
+
+<img src=about-elogo.png x=25 y=5>
+
+<img src=about-spring.png x=285 y=130>
+
+<font face=VeraBd/26 color=#237d10>
+<p align=0%>
+<p align=0%>
+<p align=0%>
+Spring*
+
+<font face=VeraBd/12 color=#4ba72d>
+-- E DR16 theme by THR4K --
+
+<font face=Vera/10 color=#000000>
+<p align=0%>
+<p align=0%>
+Spring theme is a re-work of Winter,
+the default theme since E 0.16.7
+<p align=0%>
+It was essentialy inspired and made
+to continue and complete the concept
+of seasons introduced by Winter.<br>
+Also it fixes some minors bugs too ;-)
+<p align=0%>
+Thanx a lots to rephorm, the original
+author of Winter. Without his great job,
+Spring would probably not exist.
+<font face=VeraBd/9 color=#000000>
+<p align=0%>
+<p align=50%>
+For any information please contact me at: 
+thr4k@i-glooo.com

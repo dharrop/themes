@@ -1,0 +1,25 @@
+/*
+ * Macros
+ */
+
+/* Draw horisontal/vertical blue line */
+#define LINE_BORDER(x1p, x1, y1p, y1, x2p, x2, y2p, y2)	\
+	__BORDER_PART __BGN;					\
+		__ICLASS LINE_BORDER;				\
+		__MIN_WIDTH 0;					\
+		__MAX_WIDTH 99999;				\
+		__MIN_HEIGHT 0;					\
+		__MAX_HEIGHT 99999;				\
+		__TOPLEFT_ORIGIN -1;				\
+			__TOPLEFT_X_PERCENTAGE x1p;		\
+			__TOPLEFT_X_ABSOLUTE x1;		\
+			__TOPLEFT_Y_PERCENTAGE y1p;		\
+			__TOPLEFT_Y_ABSOLUTE y1;		\
+		__BOTTOMRIGHT_ORIGIN -1;			\
+			__BOTTOMRIGHT_X_PERCENTAGE x2p;		\
+			__BOTTOMRIGHT_X_ABSOLUTE x2;		\
+			__BOTTOMRIGHT_Y_PERCENTAGE y2p;		\
+			__BOTTOMRIGHT_Y_ABSOLUTE y2;		\
+		__KEEP_WHEN_SHADED __OFF;			\
+	__END;
+

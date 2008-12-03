@@ -1,0 +1,23 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=200 y=0>
+<font face=aircut3/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the arctic theme for Enlightenment. I believe it supports all of DR0 16.
+I will continue to work on it and try to keep it functioning with newer versions
+as they arise. If I am missing something please notify me.
+<p align=50%>
+I will be spending some time over the next littlewhile to try to clean it up. 
+<p align=50%>
+I hope you like my theme. There is a matching gkrellm theme on http://www.muhri.net
+
+In The future expect a licq theme. It is in the works.
+
+Thanks, egggman
+

@@ -1,0 +1,5 @@
+Et1 Eterm theme modification.  Reduced drop down shadow to 2 pixels, turned button bar off by default, and background to be transparent yellow.  Also removed images from image menu.
+--This line, and those below, will be ignored--
+
+M    theme.cfg
+M    background_image.menu

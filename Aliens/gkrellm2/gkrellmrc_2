@@ -1,0 +1,5 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+frame_top_border = 3,3,0,0
+frame_bottom_border = 3,3,0,0

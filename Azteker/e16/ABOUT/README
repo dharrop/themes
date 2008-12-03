@@ -1,0 +1,52 @@
+Changes compared to original AzTeker2000
+(changes by smoon aka Sebastian Sareyko):
+
+o removed slideouts
+o added nice ball like buttons instead
+o removed them ;)
+o added dialog widgets
+
+
+TODO:
+
+o add epplet support
+o add Eterm support(?)
+o who knows what else...?
+
+<------------------------------------------------------------------------------>
+
+###############################################################################
+modifications since AzTekr 2000 "release" from 04.2000..dont remenber the day
+of the release...go to e.themes.org & www.enlightenment.org & happy theming :)   
+###############################################################################
+
+pikadrew takes over from here:
+
+18/12/2000:
+         Ok, pika-Drew is on the case now.  I've got most things working, and i've
+         got most things working.  The layout of the theme has changed also, I spent
+         alot of time tweeking and getting rid of a lot of crap that was in here.
+         I'm working on some more graphics for dialogs and a new pager border, this 
+         theme is only 75% done.
+         All other errors introduced by previous authors have been fixed, and theme
+         layout eg, config locations, has been totally redone.
+
+10/04/2000 Loading fixed..
+	   Add /ttf repertory
+	   Add /ttf/zirkle.ttf 
+	   Made the logo in bottom right (init/init.cfg -> BOTTOM...)     
+	      
+08/04/2000 FiXed menu bugging in 
+	   /menustyles/menustyles.cfg
+	   /borders/MENU/.................
+	   added :
+	   /menustyles/images/A_b_menu1.png
+	   /menustyles/images/A_b_menu2.png
+	   /menustyles/images/A_b_menu3.png
+	   /menustyles/images/A_b_menu_bottom.png
+           NOT WORKING
+
+07/04/2000 Mouse cursor added from BlueSteel Theme 
+	   /cursors
+	   cursors.cfg    
+           NOT WORKING

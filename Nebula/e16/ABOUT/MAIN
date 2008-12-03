@@ -1,0 +1,29 @@
+<page columns=1 padding=8 name=front background=background2.jpg>
+
+<p align=50%>
+<img src=nebula-wav.gif x=115 y=2>
+
+<font face=-*-helvetica-bold-r-normal--12-*-*-*-*-*-*-* color=#FFFFFF><p align=50%>
+<br><br><br><br>
+Welcome to the Nebula Theme vs1.1 for the Enlightement Window Manager.
+
+<font face=-*-helvetica-medium-r-normal--12-*-*-*-*-*-*-* color=#FFFFFF><p>
+This theme was conceived many months ago but time and work have prevented me from finishing it. I hope to maintain it in line with the CVS version of Enlightenment, however this won't always be possible. Therefore if you're using the latest (CVS) version of Enlightenment and this theme fails to work please let me know (email address is at bottom of page). If you have any suggestions for improvements or additions then again drop me an email at the same place (or leave comments on E Themes)
+<br><br>
+Thanks for using Nebula and you may like to check out my first Enlightenment theme (now updated for the latest CVS Enlightenment) Northern Lights which is available from http://e.themes.org/
+
+<font face=-*-helvetica-bold-r-normal--12-*-*-*-*-*-*-* color=#FFFFFF><p>
+Paul S. Owen
+
+<font face=-*-helvetica-bold-r-normal--12-*-*-*-*-*-*-* color=#FFFFFF><p align=50%>
+Email me at<br>
+
+<font face=-adobe-helvetica-medium-r-normal-*-*-180-*-*-p-*-iso8859-1 color=#FFFFFF>
+paul@pso-online.businesswebworks.com<br><br>
+
+<font face=-*-helvetica-bold-r-normal--12-*-*-*-*-*-*-* color=#FFFFFF>
+Visit me on the web<br>
+
+<font face=-adobe-helvetica-medium-r-normal-*-*-180-*-*-p-*-iso8859-1 color=#FFFFFF>
+http://www.pso-online.businesswebworks.com/
+

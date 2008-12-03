@@ -1,0 +1,59 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Cytrix (http://www.users.uswest.net/~ejvend/index.html"
+
+theme_alternatives = 1
+
+frame_left_width = 4
+frame_right_width = 4
+chart_width_min = 50
+chart_width_max = 200
+chart_width_ref = 60
+allow_scaling = true
+
+chart_in_color = #0081c4
+chart_in_color_grid = #006290
+chart_out_color = #00b084
+chart_out_color_grid = #00805d
+
+large_font = -adobe-helvetica-bold-r-normal-*-12-100-*-*-p-*-iso8859-1
+normal_font = "-winfonts-vixar asci-bold-r-normal-*-9-120-*-*-p-*-iso8859-1"
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+bg_grid_mode = 1
+
+rx_led_x = 3
+rx_led_y = 8
+tx_led_x = -3
+tx_led_y = 8
+
+StyleChart  *.border = 3,3,2,2
+
+StylePanel  *.border = 2,2,2,3          # Top border of 3 moves labels down.
+StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+
+StyleMeter  *.border = 2,2,4,4
+#StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+StyleMeter  mem.label_position = 100
+StyleMeter  swap.label_position = 100
+
+StyleMeter  fs.label_position = 0
+
+#alt2_color
+StyleChart  *.textcolor = #000000 #000000 none
+StyleChart  *.alt_textcolor = #000000 #000000 none
+
+#label_color
+StylePanel  *.textcolor = #000000 #000000 none
+
+#alt1_color
+StylePanel  *.alt_textcolor = #000000 #000000 none
+StyleMeter  host.textcolor = #000000 #000000 none
+
+#time_color
+StyleMeter  *.textcolor = #000000 #000000 none
+StyleMeter  *.alt_textcolor = #000000 #000000 none
+

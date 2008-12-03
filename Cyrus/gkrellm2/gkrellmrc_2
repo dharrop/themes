@@ -1,0 +1,52 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "K. Brian Hinson (brianh@pobox.com)"
+
+large_font = "-adobe-helvetica-bold-r-normal-*-12-100-*-*-p-*-iso8859-1"
+normal_font = "-winfonts-vixar asci-bold-r-normal-*-*-120-*-*-p-*-iso8859-1"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
+
+frame_left_width = 5
+frame_right_width = 5
+
+chart_width_min = 50
+chart_width_max = 200
+chart_width_ref = 120
+
+allow_scaling = true
+
+frame_top_border = 7,7,10,10
+frame_bottom_border = 7,7,10,10
+
+bg_grid_mode = 1
+
+rx_led_x = -6
+rx_led_y = 5
+tx_led_x = -6
+tx_led_y = 9
+
+#StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #dadada #000000 shadow
+StyleChart  *.alt_textcolor = #dadada #000000 shadow
+
+StylePanel  *.border = 5,5,5,5
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #ffffff #000000 shadow
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+#StylePanel  net.border = 0,0,3,0
+StylePanel  net.label_position = 25
+StylePanel  net.border = 3,3,3,3
+StylePanel  inet.border = 3,3,3,3
+
+StyleMeter  *.border = 5,5,5,5
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+#StyleMeter  *.label_position = 50
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  fs.label_position = 0
+StyleMeter cal.textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #ffffff #000000 shadow
+

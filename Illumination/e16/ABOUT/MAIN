@@ -1,0 +1,25 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=75 y=0>
+<font face=squire/12 color=#000000>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the Illumination theme for Enlightenment designed by Scott Kingston
+(aka Alter-ID). This was based on my Illumination gtk theme. If you want the
+buttons that originally came with this theme, just copy buttons.cfg from the 
+sldbtns directory to the main Illumination directory.
+<p align=50%>
+
+<p align=50%>
+Enjoy!
+<p align=50%>
+Scott Kingston
+<p align=50%>
+ascottk@home.com
+<p align=50%>
+http://alterid.8k.com

@@ -1,0 +1,46 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "xhadow (lights@firstlinux.net)"
+
+frame_left_width = 4
+frame_right_width = 4
+
+large_font = -b&h-lucida-bold-r-normal-*-*-100-*-*-p-*-iso8859-1
+normal_font = -b&h-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+rx_led_x = -13
+rx_led_y = 0
+tx_led_x = -2
+tx_led_y = 0
+
+#StyleChart  *.border = 0,0,0,0
+
+#StylePanel  *.border = 3,3,2,2
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  net.border = 0,0,3,0
+StylePanel  net.label_position = 35
+
+#StyleMeter  *.border = 2,2,3,3
+#StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+
+StyleMeter  fs.label_position = 0
+
+#alt2_color
+StyleChart  *.textcolor = #FFFFFF #000000 shadow
+StyleChart  *.alt_textcolor = #FFFFFF #000000 shadow
+
+#label_color
+StylePanel  *.textcolor = #FFFFFF #000000 shadow
+StyleMeter cal.textcolor = #FFFFFF #000000 shadow
+
+#alt1_color
+StylePanel  *.alt_textcolor = #FFFFFF #000000 shadow
+StyleMeter  host.textcolor = #FFFFFF #000000 shadow
+
+#time_color
+StyleMeter  *.textcolor = #FFFFFF #000000 shadow
+StyleMeter  *.alt_textcolor = #FFFFFF #000000 shadow

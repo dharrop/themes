@@ -1,0 +1,44 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "-(n0l0G1k)- <n0l0G1k@sdf.lonestar.org> Http://n0l0G1k.de.st"
+
+frame_left_width = 4
+frame_right_width = 4
+
+bg_grid_mode = 1
+
+large_font = nexus
+normal_font = nexus
+small_font = nexus
+
+rx_led_x = 43
+rx_led_y = 4
+tx_led_x = 43
+tx_led_y = 12
+
+StyleChart  *.border = 3,3,2,2
+StyleChart  *.transparency = 2
+
+StylePanel  *.border = 2,2,2,3
+StylePanel  *.margin = 3
+StylePanel  *.transparency = 2
+
+StyleMeter  *.border = 2,2,4,4
+StyleMeter  *.label_position = 50
+StyleMeter  *.transparency = 1
+StylePanel  *.margin = 3
+
+StyleMeter  fs.label_position = 0
+
+StyleChart  *.textcolor = #ffffff #ffffff none
+StyleChart  *.alt_textcolor = #ffffff #ffffff none
+
+StylePanel  *.textcolor = #ffffff #ffffff none
+StyleMeter cal.textcolor = #ffffff #ffffff none
+
+StylePanel  *.alt_textcolor = #ffffff #ffffff none
+StyleMeter  host.textcolor = #ffffff #ffffff none
+
+StyleMeter  *.textcolor = #ffffff #ffffff none
+StyleMeter  *.alt_textcolor = #ffffff #ffffff none

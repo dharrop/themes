@@ -1,0 +1,12 @@
+#include <definitions>
+
+__E_CFG_VERSION 0
+
+__SLIDEOUT __BGN
+  __NAME mainwindowslider
+  __SLIDE_DIRECTION __UP
+  __BUTTON SLIDEOUT1
+  __BUTTON SLIDEOUT2
+  __BUTTON SLIDEOUT3
+  __BUTTON SLIDEOUT4
+__END

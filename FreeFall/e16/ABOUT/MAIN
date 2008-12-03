@@ -1,0 +1,54 @@
+<page columns=1 padding=10 name=index background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p>
+Theme<br>
+_Author(author)<br><br>
+_Version(version)
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<p>
+The FreeFall theme is probably the 18th theme or something... I made theme after theme after theme and I didn't make any complete theme... But now, finally, I calmed down and finished a theme... FreeFall was the result... Enjoy it =)
+</p>
+
+<page columns=1 padding=10 name=author background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p>
+_Theme(index) <br>
+Author<br><br>
+_Version(version)
+
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<p>
+My name is Mikael Lofjärd and i'm from Sweden.<br>I'm currently running Slackware Linux 7.0 and I enjoy it very much.
+<br>
+<br>
+<br> 
+E-mail me: comlord@yahoo.com
+</p>
+
+<page columns=1 padding=10 name=version background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p>
+_Theme(index) <br>
+_Author(author)<br><br>
+Version
+
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<p>
+FreeFall - release 0<br><br>
+updated: November 24
+<br>
+<br>
+<br> 
+Get the latest release at: http://e.themes.org

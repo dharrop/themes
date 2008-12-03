@@ -1,0 +1,80 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Azundris { http://www.azundris.com/ ; } (themes@azundris.com)"
+
+chart_width_min = 50
+chart_width_max = 200
+
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+chart_in_color = #ffffff
+chart_in_color_grid = #424242
+chart_out_color = #999999
+chart_out_color_grid = #737373
+
+bg_grid_mode = 1
+
+large_font = "-adobe-courier-medium-r-normal-*-*-120-*-*-m-*-iso8859-1"
+normal_font = "-adobe-helvetica-medium-r-normal-*-*-100-*-*-m-*-iso8859-1"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
+
+rx_led_x = 0
+rx_led_y = 0
+tx_led_x = -1
+tx_led_y = 0
+
+#StyleChart  *.border = 3,3,2,2
+
+StylePanel  *.border = 3,20,4,7
+StylePanel  *.label_position = 0
+StylePanel  *.margin = 3
+StylePanel  inet.label_position = 50
+StylePanel  net.label_position = 50
+
+StylePanel  inet.border = 0,0,1,7
+StylePanel  net.border = 21,21,2,7
+#StylePanel  net.label_position = 35
+
+#StyleMeter  *.border = 4,4,4,4
+StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  clock.border = 2,2,0,2
+StyleMeter  cal.border = 2,2,4,4
+StyleMeter  host.border = 2,2,2,0
+
+StyleMeter  fs.label_position = 0
+
+# Borders for the frame images
+frame_top_border = 20,45,2,2
+frame_bottom_border = 60,10,2,2
+frame_left_border = 7,3,60,160
+frame_right_border = 0,0,50,0
+
+#alt2_color
+StyleChart  *.textcolor = #949494 #000000 shadow
+StyleChart  *.alt_textcolor = #949494 #000000 shadow
+
+#alt1_color
+StylePanel  *.alt_textcolor = #7a7a7a #17161a none
+StyleMeter  host.textcolor = #7a7a7a #000000 shadow
+
+#cal_color
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StyleMeter  cal.textcolor = #ffffff #000000 shadow
+
+#time_color
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+
+#meter_color
+StyleMeter fs.textcolor = #949494 #000000 none
+StyleMeter mem.textcolor = #949494 #000000 none
+StyleMeter swap.textcolor = #949494 #000000 none
+StyleMeter mail.textcolor = #949494 #000000 none
+

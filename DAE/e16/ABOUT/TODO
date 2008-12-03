@@ -1,0 +1,49 @@
+D.A.E. TODO list
+
+Bah, humbug!
+
+     Current Border list stands at 23
+     *<> need to add these
+
+        BORDERLESS
+        BORDER_ONLY
+        *<BOTTOM>
+        CONCEPT
+        CONCEPT2
+        DEFAULT
+        DEFAULT2
+        FIXED_SIZE
+        GIMP
+        ICONBOX
+        LEFT_SIDE
+        LEFT_SIDE2
+        MENU
+        MENU_BORDER_ONLY
+        MINIMAL
+        PAGER
+        PAGER_DOWN
+        *<PAGER_LEFT>
+        *<PAGER_RIGHT>
+        *<RIGHT_SIDE>
+        *<RIGHT_SIDE2>
+        SHAPED
+        STANDARD
+        STYLE
+        STYLE2
+        STYLE3
+        TOP
+        TRANSIENT
+
+There are also a few sketchy areas on some of the borders that need
+cleaning up.
+
+The docs could do with being finished and i really need to get round
+to adding a button bar (disabled by default)
+
+Couple of unsupported classes need widgets and things too and i also
+need to dream up some new border styles and stuff ;)
+
+SOUNDS!! they won't be included in the actual .etheme i will house them
+on my website, but i think sounds are a darn fine idea.
+
+That bloody init, but i hardly ever see it so it seems to be stagnant.

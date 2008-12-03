@@ -1,0 +1,12 @@
+<page columns=2 padding=20 name=front background=../artwork/dialogs/dialog.png linkcolor=#88dddd>
+<p align=50%>
+<font face=village/30 color=#bbaaaa>
+Arietta
+<p>
+<font face=village/10 color=#000000>
+After the massive success of the tubular theme (delusions of grandeur?) I accidentally started doing another experimental theme. The most peculiar thing about this one is that apart from the button, the window borders consist of only one image. That's probably the reason why the theme is at least now a bit slow; it seems Enlightenment is not optimized to handle one large image that is for the most part transparent. And my arrangement also leads to a tricky little problem: the window menus don't usually appear below the cursor (see for yourself).
+<p>
+As tubular, Arietta also puts every mouse button in heavy use. More specifically: on the borders and the title bar, the left button moves, the middle one resizes, the right one minimizes and a double click shades; on the control button, the left button minimizes, the middle one sticks and the right one gives you the window operations menu. Notice the lack of possibilities for closing an application accidentally (now is this interface design or what?).
+<p>
+This time, comments and suggestions are respected.<br>
+Timo Laine (tzlaine@cc.helsinki.fi)

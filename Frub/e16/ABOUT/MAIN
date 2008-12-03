@@ -1,0 +1,37 @@
+<page columns=1 padding=1 background=./about.png linkcolor=#565656>
+<img src=title.png x=0 y=0>
+<font face=avgardm/12 color=#aaaaaa>
+<p align=75%>
+<br>
+<br>
+About...<br>
+...the _author(author)
+</p>
+<img src=line.png x=0 y=203>
+<img src=maven.png x=0 y=205>
+<font face=avgardm/9 color=#aaaaaa>
+<p>
+<br>
+<br>
+<br>
+Frub is a clean + simple theme. Initially I designed it to look like MacOS, then I decided it should look more like AmigaOS, but it has evolved into something which is kinda a cross between them both. Graphically, this theme is rather lapse, so it would be good for running KDE/GNOME/EFM with, not that I do. Look for frequent updates, as I am always trying new things both with Layout & Design.</p>
+<font face=avgardm/8 color=#565656>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+NB: As most about dialogs are boring, I decided to make mine a bit different. The picture is of a VALinux employee called Maven, which I found in between crufty and seedy pictures of Mandrake & Raster :). I thought it was a nice pic and wanted to use it somewhere in the theme. Hope I have not offended anyone by using it!</p> 
+
+<page columns=1 padding=1 name=author background=./about.png linkcolor=#565656>
+<font face=avgardm/10 color=#aaaaaa>
+<p>For those that care, my name is Andrew Lind. I live in Auckland,New Zealand. I'm 20 years old studying Computer Engineering at MIT. You can contact me at greedo@ihug.co.nz OR lind11@manukau.ac.nz. If you want to learn more bout me or my interests, my homepage is at http://homepages.ihug.co.nz/~greedo.</p>
+</p>
+</p>

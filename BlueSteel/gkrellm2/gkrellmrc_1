@@ -1,0 +1,136 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "rgafonso rgafonso@caravela.di.fc.ul.pt"
+
+chart_width_min = 64
+chart_width_max = 80
+chart_width_ref = 64
+allow_scaling = true
+
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+frame_top_border = 2,2,0,0
+frame_bottom_border = 2,2,0,0
+frame_left_border = 0,0,0,0
+frame_right_border = 0,0,0,0
+
+chart_in_color = #7799bb
+chart_in_color_grid = #005599
+chart_out_color = #446688
+chart_out_color_grid = #002255
+
+bg_grid_mode = 1
+
+rx_led_x = -12
+rx_led_y = 11
+tx_led_x = -2
+tx_led_y = 11
+
+decal_mail_frames = 19
+decal_mail_delay = 1
+
+krell_slider_depth = 4
+krell_slider_x_hot = 5
+
+#bg_slider_panel_border = l,r,t,b
+#bg_slider_neter_border = l,r,t,b
+
+timer_time_x = 1
+timer_button_x = -4
+bg_timer_border = 2,2,2,2
+
+button_panel_border = 2,2,2,2
+button_meter_border = 2,2,2,2
+
+large_font = -adobe-helvetica-medium-r-normal-*-10-*-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-8-*-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-8-*-*-*-p-*-iso8859-1
+#large_font = -2rebels-decker-bold-r-normal-*-*-120-*-*-p-*-iso8859-1
+#normal_font = -2rebels-decker-bold-r-normal-*-*-100-*-*-p-*-iso8859-1
+#small_font = -2rebels-decker-bold-r-normal-*-*-90-*-*-p-*-iso8859-1
+
+#spacer_top_height mon h
+#spacer_bottom_height mon h
+spacer_top_height volume 4
+spacer_top_height gkrellms 4
+
+bg_slider_panel_border = 1,1,1,1
+bg_slider_meter_border = 1,1,1,1
+
+### CHART STYLES ###############################################
+#
+StyleChart *.border = 5,5,5,5
+StyleChart *.textcolor = #ffffff #444444 shadow
+StyleChart *.alt_textcolor = #aaccff #444444 shadow
+#StyleChart *.font = {large_font | normal_font | small_font}
+#StyleChart *.transparency = { 1,2 }
+
+### PANEL STYLES ###############################################
+#
+StylePanel *.border = 0,0,11,4
+StylePanel *.label_position = center
+StylePanel *.margin = 3
+StylePanel *.textcolor = #ffffff #000000 shadow
+StylePanel *.alt_textcolor = #aaccff #444444 shadow
+#StylePanel *.font = {large_font | normal_font | small_font}
+#StylePanel *.alt_font = {large_font | normal_font | small_font}
+StylePanel *.krell_depth = 65
+StylePanel *.krell_x_hot = 63
+StylePanel *.krell_yoff = 3
+#StylePanel *.transparency = { 1,2 }
+
+StylePanel net.label_position = 0
+
+### METER STYLES ###############################################
+#
+#StyleMeter *.border = 0,0,12,4
+StyleMeter *.label_position = center
+StyleMeter *.margin = 3
+StyleMeter *.textcolor = #ffffff #000000 shadow
+StyleMeter *.alt_textcolor = #aaccff #444444 shadow
+StyleMeter *.font = small_font
+StyleMeter *.alt_font = small_font
+StyleMeter *.krell_depth = 65
+StyleMeter *.krell_x_hot = 63
+StyleMeter *.krell_yoff = 4
+#StyleMeter *.transparency = { 1,2 }
+
+StyleMeter clock.font = large_font
+StyleMeter host.textcolor = #000000 #ffffff none
+StyleMeter uptime.textcolor = #000000 #ffffff none
+
+StyleMeter fs.label_position = 0
+StyleMeter volume.label_position = 0
+StyleMeter mem.label_position = 0
+StyleMeter swap.label_position = 0
+StyleMeter mem.border = 0,0,12,4
+StyleMeter swap.border = 0,0,12,4
+
+StyleMeter apm.krell_depth = 1
+StyleMeter apm.krell_x_hot = 4
+StyleMeter apm.krell_yoff = 1
+StyleMeter fs.krell_depth = 1
+StyleMeter fs.krell_x_hot = 4
+StyleMeter fs.krell_yoff = 1
+
+StyleMeter fs.border = 0,0,4,2
+StyleMeter timer.border = 0,0,3,3
+StyleMeter host.border = 0,0,3,3
+StyleMeter cal.border = 0,0,3,3
+StyleMeter clock.border = 0,0,3,3
+StyleMeter uptime.border = 0,0,3,3
+
+### GKRELLMMS #################################################
+#
+StyleMeter gkrellmms.border = 1,1,2,8
+StyleMeter gkrellmms.krell_depth = 65
+StyleMeter gkrellmms.krell_x_hot = 63
+StyleMeter gkrellmms.krell_yoff = 12
+
+set_image_border gkrellmms_bg_scroll 1,1,2,1
+#set_integer gkrellmms_scroll_top_margin 2
+#set_integer gkrellmms_scroll_bottom_margin 2

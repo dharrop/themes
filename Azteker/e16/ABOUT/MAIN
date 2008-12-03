@@ -1,0 +1,8 @@
+<page columns=1 padding=16 name=front background=Abg01.png>
+<p align=50%><font face=atomic/50 color=#ffffff> Azteker 2000<br><br>
+<font face=rothwell/18 color=#ffffff>
+Original artwork by the Rastaman.<br>
+Rebuilt from AzTekr-0.15 to 0.16 by MAXOU,<br> 
+with fixups and additions by PikaDrew<br>contact: pikadrew@the-pentagon.com<br>
+dialog widgets added and slideouts removed by smoon (s.sareyko@cityweb.de)
+<img src=Abg01_logo.png x=100 y=320>

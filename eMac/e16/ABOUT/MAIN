@@ -1,0 +1,156 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.jpg linkcolor=#edeeff>
+<img src=logo.png x=160 y=20>
+<p align=50%>
+<font face=Chicago/14 color=#ffffff>
+<br>
+<br>
+<br>
+<br>
+<br>
+eMac for E 0.16
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+Welcome to eMac for Enlightenment 0.16. This is a complete MacOS 8.x-like theme.
+eMac is very feature rich, with everything from the MacBar to a full widget set.
+This theme fully supports Enlightenment version 0.16, with epplet and Eterm automode
+support.
+<br>
+<br>
+View the _eMac_Documentation(contents)<br>
+<p align=50%>
+Visit my web site for backgrounds, icons, and more. Also visit my site for tutorials on writing your own themes for Enlightenment.
+<br>
+<br>
+<font face=Chicago/15 color=#ffffff>
+http://www.geocities.com/<br>researchtriangle/thinktank/2631
+
+
+
+
+
+
+<page columns=1 padding=16 name=contents background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+Contents
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+_eMac_Feature_List(features)<br>
+_The_MacBAR(macbar)<br>
+_The_Apple_Menu(applemenu)<br>
+_The_Task_Menu(taskmenu)<br>
+_Other_Menus(othermenus)<br>
+_Credits(credits)<br>
+<br>
+
+
+
+
+<page columns=1 padding=16 name=features background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+eMac Feature List
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+MacBar with working Apple and Task Menus<br>
+User-customizable Applications menu<br>
+15 diffrent border styles<br>
+Full MacOS widget set<br>
+Epplet and Eterm automode support<br>
+Color schemes:<br>
+BondiBlue, BlueBerry, Grape,<br>
+Strawberry, Tangerine, and Lime<br>
+
+
+
+<page columns=1 padding=16 name=macbar background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+The MacBar
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+When you first start eMac, you will notice a grey bar at the top of the screen. This is
+the MacBar, eMac's equivalent of the MacOS menu bar. While the menus on this bar will not
+change with the application, they do provide you with several very useful functions. The
+MacBar is permanent and not moveable or removable. To open a menu on the MacBar, click and
+hold the mouse button on a menu. Release the mouse button to clear the menu.
+
+
+
+<page columns=1 padding=16 name=applemenu background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+The Apple Menu
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+The apple menu in eMac is very customizable. There are several diffrent icons
+available. The standard icon, an icon matching the default theme, and one for
+each of the color schemes.
+
+
+
+<page columns=1 padding=16 name=taskmenu background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+The Task Menu
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+
+
+
+
+<page columns=1 padding=16 name=othermenus background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+Other Menus
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+
+
+
+
+<page columns=1 padding=16 name=credits background=Edoc_bg.jpg linkcolor=#edeeff>
+<p align=50%>
+<font face=Chicago/20 color=#ffffff>
+<br>
+Credits
+<font face=Chicago/12 color=#ffffff>
+<br>
+<br>
+<br>
+<p align=50%>
+eMac was written by me, Archon (Jon Rista). The images used for the MacBar and the
+default window borders were copied from a few screenshots I took of MacOS 8.5. All
+other images for the widgets, epplets, etc. were created by me. The boot background
+and the official eMac background were created by me.
+<br>
+<br>
+A big thanks for all the fans who have helped me with ideas and by sending me "bug"
+reports. I appreciate all the help. :)
+<br>
+<br>
+Also a big thanks to Apple Computer, Inc. for such a great-looking idea. :)

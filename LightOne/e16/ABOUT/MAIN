@@ -1,0 +1,29 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#555599
+name=page1>
+<font face=vixar/14 color=#000000>
+
+<p align=50%>
+<img src=../pix/background/name.png x=5 y=15>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>
+This theme is called LightOne, it is basically a light colored version of my DarkOne
+theme (also available on e.themes.org). 
+<p>
+
+This theme includes:
+<ul>
+<li> * Support for epplets
+<li> * Eterm auto theme
+</ul>
+
+<p>
+# kvas@iki.fi
+
+<p>
+
+

@@ -1,0 +1,23 @@
+Sat Dec 25 01:37:27 SAST 1999
+
+Some .PNGs don't load so well in Gimp etc.  Converted everything to
+.XPM.  Thanks to Masaaki Kimbara for pointing this out.
+
+Sun Dec 19 19:49:02 SAST 1999
+
+Hmm, not quite a good start, is it?  This change, a mere eighteen hours
+after the first release, affects the borders FULL_FIXED and
+FULL_FIXED_SIDE.  If you look closely (preferably at an unfocused
+window), you'll see the sides of the titlebar going past the window.
+Sure, it's only one or two pixels, but it's just not _right_!  Anyway,
+I've fixed it.  Apologies if anyone downloaded this before the
+correction...
+
+Sun Dec 19 01:45:22 SAST 1999
+
+I've finally decided to release this theme.  It should appear two or
+three days after I've written this...  This is the first release, and
+as such may contain a bug or two.  Feel free to mail me about them; see
+the README for my email address.  This address is likely to change
+sometime in the next year or two, if it stays stable I'll tell you.  In
+the meantime, if your mail is bounced back, don't send another.

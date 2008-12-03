@@ -1,0 +1,18 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=15 y=0>
+<font face=aircut3/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the get-E theme for Enlightenment. It supports all of DR 0.16. Including Eterm automode, and Epplets. It has multiple border types suited to multiple applications.
+<br>
+IT is made by egggman for the get-E crew.
+<p align=50%>
+
+Thanks, egggman
+

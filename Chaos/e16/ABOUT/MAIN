@@ -1,0 +1,29 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#008800 name=page1>
+<br><br>
+<font face=aircut3/13 color=#ffffff>
+<p align=50%>
+<br>- e-chaos -<br><br>
+
+<font face=aircut3/10 color=#dddddd>
+<p align=50%>
+e-chaos is a port for Enlightenment of the chaos blackbox theme<br>
+by artwiz (http://artramp.org).<br><br>
+Some graphics were taken from chaos for XMMS,<br>
+by Omar Hussain (http://ohussain.cjb.net/).<br><br>
+Some widgets, like arrows, scrollbars, check and radio buttons<br>
+are taken from chaos-gtk by JP Bizet (http://jpb.freeyellow.com)<br>
+which were taken from blueHeart-GTK by Chris Fofiu.<br><br>
+Also, many ideas, fixes, suggestions, pieces of advice,<br>
+general proddings, yadda, yadda,<br>
+have come from JP, to whom I am eternally grateful.<br><br>
+The theme goes well with his chaos-gtk theme<br>
+and n0l0g1k's chaos for gkrellm (http://n0l0g1k.de.st).<br>
+<br><br>
+Thanks to everyone who in some way, helped form this. 
+<br><br>
+Jonathan Schwarz - http://hockeythug.net
+<br>
+
+
+
+

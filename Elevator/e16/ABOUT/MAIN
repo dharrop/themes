@@ -1,0 +1,37 @@
+<page columns=1 padding=16 name=front background=bg.png linkcolor=#88dddd>
+
+<img src=logo.png x=257 y=5>
+<font face=tahoma/9 color=#ffffff>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p align=50%>
+This is Elevator for E, a theme created and maintained by Brian Langner.
+
+<p align=50%>
+- = -
+
+<p align=50%>
+More useful information is available in the README file in this theme's main
+directory.
+
+<p align=50%>
+- = -
+
+<p align=50%>
+The most recent version of this theme, along with other Linux-related 
+material will be available for download (between September and April) at 
+http://langnerb-2.user.msu.edu/.
+<br>
+<br>
+I can be reached for questions not answered in the README or comments
+year-round at langnerb@pilot.msu.edu.  However, if you have a comment,
+please post it on e.themes.org, so everyone can see it.
+
+<br>
+

@@ -1,0 +1,5 @@
+"Ganymede Mailers"
+"Netscape Messenger" 	MAILER	exec "netscape -messenger"
+"Balsa" 		MAILER 	exec "balsa"
+"Pine"  		MAILER 	exec "Eterm -e pine"
+"Mutt" 			MAILER 	exec "Eterm -e mutt"

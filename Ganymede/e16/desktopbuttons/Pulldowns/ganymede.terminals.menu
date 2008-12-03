@@ -1,0 +1,7 @@
+"Ganymede Terminals"
+"Eterm" 			TERMINAL exec "Eterm -t Ganymede"
+"Xterm" 			TERMINAL exec "xterm"
+"rxvt"  			TERMINAL exec "rxvt"
+"Gnome Terminal" 		TERMINAL exec "gnome-terminal"
+"Eterm Rootshell"		TERMINAL exec "Eterm -t Ganymede -f '#fff0f0' --scrollbar-color '#d08000' --unfocused-scrollbar-color '#604040' --save-under -P red.ppm@:scale -n '[ Rootshell ]' -e 'su'"
+"Remote Eterm" 			TERMINAL exec "Eterm -t Ganymede --scrollbar-color '#007000' --unfocused-scrollbar-color '#005000' -P green.ppm@:scale -n '[ Remote ]' -e ftp your.favourite.host.com"

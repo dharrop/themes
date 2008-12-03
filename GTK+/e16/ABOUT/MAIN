@@ -1,0 +1,85 @@
+<page columns=1 padding=15 name=front background=../artwork/common/dot_grey.png>
+<img src=../artwork/backgrounds/gtk_overlay.png x=168 y=10>
+<font face=-*-helvetica-bold-r-normal-*-34-*-*-*-p-*-iso8859-1 color=#000000><p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+GTK+ for Enlightenment
+<font face=-*-helvetica-bold-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p align=50%>
+<br>
+Time to Match Everything.
+<font face=-*-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p align=50%>
+<br>
+Thank you for using GTK+ for Enlightenment. I created this theme primarily for my own personal use, but also to fill in the void of a theme that matches Default GTK+ style, but still looks good in it's own right. It was drawn with the GIMP using screenshots of various GTK+ apps as references.
+<br><br>
+This theme is intended for use with Enlightenment DR 16 and Eterm 0.9. It is almost certainly unstable with older versions of E, and will require you to click through upwards of 30 dialogs to start it. You can consider yourself warned :-).
+<br>
+<br>
+For questions or comments, you can reach me at jcape@jcinteractive.com (http://www.jcinteractive.com/jimbob)
+
+<page columns=1 padding=15 name=front background=../common/images/dot_grey.png>
+<font face=-*-helvetica-bold-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p align=50%>
+GTK+ for Enlightenment Last Updated on April 26, 2000.
+<font face=-*-helvetica-bold-r-normal-*-24-*-*-*-p-*-iso8859-1 color=#000000><p align=50%>
+ChangeLog:
+
+<font face=-*-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p>
+Apr 26 01:53 CDT  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Moved the SIDE border style to SIDE_LEFT and added SIDE_RIGHT, SIDE_TOP, and SIDE_BOTTOM border styles.<br>
+* Changed the appearanced of the maximize, iconify, and shade buttons.<br>
+* Darkened the focused titlebar and added another curved line to it.<br><br>
+
+Apr 11 01:43 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Changed focused titlebar look to look similar to the MiniGUI/Helix look.<br><br>
+
+Mar 25 01:08 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Re-arranged window buttons and removed the "Stick" button.<br><br>
+
+Mar 03 21:20 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Changed focused window titlebar color to blue.<br>
+* Added padding between the Kill and Minimize/Maximize buttons.<br><br>
+	
+Feb 26 10:29 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Added more window matches for Gimp, Glade, and XMMS.<br><br>
+
+<page columns=1 padding=15 name=front background=../common/images/dot_grey.png>
+<font face=-*-helvetica-bold-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p align=50%>
+GTK+ for Enlightenment Last Updated on April 26, 2000.
+<font face=-*-helvetica-bold-r-normal-*-24-*-*-*-p-*-iso8859-1 color=#000000><p align=50%>
+ChangeLog (cont.):
+
+<font face=-*-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1 color=#000000>
+<p>
+
+Jan 09 00:41 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Redesigned the SIDE border style and added a grippy to it.<br>
+* Removed black separator lines around the resizable borders.<br>
+* Added window match for most Gimp dialogs to automatically use the appropriate borders.<br>
+* Added window match for the Enlightenment DOX window to use the BORDER_ONLY border style.<br>
+* Updated GTK+/ABOUT/MAIN to include this ChangeLog.<br>
+* Fixed busted Glade Projects window match.<br>
+* Added FIXED_SIZE_GTK border style.<br>
+* Added TRANSIENT_FIXED_GTK border style.<br><br>
+
+Nov 21 00:00 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Changed focused titlebar to be a lighter color to improve distinction.<br><br>
+
+Oct 13 14:34 CST  James M. Cape  (jcape@jcinteractive.com)<br><br>
+
+* Reorganized theme around the BrushedMetal (aka WorthlessSubdirectory) Format.<br>
+* Added images for Eterm's Auto mode.<br>
+* Added images for Epplets. Tres Cool.<br>

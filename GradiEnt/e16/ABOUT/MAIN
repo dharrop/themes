@@ -1,0 +1,27 @@
+<page columns=1 padding=15 name=front background=../graphics/bevel_bg_normal.png>
+<font face=aircut3/30 color=#000000>
+<p align=50%>
+Absolute E
+<br>
+<font face=aircut3/15 color=#000000>
+Time to Re-theme Everything
+<font face=aircut3/10 color=#000000>
+<p>
+Thanks for using Absolute E, the theme that thinks diffrently.
+This theme is created by Hallvar Helleseth using nothing but
+The Gimp.  Everything is originaly made by me - Propably the only
+Etheme that can say that ;) Though alot of people have helped me
+(too many to list here/can't remeber all of them either...) But
+I give them a BIG thank you!
+<br>
+There is also a WindowMaker version of this theme, look for that on
+wm.themes.org.
+<br>
+This theme is going to be following the cvs version of E and not the
+stable version (DR0.15.5)
+<br>
+<br>
+Reach me at hallvar@ii.uib.no (www.ii.uib.no/~hallvar)
+<br>
+<br>
+Date: June 5 1999.

@@ -1,0 +1,81 @@
+/* functiond for border */
+
+#define DECLARE_BORDER(name) \
+__BORDER __BGN;\
+  __NAME name
+
+#define BORDER_SIZE(left,right,top,bottom) \
+  __BORDER_SIZE_LEFT left; \
+  __BORDER_SIZE_RIGHT right; \
+  __BORDER_SIZE_TOP top; \
+  __BORDER_SIZE_BOTTOM bottom
+
+#define BORDER_OPTIONS(shadedir,keepshape) \
+  __SHADE_DIRECTION shadedir; \
+  __CHANGES_SHAPE keepshape
+
+#define BORDER_END \
+__END
+
+/* functiond for borderpart */
+
+#define BORDER_PART(ic,ac) \
+  __BORDER_PART __BGN;\
+    __ICLASS ic;\
+    __ACLASS ac
+
+#define BORDER_CURSOR(cur) \
+    __CURSOR cur
+
+#define SET_BORDER_TITLE(tc) \
+    __FLAGS __FLAG_TITLE; \
+    __TCLASS tc
+
+#define SET_BORDER_PART_FIXED_SIZE(x,y) \
+    __MIN_WIDTH x;\
+    __MAX_WIDTH x;\
+    __MIN_HEIGHT y;\
+    __MAX_HEIGHT y
+
+#define SET_BORDER_PART_FIXED_WIDTH(x) \
+    __MIN_WIDTH x;\
+    __MAX_WIDTH x
+
+#define SET_BORDER_PART_WIDTH(min,max) \
+    __MIN_WIDTH min;\
+    __MAX_WIDTH max
+
+#define SET_BORDER_PART_FIXED_HEIGHT(y) \
+    __MIN_HEIGHT y;\
+    __MAX_HEIGHT y
+
+#define SET_BORDER_PART_HEIGHT(min,max) \
+    __MIN_HEIGHT min;\
+    __MAX_HEIGHT max
+
+#define SET_BORDER_PART_SIZE(minx,maxx,miny,maxy) \
+    __MIN_WIDTH minx;\
+    __MAX_WIDTH maxx;\
+    __MIN_HEIGHT miny;\
+    __MAX_HEIGHT maxy
+
+#define ANCHOR_BORDER_PART_TOPLEFT(xr,xa,yr,ya) \
+    __TOPLEFT_ORIGIN -1;\
+    __TOPLEFT_X_PERCENTAGE xr;\
+    __TOPLEFT_X_ABSOLUTE xa;\
+    __TOPLEFT_Y_PERCENTAGE yr;\
+    __TOPLEFT_Y_ABSOLUTE ya
+
+#define ANCHOR_BORDER_PART_BOTTOMRIGHT(xr,xa,yr,ya) \
+    __BOTTOMRIGHT_ORIGIN -1;\
+    __BOTTOMRIGHT_X_PERCENTAGE xr;\
+    __BOTTOMRIGHT_X_ABSOLUTE xa;\
+    __BOTTOMRIGHT_Y_PERCENTAGE yr;\
+    __BOTTOMRIGHT_Y_ABSOLUTE ya
+
+#define SET_BORDER_PART_KEEP_SHADE(fg) \
+    __KEEP_WHEN_SHADED fg
+
+#define SET_BORDER_PART_END \
+  __END
+

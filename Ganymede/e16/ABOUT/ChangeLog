@@ -1,0 +1,72 @@
+
+  T  H  E      G  A  N  Y  M  E  D  E      T  H  E  M  E
+
+                   Enlightenment v0.16
+____________________________________________________________
+
+
+                    -~= ChangeLog =~-
+
+
+		    	   o.5
+
+:) 12/27/99 Changed scrollbars in the E and Eterm theme
+	    so that they match the GTK theme's. Finally
+	    stepped up version number.
+
+		    	   o.4
+
+:) 12/12/99 Made the windowmatch for rotated borders
+	    a little greedier (150 pixels now), also
+	    fixed a bug in the epplet togglebutton.
+	
+:) 11/21/99 Minor changes to the gkrellm theme, fixed
+	    iconbox bg (the bg wouldn't return once set
+	    to transparency ...), added copyright headers.
+
+:) 10/31/99 Fixed a Happy Halloween Bug -- the ARROW_UP
+	    and ARROW_DOWN epplet pixmaps were swapped ...
+	
+:) 10/27/99 Changed backgrounds for dialogs, menus and
+	    documentation.
+	
+:) 10/19/99 Mhm .. maybe this should be o.5. Anyway,
+	    added a whole bunch of colormoded images,
+	    added epplet support. Updated MAIN & README.
+	    Added a script for automated installation
+	    of buttons and pulldown menues. Oh, and
+	    added a Makefile, just for convenience.
+	
+:) 10/8/99  Threw out everything related to colormods,
+	    cleaned up menustyles.cfg, disabled buttons
+	    by default, added a script for re-enabling
+	    them, updated documentation.
+	
+:/ Why don't I have dates in here?
+:) Added gkrellm theme.
+
+			   o.3
+
+	
+:) Hopefully prepared everything for commiting to the
+   CVS repository -- Yeeehaaa !!!
+:) -- SIGH -- moved the whole thing to the new standard.
+:) Added some missing imageclasses for desktop areas in
+   the settings dialogs.
+:) Changed the icon in the tooltips.
+	
+                           o.2
+
+:) The Eterm theme is now based on Eterm CVS code. The
+   scrollbar is on the left now (to be out of the way
+   for the grabber in the bottom right of the windows)
+:) The iconbox is now available.
+:) Some tooltips now have the icon look.
+:) Added borders and shortcuts for window groups. Try
+   the middle button on the titlebar to see what I mean.
+:) Lots of internal changes. The files grew too large,
+   I use #includes now.  
+:) Well, added a Changelog ;)
+
+____________________________________________________________
+(c) Christian Kreibich 1999     mailto:chrisk@engr.uconn.edu

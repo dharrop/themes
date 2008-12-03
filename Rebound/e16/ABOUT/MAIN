@@ -1,0 +1,125 @@
+<page columns=2 padding=30 name=index background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=3%>
+_Theme(about) <br>
+_Author(author)<br><br><br>
+_Version(version)
+
+</p>
+
+<page columns=2 padding=30 name=about background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=3%>
+Theme <br>
+_Author(author)<br><br><br>
+_Version(version)
+
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+The rebound theme started as a hack of the Cyrus etheme but, by the time it was ready for release,
+ almost no traces could be found.<br>
+And now I've cleaned it up even more.
+</p>
+
+
+<page columns=2 padding=30 name=author background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=3%>
+_Theme(about) <br>
+Author<br><br><br>
+_Version(version)
+
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+I am currently running Slackware Linux 7.0 and I enjoy it very much.
+<br>
+<br>
+<br> 
+E-mail me: comlord@yahoo.com
+</p>
+
+<page columns=2 padding=30 name=version background=Edoc_bg.png>
+<br>
+<font face=avgardm/11 color=#000000>
+<p align=3%>
+_Theme(about) <br>
+_Author(author)<br><br><br>
+Version
+
+</p>
+<font face=avgardm/11 color=#FFFFFF>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+rebound - release 3<br><br>
+updated: March 28
+<br>
+<br>
+<br> 
+Get the latest release: http://e.themes.org

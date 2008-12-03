@@ -1,0 +1,207 @@
+/*
+Jan 27 2000, Japanese Localization by Masahiko Mori <masa@engr.sgi.com>
+                      Traslation by Ryuichi Wakita <wakita@xtrans.com>
+
+このファイルの日本語訳の部分、その他の変更部分は新規に作成したので上記２人に
+著作権があり、GPL に従って自由に配布できます。それ以外の変更のない部分につい
+ては原作の制限に従うものとします。
+このファイルに変更を加えた場合、このコメントに続き簡単な履歴を追加してください。
+*/
+
+__ICLASS __BGN
+  __NAME DIALOG
+  __NORMAL "dialogs/images/bg.png"
+  __FILLRULE       __SCALE
+  __EDGE_SCALING   8 8 8 8
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_BUTTON
+  __NORMAL "dialogs/images/button1.png"
+  __EDGE_SCALING   8 8 8 8
+  __HILITED "dialogs/images/button2.png"
+  __EDGE_SCALING   8 8 8 8
+  __CLICKED "dialogs/images/button3.png"
+  __EDGE_SCALING   8 8 8 8
+  __PADDING        10 10 10 10
+__END
+		    
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_BUTTON
+  __NORMAL "dialogs/images/button1.png"
+  __EDGE_SCALING   8 8 8 8
+  __HILITED "dialogs/images/button2.png"
+  __EDGE_SCALING   8 8 8 8
+  __CLICKED "dialogs/images/button3.png"
+  __EDGE_SCALING   8 8 8 8
+  __PADDING        8 8 8 8
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_CHECK_BUTTON
+  __NORMAL "dialogs/images/w0.png"
+  __EDGE_SCALING   0 0 0 0
+  __HILITED "dialogs/images/w0-.png"
+  __EDGE_SCALING   0 0 0 0
+  __NORMAL_ACTIVE "dialogs/images/w1.png"
+  __EDGE_SCALING   0 0 0 0
+  __HILITED_ACTIVE "dialogs/images/w1-.png"
+  __EDGE_SCALING   0 0 0 0
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_RADIO_BUTTON
+  __NORMAL "dialogs/images/w0.png"
+  __EDGE_SCALING   0 0 0 0
+  __HILITED "dialogs/images/w0-.png"
+  __EDGE_SCALING   0 0 0 0
+  __NORMAL_ACTIVE "dialogs/images/r1.png"
+  __EDGE_SCALING   0 0 0 0
+  __HILITED_ACTIVE "dialogs/images/r1-.png"
+  __EDGE_SCALING   0 0 0 0
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_SEPARATOR
+  __NORMAL "dialogs/images/rule.png"
+  __EDGE_SCALING   1 1 1 1
+  __CLICKED "dialogs/images/rule.png"
+  __EDGE_SCALING   1 1 1 1
+  __PADDING        1 1 1 1
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_TABLE
+  __NORMAL "dialogs/images/bt2.png"
+  __EDGE_SCALING   4 4 4 4
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_SLIDER_BASE_HORIZONTAL
+  __NORMAL "dialogs/images/slh.png"
+  __EDGE_SCALING   14 14 1 1
+  __PADDING        14 14 1 1
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_SLIDER_KNOB_HORIZONTAL
+  __NORMAL "dialogs/images/sl2.png"
+  __EDGE_SCALING   4 4 4 4
+  __CLICKED "dialogs/images/sl2.png"
+  __EDGE_SCALING   4 4 4 4
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_SLIDER_BASE_VERTICAL
+  __NORMAL "dialogs/images/slv.png"
+  __EDGE_SCALING   1 1 14 14
+  __PADDING        1 1 14 14
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_SLIDER_KNOB_VERTICAL
+  __NORMAL "dialogs/images/sl2.png"
+  __EDGE_SCALING   4 4 4 4
+  __CLICKED "dialogs/images/sl2.png"
+  __EDGE_SCALING   4 4 4 4
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME DIALOG_WIDGET_AREA
+  __NORMAL "dialogs/images/rule.png"
+  __EDGE_SCALING   4 4 4 4
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME SETTINGS_DESKTOP_AREA
+  __NORMAL "dialogs/images/bg.png"
+  __FILLRULE       __SCALE
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME SETTINGS_AREA_AREA
+  __NORMAL "dialogs/images/bg.png"
+  __FILLRULE       __SCALE
+  __PADDING        4 4 4 4
+__END
+
+__ICLASS __BGN
+  __NAME SETTINGS_AREADESK_AREA
+  __NORMAL "dialogs/images/rule.png"
+  __EDGE_SCALING   8 8 8 8
+  __PADDING        8 8 8 8
+__END
+	    
+__TCLASS __BGN
+  __NAME "DIALOG"
+  __JUSTIFICATION 512
+		
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END
+
+__TCLASS __BGN
+  __NAME "DIALOG_WIDGET_BUTTON"
+  __JUSTIFICATION 512
+  
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END
+
+__TCLASS __BGN
+  __NAME "DIALOG_WIDGET_CHECK_BUTTON"
+  __JUSTIFICATION 0
+  
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END
+
+__TCLASS __BGN
+  __NAME "DIALOG_WIDGET_RADIO_BUTTON"
+  __JUSTIFICATION 0
+  
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END
+
+__TCLASS __BGN
+  __NAME "DIALOG_WIDGET_TEXT"
+  __JUSTIFICATION 512
+  
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END
+
+__TCLASS __BGN
+  __NAME "DIALOG_BUTTON"
+  __JUSTIFICATION 512
+    
+  __NORMAL "-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*,-*-fixed-medium-r-normal--14-*,-*--14-*"
+  __DRAWING_EFFECT __EFFECT_SHADOW
+  __FORGROUND_COLOR 255 255 255
+  __BACKGROUND_COLOR 0 0 0
+  __JUSTIFICATION 512
+__END

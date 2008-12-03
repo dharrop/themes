@@ -1,0 +1,135 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "Claudio Dalla Vecchia caiux@tiscalinet.it"
+theme_alternatives = 1
+
+chart_width_min = 50
+chart_width_max = 200
+chart_width_ref = 60
+allow_scaling = true
+
+# Frame sizes set to 0 mean render frames to drawn dimension
+frame_top_height = 7
+frame_bottom_height = 7
+frame_left_width = 7
+frame_right_width = 7
+
+# Borders for images are specified with comma separated numbers in the order:
+#    left border, right border, top border, bottom border
+frame_top_border = 0,0,0,0
+frame_bottom_border = 0,0,0,0
+frame_left_border = 0,0,0,0
+frame_right_border = 0,0,0,0
+
+
+# Colors for drawing data on charts.  These apply to all chart monitors
+# so style settings for these are not possible.  These do not apply
+# if you have data_in/out images.
+chart_in_color = #ffdb47
+chart_in_color_grid = #111111
+chart_out_color = #ff883e
+chart_out_color_grid = #222222
+
+# 0 (do) 1 (don't) draw top/bottom grid lines.
+bg_grid_mode = 0
+
+# Placement of the Rx/Tx LEDs in the panel area of net Chart monitors.
+rx_led_x = 2
+rx_led_y = 6
+tx_led_x = -2
+tx_led_y = 6
+
+# Horizontal placement of the time online display and button of the
+# timer_button Meter monitor.  Negative x means place x pixels from right edge
+timer_time_x = 1
+timer_button_x = -2
+
+# used only if the theme has a bg_timer image.
+bg_timer_border = 2,2,2,2
+
+button_panel_border = 2,2,2,2
+button_meter_border = 2,2,2,2
+
+# Fonts to use in the Style settings below.
+large_font = "-adobe-courier-medium-r-normal-*-*-120-*-*-m-*-*-*"
+normal_font = "-adobe-courier-medium-r-normal-*-*-100-*-*-m-*-*-*"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-*-*"
+
+#Set the borders for the background slider trough images.
+bg_slider_panel_border = 1,1,1,1
+bg_slider_neter_border = 1,1,1,1
+
+# ========= Style settings for the monitors. ============
+# Options can be set to apply globally to areas of all similar monitors,
+# or can be set to individually apply only to an area of a specific monitor.
+# This is done with Style lines which can have a global '*' scope name or a 
+# specific monitor name.  Since these theme specifications begin at
+# the monitor area level (see the Themes file), there are Style lines for
+# each area.  There are StyleChart and StylePanel lines for the chart and
+# panel areas in the Chart monitors, and a StyleMeter line for the single
+# meter area in the Meter monitors.
+# It is not necessary for these lines to be in any particular order, more
+# specific style settings always override a global setting.
+#   - textcolor arguments are  color, shadow color, and drawing effect
+#     (shadow or none). The '#' preceding the hex color values is required.
+#     Enclose multiple word rgb.txt color names in quotes.
+#   - see the Themes file for how monitors use alt_font and alt_textcolor.
+#
+# Settings for the chart areas of all Chart monitors.
+StyleChart  *.border = 0,0,0,0
+StyleChart  *.font = normal_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #efd097 #000000 shadow
+StyleChart  *.alt_textcolor = #d0d0d0 #181818 shadow
+
+# Settings for the panel areas of all Chart monitors.
+StylePanel  *.border = 0,0,2,2
+StylePanel  *.font = normal_font
+StylePanel  *.alt_font = normal_font
+StylePanel  *.textcolor = white #000000 shadow
+StylePanel  *.alt_textcolor = #b0e0b0 #000000 shadow
+StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+StylePanel  *.krell_x_hot = 3
+StylePanel  *.krell_depth = 4
+StylePanel  *.krell_yoff = 0
+
+# Settings for the meter areas of all Meter monitors.
+StyleMeter  *.border = 3,3,3,2
+StyleMeter  *.font = normal_font
+StyleMeter  *.alt_font = small_font
+StyleMeter  *.textcolor = #f8b8a0 #000000 shadow
+StyleMeter  *.alt_textcolor = wheat #000000 shadow
+StyleMeter  *.label_position = 50
+StyleMeter  *.margin = 3
+StyleMeter  *.krell_x_hot = -1
+StyleMeter  *.krell_depth = 1
+StyleMeter  *.krell_yoff = 1
+
+# These are some of the custom settings for the meter areas of specific
+# meter monitors for the default theme.
+# These override any general '*' settings.
+StyleMeter  apm.border = 3,3,2,2
+StyleMeter  apm.font = small_font
+
+* cal.font and cal.textcolor is for day of week and month name
+StyleMeter  cal.font = small_font
+StyleMeter  cal.textcolor = white #000000 shadow
+
+# cal.alt_font is day of month
+StyleMeter  cal.alt_font = large_font
+
+* clock.font and clock.textcolor is for hours & minutes
+# clock.alt_font and clock.alt_textcolor would be used for seconds or am/pm
+StyleMeter  clock.font = large_font
+StyleMeter  clock.textcolor = wheat #000000 shadow
+
+StyleMeter  fs.border = 3,3,3,2
+StyleMeter  fs.label_position = 0
+StyleMeter  fs.alt_font = normal_font
+StyleMeter  host.textcolor = #b0e0b0 #000000 shadow
+StyleMeter  mail.alt_textcolor = orange #000000 shadow
+StyleMeter  timer.textcolor = wheat #000000 shadow
+StyleMeter  uptime.textcolor = wheat #000000 shadow
+

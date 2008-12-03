@@ -1,0 +1,61 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "TaoX { Brian Hinson; } (TaoX@pobox.com)"
+
+large_font = "-adobe-courier-medium-r-normal-*-*-120-*-*-m-*-iso8859-1"
+normal_font = "-adobe-courier-medium-r-normal-*-*-100-*-*-m-*-iso8859-1"
+small_font = "-adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
+
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+# Borders for the frame images
+frame_top_border = 49,5,10,10
+frame_bottom_border = 20,50,3,3
+frame_left_border = 20,5,50,0
+frame_right_border = 0,0,0,0
+
+chart_width_min = 50
+chart_width_max = 200
+
+chart_in_color = #737384
+chart_in_color_grid = #424a63
+chart_out_color = #424a63
+chart_out_color_grid = #737384
+
+bg_grid_mode = 0
+
+rx_led_x = 1
+rx_led_y = 1
+tx_led_x = -1
+tx_led_y = 1
+
+#StyleChart  *.border = 2,2,2,2
+StyleChart  *.textcolor = #8494b5 #000000 shadow
+StyleChart  *.alt_textcolor = #8494b5 #000000 shadow
+
+StyleMeter  *.border = 2,2,2,2
+#StyleMeter  *.label_position = 50
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  fs.label_position = 0
+StyleMeter  mem.border = 3,3,3,3
+StyleMeter  cal.border = 2,2,2,2
+StyleMeter  host.border = 2,2,2,2
+StyleMeter  clock.border = 2,2,2,2
+StyleMeter  *.textcolor = #ffffff #000000 shadow
+StyleMeter  cal.textcolor = #ffffff #000000 shadow
+StyleMeter  host.textcolor = #7a87ab #000000 shadow
+StyleMeter  *.alt_textcolor = #ffffff #000000 shadow
+
+StylePanel  *.border = 2,2,2,2
+#StylePanel  net.border = 0,0,3,0
+StylePanel  *.margin = 3
+StylePanel  *.textcolor = #ffffff #000000 shadow
+StylePanel  *.alt_textcolor = #7a87ab #000000 shadow
+StylePanel  *.label_position = 50
+#StylePanel  net.label_position = 35
+

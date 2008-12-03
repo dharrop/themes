@@ -1,0 +1,22 @@
+Time for a README
+-----------------
+
+You will recognize that the strukture of this theme is different from the
+one recommended in the default theme BrushedMetal-Tigert. I prefer this one, 
+because it seems more usefull to me and until it has no influenze to 
+functionality I won't change this. 
+
+
+2/7/99:
+This morning I received an e-mail from Maher Awamy <muhri@muhri.net>, 
+who sent me a tarball with the automode stuff for Eterm from CVS, which I 
+never used before. I felt to inlcude this in cyrus and so: Cyrus has Eterm 
+Automode Support now. Thanks!!!
+
+
+10/31/99:
+JazzMidi <jazzmidi@mindspring.com> and Alf <ried@si.tn.tudelft.nl> made a
+xmms skin going with cyrus. 
+
+10/28/99: 
+I began to add Epplet support to cyrus. 

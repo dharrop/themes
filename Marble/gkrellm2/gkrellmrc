@@ -1,0 +1,38 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = ""
+
+theme_alternatives = 1
+
+frame_left_width = 4
+frame_right_width = 4
+
+#bg_grid_mode = 1
+
+large_font = -adobe-courier-medium-r-normal-*-*-140-*-*-m-*-iso8859-1
+normal_font = -adobe-courier-medium-r-normal-*-*-120-*-*-m-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-100-*-*-p-*-iso8859-1
+
+#StyleChart  *.border = 3,3,2,2
+StyleChart  *.textcolor = #68fe2c #000000 shadow
+StyleChart  *.alt_textcolor = #68fe2c #000000 shadow
+
+#StyleMeter  *.border = 2,2,4,4
+#StyleMeter  *.label_position = 50
+StyleMeter  *.textcolor = #ffeac4 #000000 shadow
+StyleMeter  *.alt_textcolor = #ffeac4 #000000 shadow
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+StyleMeter  fs.label_position = 0
+StyleMeter cal.textcolor = #ede6ef #000000 shadow
+StyleMeter  host.textcolor = #fe0000 #000000 shadow
+
+#StylePanel  *.border = 2,2,2,3
+StylePanel  *.margin = 3
+#StylePanel  *.label_position = 50
+StylePanel  *.textcolor = #ede6ef #000000 shadow
+StylePanel  *.alt_textcolor = #fe0000 #000000 shadow
+#StylePanel  net.border = 0,0,3,0
+#StylePanel  net.label_position = 35
+

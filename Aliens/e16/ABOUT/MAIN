@@ -1,0 +1,29 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png bgcolor=#000000 linkcolor=#88dddd>
+<img src=title.png x=60 y=25>
+<font face=avgardm/10 color=#50d050>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+A port of Wrex' DR 0.13 Aliens theme 
+<br>
+<br>
+The original Alien concept is a creation of H.R. Giger. ( www.hrgiger.com ).<br>
+Also some of his paintings are featured in this theme.
+<br>
+<br>
+<p align=0%>
+The theme is far from finished but should be more useable with DR 0.16.
+<br>
+<p>
+Have fun,
+<br>
+Michiel ( mic@cistron.nl )

@@ -1,0 +1,13 @@
+ECDYSIS v2 for Enlightenment 0.16
+
+Created by tokyo@cored.org
+
+/* Designed for a 1600x1200 enviroment. June 2002 // #Enlightenment 0.16
+Total permission to reproduce or diffuse by any means analog or electronic. */
+
+Carbon Design is copyright (c) Contenu
+http://contenu.plastiqueweb.com/
+
+
+
+

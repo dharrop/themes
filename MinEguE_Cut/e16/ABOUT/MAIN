@@ -1,0 +1,16 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling linkcolor=#88dddd>
+<img src=title.png x=0 y=0>
+<font face=aircut3/12 color=#000000>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the minEguE Theme. It is based on screenshots from
+www.qnx.com/amiga/ and was re-done for E0.16 using Brused Metal as a base.
+<p align=50%>
+I still have some more to do on it, but I think it's prety
+close.<P>--Ben<P>frantb@rpi.edu

@@ -1,0 +1,19 @@
+windowmatch {
+  classname SHAPED_WINDOWS
+  useborder SHAPED
+  shaped yes
+}
+
+windowmatch {
+  classname TRANSIENT_WINDOWS
+  useborder TRANSIENT
+  transient yes
+}
+
+windowmatch {
+  classname FIXEDSIZE_WINDOWS
+  useborder FIXEDSIZE
+  noresizeh yes
+  noresizeh yes
+}
+

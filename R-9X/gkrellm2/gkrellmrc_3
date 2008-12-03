@@ -1,0 +1,28 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+rx_led_x = -4
+rx_led_y = 6
+tx_led_x = -4
+tx_led_y = 3
+
+#alt2_color
+StyleChart  *.textcolor = #bbffbb #000000 shadow
+StyleChart  *.alt_textcolor = #ffffff #000000 shadow
+#label_color
+StylePanel  *.textcolor = #444488 #ffffff shadow
+StyleMeter cal.textcolor = #222266 #ffffff shadow
+#alt1_color
+StylePanel  *.alt_textcolor = #8888aa #ffffff shadow
+StyleMeter  host.textcolor = #8888bb #ffffff shadow
+#time_color
+StyleMeter  *.textcolor = #2222aa #ffffff shadow
+StyleMeter  *.alt_textcolor = #444488 #ffffff shadow
+#meter_color
+StyleMeter  fs.textcolor = #2222aa #ffffff shadow
+StyleMeter  uptime.textcolor= #2222aa #ffffff shadow
+StyleMeter  host.textcolor = #2222aa #ffffff shadow
+StyleMeter  mail.textcolor = #2222aa #ffffff shadow
+StyleMeter  mem.textcolor = #2222aa #ffffff shadow
+StyleMeter  swap.textcolor = #2222aa #ffffff shadow
+

@@ -1,0 +1,23 @@
+04/02/1999
+   Ok this is the first entry in the Changelog =)
+   Updated mac3D to meet the new theme specs as
+   defined by Raster. this includes:
+      - Removing keybindings.cfg so that the default ones are used.
+      - Theme renamed to mac3D.etheme
+      - Changed control.cfg to only change the minimum number of things.
+           namely the width of the dragbar.
+
+10/02/1999
+   Added the image class coords so that the coords are shown in the corner
+   when moving widows around etc.
+   
+17/02/1999
+   Added the image classes and textclasess DIALOG and DIALOG_BUTTON to the 
+   init.cfg file so that the theme doesn't segfault with the new cvs 
+   version of E15.
+   
+24/02/1999
+   Some fairly major changes to the look of various bits of the theme.
+   I wasn't happy with a few bits, or perhaps I was just bored of them.
+   Changed the buttons to a much preferable configureation too.
+    

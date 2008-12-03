@@ -1,0 +1,62 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "_n0l0G1k_     (n0l0g1k@sdf.lonestar.org) http://n0l0g1k.bizland.com"
+
+frame_left_width = 12
+frame_right_width = 12
+chart_width_min = 50
+chart_width_max = 200
+#chart_width_ref = 140
+
+allow_scaling = true
+
+bg_grid_mode = 1
+
+large_font = "snap"
+normal_font = "shine"
+small_font = "smooth"
+
+rx_led_x = -1
+rx_led_y = 3
+tx_led_x = -1
+tx_led_y = 11
+
+frame_top_border = 15,15,2,2
+frame_bottom_border = 15,15,2,2
+
+StyleChar  *.font = normal
+#StyleChart  *.border = 0,0,0,0
+
+StylePane;  *.font = large
+StylePanel  *.border = 4,4,4,4
+StylePanel  *.label_position = 0
+StylePanel  *.margin = 3
+StylePanel  net.border = 0,0,3,0
+StylePanel  net.label_position = 35
+
+StyleMeter  *.font = small
+StyleMeter  *.border = 5,5,5,5
+StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+StyleMeter  mem.label_position = 100
+StyleMeter  swap.label_position = 100
+
+StyleMeter  fs.label_position = 0
+
+#alt2_color
+StyleChart  *.textcolor = yellow #000000 shadow
+StyleChart  *.alt_textcolor = yellow #000000 shadow
+
+#label_color
+StylePanel  *.textcolor = white #000000 shadow
+StyleMeter cal.textcolor = #000000 #000000 shadow
+
+#alt1_color
+StylePanel  *.alt_textcolor = #000000 #000000 none
+StyleMeter  host.textcolor = #000000 #000000 none
+
+#time_color
+StyleMeter  *.textcolor = green #000000 shadow 
+StyleMeter  *.alt_textcolor = #000000 #000000 shadow
+

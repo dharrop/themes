@@ -1,0 +1,100 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = "z3r0 <z3r0@terra.com.br>"
+
+chart_width_min = 64
+chart_width_max = 64
+chart_width_ref = 64
+allow_scaling = false
+
+frame_top_height = 0
+frame_bottom_height = 0
+frame_left_width = 0
+frame_right_width = 0
+
+frame_top_border = 2,2,0,0
+frame_bottom_border = 2,2,0,0
+frame_left_border = 0,0,0,0
+frame_right_border = 0,0,0,0
+
+bg_grid_mode = 1
+
+rx_led_x = -14
+rx_led_y = 11
+tx_led_x = -1
+tx_led_y = 11
+
+timer_time_x = 2
+timer_button_x = 2
+
+# 2 em todos
+button_panel_border = 4,4,4,4
+button_meter_border = 4,4,4,4
+
+large_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+
+bg_slider_panel_border = 2,2,2,2
+bg_slider_meter_border = 2,2,2,2
+
+StyleChart  *.border = 10,10,10,10
+StyleChart  *.font = normal_font
+StyleChart  *.alt_font = small_font
+StyleChart  *.textcolor = #000000 #000000 none
+StyleChart  *.alt_textcolor = #000000 #000000 none
+
+StylePanel  *.border = 0,0,11,2
+StylePanel  *.font = normal_font
+StylePanel  *.alt_font = normal_font
+StylePanel  *.textcolor = #000000 #000000 none
+StylePanel  *.alt_textcolor = #000000 #000000 none
+StylePanel  *.label_position = 50
+StylePanel  net.label_position = 0
+StylePanel  *.margin = 3
+StylePanel  *.krell_x_hot = 63
+StylePanel  *.krell_depth = 65
+StylePanel  *.krell_yoff = 1
+
+StyleMeter  *.border = 2,2,2,2
+StyleMeter  mem.border = 2,2,2,15
+StyleMeter  swap.border = 2,2,2,14
+StyleMeter  *.font = normal_font
+StyleMeter  *.alt_font = small_font
+StyleMeter  *.textcolor = #000000 #000000 none
+StyleMeter  *.alt_textcolor = #000000 #000000 none
+StyleMeter  *.label_position = 50
+StyleMeter  *.margin = 3
+StyleMeter  *.krell_x_hot = -1
+StyleMeter  mem.krell_x_hot = 62
+StyleMeter  swap.krell_x_hot = 62
+StyleMeter  *.krell_depth = 1
+StyleMeter  mem.krell_depth = 65
+StyleMeter  swap.krell_depth = 65
+StyleMeter  *.krell_yoff = 1
+StyleMeter  mem.krell_yoff = 13
+StyleMeter  swap.krell_yoff = 14
+
+StyleMeter  apm.border = 3,3,2,2
+StyleMeter  apm.font = small_font
+
+* cal.font and cal.textcolor is for day of week and month name
+StyleMeter  cal.font = small_font
+StyleMeter  cal.textcolor = #000000 #000000 none
+
+StyleMeter  cal.alt_font = large_font
+
+* clock.font and clock.textcolor is for hours & minutes
+
+StyleMeter  clock.font = large_font
+StyleMeter  clock.textcolor = #000000 #000000 none
+
+StyleMeter  fs.border = 3,3,3,2
+StyleMeter  fs.label_position = 0
+StyleMeter  fs.alt_font = normal_font
+StyleMeter  host.textcolor = #000000  #000000 none
+StyleMeter  mail.alt_textcolor = #000000 #000000 none
+StyleMeter  timer.textcolor = #000000  #000000 none
+StyleMeter  uptime.textcolor = #000000 #000000 none
+

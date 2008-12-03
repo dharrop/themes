@@ -1,0 +1,86 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling linkcolor=#ffdb8b>
+
+  <font face=notepad/22 color=#ffdb8b>
+  <p align=100%>
+  . : O R A N G E J U i C E : .
+  <p>
+  <font face=tahoma/8 color=#ffdb8b>
+  <p align=100%>
+  for Enlightenment 0.16.x
+    <p>
+    <p>
+    <p>
+    <p>
+    <font face=tahoma/9 color=#ffdb8b>
+    <p align=100%>
+    . : _About(About)
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    . : _Credits(Credits)
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    <font face=tahoma/11 color=#ffdb8b>
+    For a clean & radiant approach to window management.
+
+<page columns=1 padding=16 name=About background=Edoc_bg.png edge_scaling linkcolor=#9e5820>
+  <font face=notepad/22 color=#ffdb8b>
+  <p align=100%>
+  . : O R A N G E J U i C E : .
+  <font face=tahoma/8 color=#ffeb9b>
+  <p align=100%>
+  Made with 100% fruit
+    <p>
+    <p align=100%>
+    <font face=tahoma/9 color=#ffdb8b>
+    Orange Juice? yeah, I don't understand it either but it's stuck ;)
+    <p>
+    <p>
+    <p align=100%>
+    Main concept for this one was summer's comming and wouldn't it be nice if you're
+    desktop allowed you to enjoy it!
+    <p>
+    <p>
+    <p align=100%>
+    This is a nice clean theme with not a great deal of clever little bits. I wanted it to be
+    basic, colourful and useable.
+    <p>
+    <p>
+    <p align=100%>
+    Of all the themes that I have finished I am most happy with this one
+    and I hope you all enjoy playing with it :D
+
+<page columns=1 padding=16 name=Credits background=Edoc_bg.png edge_scaling linkcolor=#f0f0f0>
+  <font face=notepad/22 color=#ffdb8b>
+  <p align=100%>
+  . : O R A N G E J U i C E : .
+    <p align=100%>
+    <font face=tahoma/9 color=#ffdb8b>
+    ...Has Been Brought to you by
+    <br>
+    <font face=tahoma/11 color=#ffdb8b>
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    ...Nathan Baxter | Babyhead
+    <br>
+    http://babyhead.deviantart.com
+    <br>
+    http://babyhead.lostmypants.net
+    <br>
+    Mailto:babyhead@lostmypants.net
+    <p>
+    <p>
+    <p>
+    <p align=100%>
+    The Enlightenment Development Team :
+    <br>
+    http://www.enlightenment.org

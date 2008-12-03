@@ -1,0 +1,17 @@
+Sat Mar 13 01:05:09 CST 1999
+
+        Works with E DR0.15 release.
+
+Thu Mar  4 08:23:49 CST 1999
+
+	Changed names of pager buttons so switching from BeOS theme wouldnt
+	leave grey boxes..
+
+Wed Feb 17 08:43:09 CST 1999
+
+        Updated to include DIALOG and DIALOG_BUTTON stuff in init.cfg
+
+
+Sat Feb 13 18:13:41 CST 1999
+
+	Initial finished port.

@@ -1,0 +1,46 @@
+#!/bin/sh
+
+########### theme settings ############
+
+# currently supported colors are:
+# blue, green, grey, orange, pink, red, turquoise, yellow, aqua_blue
+BORDER_CLOSE_COLOR=aqua_blue
+PAGER_COLOR=aqua_blue
+MENU_COLOR=aqua_blue
+
+# currently supported colors are:
+# green, aqua_blue
+FOCUSLIST_COLOR=aqua_blue
+
+
+
+############ don't change anything below this line!!! #############
+
+PWD_DIR=`pwd`
+
+### script start ###
+
+reconfigure_link() 
+{
+  cd $1
+  rm -f $2
+  ln -s $3/$2 $2
+  cd $PWD_DIR
+}
+
+# close button
+reconfigure_link artwork/borders/ border-close-pre_active.png $BORDER_CLOSE_COLOR
+reconfigure_link artwork/borders/ border-close_active.png $BORDER_CLOSE_COLOR
+
+# pager
+reconfigure_link artwork/pager/images p_sel.png $PAGER_COLOR
+reconfigure_link artwork/pager/images p_win.png $PAGER_COLOR
+
+# menu
+reconfigure_link artwork/menustyles/ menu-arrow-sel.png $MENU_COLOR
+reconfigure_link artwork/menustyles/ menu-sel.png $MENU_COLOR
+
+# focuslist
+reconfigure_link artwork/focuslist/ hbar2.png $FOCUSLIST_COLOR
+
+echo "all done - restart enlightenment..."

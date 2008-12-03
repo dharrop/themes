@@ -1,0 +1,19 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<img src=title.png x=20 y=20>
+<font face=aircut3/12 color=#ffffff>
+<p align=50%>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+This is the Workbench theme for Enlightenment. It is a Amiga Workbench
+look-a-like theme and tries to be nothing more than that. The theme 
+will hopefully follow the standards and all the new features in Enlightenment.
+Author: timian (timian@earthling.net)
+<p align=50%>
+This theme is based on the earlier 'WorkbEnch' theme by exe AKA Marcus Nilsson
+(exe@linux.nu)
+<p align=50%>

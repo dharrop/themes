@@ -1,0 +1,53 @@
+
+          The D.A.E. FAQ for the Enlightenment Window manager...
+
+
+
+How do i change the DEFAULT border to the STYLE border?
+
+
+    There are a few ways to do this, but i'll assume that you would like to keep
+    the current DEFAULT border for some other thing...
+
+    open the ~/.enlightenment/themes/DAE-DR16/borders/DEFAULT/border.cfg in a
+    text editor and find the line near the top that says __NAME DEFAULT simply
+    change this to __NAME STYLE
+
+    open the ~/.enlightenment/themes/DAE-DR16/borders/DEFAULT/border.cfg in a
+    text editor and find the line near the top that says __NAME STYLE simply
+    change this to __NAME DEFAULT
+
+    (Copy and paste is my friend)
+
+    Then on the maintenance menu "purge all caches" and reload the theme.
+
+    no need to mess with the dir names as they are all pre-defined in the
+    borders.cfg file besides that there are a few images present in the
+    DEFAULT/images/ dir.
+
+
+How did you get your Eterms like that?
+
+
+    Pain and effort and a few confusing moments... also hacking at the
+    Eterm theme .cfg files and reading the docs.
+
+    The Eterm launch command i use is...
+    Eterm -O -F -lfp-smooth-medium-r-normal-*-*-90-*-*--*-iso8859-1
+    --cmod 160 --scrollbar 0
+
+    The font came from the lfpfonts-fix-0.82.tar.bz2 package which i
+    downloaded from http://dreamer.nitro.dk/linux/lfp
+
+
+Why on earth do you use .png's for the backdrops instead of .jpg's
+    or are you so dense that you have no concept of compression?
+
+
+    My own views on this are of quality. Granted jpg compression is greater
+    but i do not feel that it's not worth the quality loss, besides that png
+    compression is based on zlib, thus is open source (which is really good).
+
+
+Bit of a lame, sparse FAQ at the mo, but the more i get asked the more i will
+add. :)

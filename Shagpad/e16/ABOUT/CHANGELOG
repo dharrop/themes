@@ -1,0 +1,34 @@
+        Shagpad theme
+                                                                                
+CHANGELOG
+
+Changes in 0.5
+-----------------
+
+  + Fixed sticky button (Thanks to Nikki for writing and pointing
+    out that the sticky button didn't make the window stick.)
+
+
+Changes in 0.4
+-----------------
+
+  + Various fixes to make it better compliment Shagpad-gtk
+  + Path to vert slider image corrected
+  + Focus list fixed
+  + Tooltips
+                                                                                
+Changes in 0.3
+------------------                                                                                
+  + Pager fixed
+  + New dragbar
+                                                                                
+Changes in 0.2
+------------------
+                                                                                
+  + New icons for the titlebar 
+                                                                                
+Changes in 0.1
+------------------
+                                                                                
+  + First release, everything is new
+

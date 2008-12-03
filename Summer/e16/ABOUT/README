@@ -1,0 +1,114 @@
+--- ABOUT SUMMER THEME ---
+
+Summer theme is based on Spring theme (my previous work),
+originally based on Winter theme made by Rephorm ; without
+his great work, Summer would probably not exist.
+
+
+Summer was designed for Enlightenment 0.16.x (better 0.16.7+)
+It was essentialy inspired and made to pursue the concept of
+seasons introduced by Winter and followed by Spring.
+ 
+Summer include all the new features and bugfixes provided by 
+Spring theme but with a redesign for windows borders, buttons
+and flashy, funny, sunny colors especially made to 'summerize'
+and enlight a little more your desktop.
+
+                                                THR4K
+
+
+
+
+Quick FAQ
+
+
+- How to install Summer E16 theme ?
+
+First uncompress the tar.gz theme file with the tar -xzvf command,
+after that, simply put the Summer directory obtained in your home
+directory under ~/.enlightenment/themes
+
+
+- The theme doesn't work for me, what can I do ?
+
+Verify your version of Enlightenment : if you use an older version
+(eg. before 0.16.5) the theme will probably not work correctly. So
+if you're in this case update your Enlightenement version if you
+want to use Summer.
+
+
+- Can I use this theme under E17 ?
+
+A quick answer : no. E17 theme engine is not the same as E16 and
+work with a different theme format. For this reason all E16 themes
+including Summer will NOT work with E17.
+
+
+- Do you plane to port this theme under E17 ?
+
+Hum that seems to be a good idea in the future ;-) I probably did
+a port of Summer soon after official release of E17, because it
+still misses a lot of features in his actual state of development.
+Currently I'm focused on the realisation of another seasonal
+fashioned theme (Autumn) for the last fans of E16 :-)
+
+
+
+
+CHANGELOG
+
+
+10/04/2005
+------------------------------------------------------------------
+- Wrong license path corrected in the copyright file
+- Text update in the ABOUT dialog box
+- Updated eterm theme config file ; wrong path fixed
+- Date errors in the README/CHANGELOG corrected
+
+09/11/2005
+------------------------------------------------------------------
+- Upgraded portions of code
+- Buttons comportment changed in conjunction with Summer-gtk
+- Color modifications for a best integration with Summer-gtk
+
+09/10/2005
+------------------------------------------------------------------
+- Fews modifications on code
+- Design enhancements for radio buttons into dialogboxes
+- Added text changes for 'About this theme' infos
+- Added nice Summer about image for 'About this theme'
+- Design enhancements for focuslist selection style
+
+09/04/2005
+------------------------------------------------------------------
+- Code modification to suit with recents changes
+- Added new gradient backgrounds
+- Added final design for init/startup
+- Added new design for Epplets buttons and their global style
+- Added new design for Summer-themed Eterm
+- Added new dragbar design
+- Added new design for root menu elements
+- Many modifications for dialogboxes elements
+- Window buttons redesign
+
+09/03/2005
+------------------------------------------------------------------
+- Tested new design style for dialogboxes elements 
+- Color changes for fonts display
+- Little redesign for windows borders added
+- Modifications/improvements on code
+- Color changes between normal/hilighted buttons, windows, etc
+- Main new graphical elements of Summer theme added
+
+08/28/2005
+------------------------------------------------------------------
+First tries for global shape and color design.
+------------------------------------------------------------------
+
+
+
+
+For any questions, suggestions or for reporting bugs (wich only
+concern Summer, not Enlightenment himself, of course) you can
+contact me (in english or french) at : thr4k@i-glooo.com
+

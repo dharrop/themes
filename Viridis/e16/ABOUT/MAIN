@@ -1,0 +1,23 @@
+<page columns=1 padding=8 name=front background=../artwork/common/bg.png>
+<font face=benjamingothic/30 color=#FFFFFF>
+<img src=../common/images/logo.png x=205 y=10>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+Viridis<br>
+<font face=benjamingothic/10 color=#FFFFFF>
+<br>
+<br>
+This theme was created around the Propaganda image Metcalfe-Loves-Linux.  The
+tooltips came from the Brushed-Metal E theme.
+<br>
+<br>
+Feel free to send comments and suggestions to the address below.<br>
+This theme is under the GPL.
+<br>
+<br>
+Matthew Kirsch<br>
+http://www.kirsch.cx<br>
+kirsch@kirsch.cx

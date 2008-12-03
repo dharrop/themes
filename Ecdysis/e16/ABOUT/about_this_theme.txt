@@ -1,0 +1,23 @@
+Thu Jun 13 05:08:42 CDT 2002
+ec-dy-sis
+
+This theme used minEgue as the base. Thanks to Ben frantb-at-rpi-dot-edu 
+for creating the minEgue theme. 
+
+To do:
+
+---< window_focus
+---< panel actionclass // ibuttons.cfg
+---< diff_window borders
+---< code clean up
+---< directory structure
+---< perhaps add pcf fonts for Eterm
+
+Bugs:
+
+ROOT_WINDOW_MENU backhground select 
+
+/* Designed for a 1600x1200 enviroment. June 2002 // #Enlightenment 0.16
+Total permission to reproduce or diffuse by any means analog or electronic. */
+
+A.C.

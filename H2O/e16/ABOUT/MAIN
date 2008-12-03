@@ -1,0 +1,20 @@
+EDOC
+512 280 16
+button5.png 2 2 2 2
+Edoc_title1.png 50 2 2 2 Edoc_title2.png 50 2 2 2 Edoc_title3.png 50 2 2 2
+Edoc_prev1.png 2 2 2 2 Edoc_prev2.png 2 2 2 2 Edoc_prev3.png 2 2 2 2
+Edoc_next1.png 2 2 2 2 Edoc_next2.png 2 2 2 2 Edoc_next3.png 2 2 2 2
+Edoc_exit1.png 2 2 2 2 Edoc_exit2.png 2 2 2 2 Edoc_exit3.png 2 2 2 2
+page 0
+text e 17 512 1024 5 258 502 17
+. H2O was created by Lord of the Files (Amy Loomis)
+text e 17 512 0 5 80 512 17
+. Last updated - 04-23-99
+text e 17 0 0 10 110 492 91
+. This theme was created using actionclasses and buttons from Hand Of God. 
+. One background was created using Bryce3D by Eric Holbrook.
+. The other was taken from a commercial package of windows backgrounds.
+. The borders are all original.
+text e 17 512 0 5 210 502 51
+. I can be contacted at aloomis@glue.umd.edu 
+image 34 15 hog.png hog.png hog.png -1

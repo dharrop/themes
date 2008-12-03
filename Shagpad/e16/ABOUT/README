@@ -1,0 +1,100 @@
+Shagpad
+----------------------------------------------------------------
+
+--[about]
+
+  This theme aims to be a nice-looking lightweight theme for Enlightenment.
+For a gtk2 and/or evidence theme go to
+
+  * http://www.morganleahrecords.com/shmindex.html
+
+  For native X cursors cd to cursors/ and
+
+		mv cursors.cfg{,-old}
+
+  and
+
+		cp cursors.cfg{-nativeX,}
+
+--[cursors]
+
+  I find when it's set to native cursors weird things happen.  Like I'll end up with a GIMP cursor for awhile.  YMMV.  Perhaps I'm not doing something right in the config.
+
+--[font]
+
+  You can easily change the font in the theme by going into the ttfonts directory and changing the symbolic link to a different font.  The link should be called myfont.ttf, unless you want to edit the config files too.
+
+--[license]
+
+  Everything in this theme is released under the GPL with the following exceptions.  Everything in the Fontilicious and Iconfactory directories are (C) by their respective creaters/owners.  Please see below for details on their license.
+
+  Note: This theme has been built on top of the Aqua theme... and all the
+Aqua-y bits are originally based on Aqua by Eric Yang and E-X by Ben
+Frantzdale. 
+
+  Michel Salim [mas69@cam.ac.uk] has removed all references to Apple.
+                                                                                
+  (Not much remains of the original theme.  Most bits have been replaced with the  exception of the title bar (although it has been slightly modified), epplets, sound, eterm (arrows))
+
+Regards,
+Corey
+chmod755@morganleahrecords.com
+
+--[detailed licesne and author information]
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+  The font is by Dustin.  This font has been released under the GPL.
+You should drop by Dustin's website and leave a comment for him if you
+like it.
+
+  * dustin@dustismo.com
+  * http://www.dustismo.com/
+  * LICENSE: GNU General Public License (GPL)
+  * Detail: see LICENSE
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+  This theme has altered versions of the buttons from the Aqua Graphite theme by zajko.
+ 
+  * zajko@zajko.cc
+  * http://themes.freshmeat.net/projects/aquagraphite-2.0/?topic_id=958
+  * LICENSE: GNU General Public License (GPL)
+  * Detail: see LICENSE
+ 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+  The graphic images in the Fontalicious directory are from a font called Return of the Retrobats, a "dingbat" font.
+ 
+  * http://www.fontalicious.com
+  * LICENSE: see below
+ 
+FONTALICIOUS FONTS SOFTWARE LICENSE AGREEMENT
+Thank you for downloading Fontalicious Fonts!
+ 
+By downloading or installing these fonts, you are agreeing to the terms of this license.
+ 
+These fonts are free for personal use. If you are using this font for commercial use, please purchase the postscript package for $15, available by instant download on the website.
+ 
+Fonts located in the 'Dingbats' section may not be used for t-shirt, logo or product design without acquiring a specific license. Contact us for more details.
+Please do not redistribute, resell or repackage without permission from Fontalicious. Fontalicious shall in no event be liable for any damages, including damages from loss of business profits, business interruption, and loss of business information, arising out of the use or inability to use the product.
+ 
+All fonts are property of Fontalicious.
+Thanks for reading this! Have a super day!
+Contact: sales@fontalicious.com
+ 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+  The graphic images located in the Iconfactory directory are by Gedeon Maheux from Icon Factory.
+ 
+  * LICENSE: see below, original license is in from\ the\ cheif.html
+ 
+ICONFACTORY SOFTWARE LICENSE AGREEMENT
+ 
+The icons and images represented by these icons are Copyright (C)2002 The Iconfactory. These icons are intended for personal desktop use ONLY. These icons MAY NOT BE REDISTRIBUTED, SOLD OR EXCHANGED FOR ANY GOODS OR SERVICES WHATSOEVER. In addition, the read-me file must accompany the set at all times. By downloading this file you are agreeing to be bound by these terms of use.
+ 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+-----------
+11 Jan 2004
+

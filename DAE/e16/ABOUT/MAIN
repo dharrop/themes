@@ -1,0 +1,400 @@
+<page columns=1 padding=12 name=index background=Edoc_bg.png linkcolor=#80d7ff>
+
+  <font face=electroh/36 color=#60b7ff>
+
+    <p align=50%>
+    The D.A.E. Project
+    <br>
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=100%>Desktop enhancement...
+    <br>...for the enlightened
+    <p align=100%>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    About...<br>
+    <br>
+    ...The _DAE(dae) project<br>
+    ...Theme _Features(feat)<br>
+    ...Theme _Customisation(custom)<br>
+    ...The _Credits(credits)<br>
+    ...The _Author(idiot)<br>
+
+<page columns=1 padding=12 name=dae background=Edoc_bg.png linkcolor=#88dddd>
+
+
+  <font face=electroh/16 color=#60b7ff>
+
+    <p align=50%>
+    D.A.E.
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+
+    The whole concept behind this project is a cool, blue, digital and dark. I 
+    just wanted a theme that screams "Hey! i'm running Enlightenment"...
+    <p>
+    As time progresses i will add gtk, XMMS and gkrellm themes.
+
+<page columns=1 padding=12 name=feat background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+
+    <p align=50%>
+    Features
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+    I hope to have all possible enlightenment features implemented at some 
+    point and i will continue with this theme through E-17 onwards.
+    <p>
+    The current feature list consists of highlighted & clicked 
+    _widgets(widgets) and a different set of widgets/headers for "stuck"
+    windows.
+    <p>
+    There are also a vast amount of _border(borders) styles for practically all
+    of your border needs.
+    <p>
+    As if this was not enough there's also a _button(button) launcher for all
+    your favourite apps.
+
+<page columns=1 padding=12 name=widgets background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+
+    <p align=50%>
+    Window Gadgets
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    Here is a list of the currently supported widgets and corresponding action
+    classes.
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    _Stick(stick) The stick widget
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    _Close(kill) The close widget
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    _Shade(shade) The shade widget
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    _Shade(shadeside) Side The shade side widget
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    _Minimise(iconify) The stick widget
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+    _Maximise(maximise) The stick widget
+    <br>
+    <br>
+    <br>
+    <br>
+    <p align=50%>
+    There are more action_classes available in enlightenment. I will implement
+    these at a later date.
+
+<page columns=1 padding=12 name=stick background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Stick
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    The stick widget comes into play when you want a window present on all
+    desktops.
+    <p>
+    <p>
+    <p>
+    <img src=images/stick_clicked.png x=10 y=90>
+    <p align=20%>
+    The effect is like nailing the window down. 
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    To activate stick, simply click (left,middle or right) on the widget.
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    All the widgets on the window will have changed as a visual aid to let you
+    know that the window is stuck.
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+    <br>
+    <p>
+    <img src=images/unstuck.png x=10 y=288>
+    <p align=50%>This is an example of a normal border.
+    <img src=images/stuck.png x=10 y=318>
+    <p align=50%>This is an example of a "stuck" border.
+    <br>
+    <br>
+    <p align=100%>*the borders in the example are from the "TOP" border style.
+
+<page columns=1 padding=12 name=kill background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Close
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    Although this one seems obvious the right mouse helps with errant apps...
+    <p>
+    <p>
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    Left click to close the window.
+    <img src=images/close_clicked.png x=10 y=120>
+    <p align=20%>
+    Right click to Anihilate the window
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    This one's mailnly usefull for zombied/dead/unco-operative apps
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+    <br>
+    <p>
+    <p align=50%>
+    Thanks to the rather effective method with which Linux handles processes there is more
+    than one way to stop an  app running.
+    <p align=50%>
+    See the man pages for "kill", "killall" and "ps" for more information on obtaining a
+    process id number (pid), and how-to remove it from the process list
+
+<page columns=1 padding=12 name=shade background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Shade
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    The shade button simply "rolls" the window up so only the title bar is present on the
+    desktop
+    <p>
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    
+    <img src=images/shade_clicked.png x=10 y=150>
+    <p align=20%>
+    
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+
+<page columns=1 padding=12 name=shadeside background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Shade Side
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    <p>
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    
+    <img src=images/shade_side_clicked.png x=10 y=180>
+    <p align=20%>
+    
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+
+<page columns=1 padding=12 name=iconify background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Minimise
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    <p>
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    
+    <img src=images/minimise_clicked.png x=10 y=210>
+    <p align=20%>
+    
+    <img src=images/maximise_active.png x=10 y=240>
+    <p align=20%>
+
+<page columns=1 padding=12 name=maximise background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Maximise
+    <font face=tahoma/10 color=#60b7ff>
+    <p align=50%>
+    <p>
+    <p>
+    <img src=images/stick_active.png x=10 y=90>
+    <p align=20%>
+    
+    <img src=images/close_active.png x=10 y=120>
+    <p align=20%>
+    
+    <img src=images/shade_active.png x=10 y=150>
+    <p align=20%>
+    
+    <img src=images/shade_side_active.png x=10 y=180>
+    <p align=20%>
+    
+    <img src=images/minimise_active.png x=10 y=210>
+    <p align=20%>
+    
+    <img src=images/maximise_clicked.png x=10 y=240>
+    <p align=20%>
+
+<page columns=1 padding=12 name=borders background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Border Styles
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+
+<page columns=1 padding=12 name=button background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Button Bar
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+    
+<page columns=1 padding=12 name=custom background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+  <p align=50%>
+  Customization
+
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+    It's not as difficult as it first looks, trust me on this as i have no idea
+    how to program/code/be clever/add numbers without a calculator and i'm
+    lucky if i can even spell sometimes ;)
+    <p>
+    Although the D.A.E. code isn't formatted in a small and clean fashion, it has been
+    designed to be legible in human form (i did this for myself ;)
+    <p>
+    There are three parts to note when adding/removing border types, they are...
+    <p align=50%>
+    ~/.enlightenment/borders/border.cfg file
+    <p align=50%>
+    ~/.enlightenment/borders/"[BORDER_NAME]" dir
+    <p align=50%>
+    ~/.enlightenment/borders/"[BORDER_NAME]"/border.cfg file   
+    <p>to view these *.cfg files simply open up a text editor and load the files you wish to
+    view.
+    <p>
+    <p>
+    <p>
+    <p align=100%>*where "[BORDER_NAME]" is the name you choose for a border.
+
+<page columns=1 padding=12 name=credits background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+  <p align=50%>
+  Credits
+
+    <p align=50%>
+    <font face=tahoma/10 color=#60b7ff>
+    This should be obligatory in all themes ;)
+    <p align=50%>
+    Linus Torvalds: (duh). 
+    The GNU people: We have the tools thank to your talent ;) 
+    Mandrake & Rasterman: Enlightenment rocks and i thank you for it. 
+    h0ax||: bluehEart is a beuty. 
+    frantzdb: minEguE was the first theme i hacked appart and without that 
+    D.A.E. would have probably been a Window Maker theme.
+    <p align=50%>
+    To all the other guys and galls that have ever done anything positive E.
+    <p align=50%>You know who you are :)
+    <br>
+    <br>
+    <p align=50%>Special thanks to Nate Godin for the bits i missed :)
+    <p align=50%>Extra special thanks to Anna He for an endless list of great things =)
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p align=100%>
+    Enlightenment. Because everything else is just pants!!
+
+<page columns=1 padding=12 name=idiot background=Edoc_bg.png linkcolor=#88dddd>
+
+  <font face=electroh/16 color=#60b7ff>
+    <p align=50%>
+    Author
+    <p>
+    <font face=tahoma/10 color=#60b7ff>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p align=50%>
+    <img src=mug_shot.png x=90 y=90>
+    <p align=50%>
+    If you want to know more point your browser at 
+    http://www.bonvogue.com/~anera
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    Needless to say enlightenment is my window manager of choice, 
+    i also have a collection of sid tunes that would make most "geeks" hide in
+    shame...
+    <br>
+    <br>
+    <br>
+    <p align=100%>
+    D.A.E was brought to you by the letters D, A and E...
+    <p align=100%>
+    and the drug Caffeine =D

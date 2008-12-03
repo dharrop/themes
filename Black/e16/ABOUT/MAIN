@@ -1,0 +1,16 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#88dddd>
+<p align=50%>
+<font face=BurtonsNightmare/15 color=#c0c0c0>
+<p align=50%>
+This is the Black theme for enlightenment.  I made this theme for my personal
+use and made it available to the public.  I do not intened to implement every
+feature that E supports unless I find it useful.  If you want add support for
+something else please do.  I have no problems adding support if you figure out
+how to do it.
+<p align=50%>
+I also do not intend to follow the "rules" layed out for E-themes.  I like
+buttons that launch apps.  I accept that this does not make the theme as
+flexable.  However as I do not use other themes it does not really matter to
+me.
+<p>
+Darin

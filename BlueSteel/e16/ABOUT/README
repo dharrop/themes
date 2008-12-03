@@ -1,0 +1,139 @@
+BlueSteel - for (THE MOST CURRENT VERSION OF) enlightenment 0.16
+----------------------------------------------------------------
+
+News
+----
+
+10-9-99: I added in all of the epplet imageclasses and textclasses.  I'm
+not sure how they'll look, since there aren't any epplets to test them with
+yet. :)  I'm using BrushedMetal's textclasses for the time being, since I
+don't think that the Vixar ASCI font will fit in the small amount of space
+that epplets use.
+
+10-7-99: I fixed an image in the SMALLFIXED border whose left edge was
+three pixels too far to the left, and added in the missing iconbox tooltip
+stuff. :)
+
+10/3/99: Okay, this will hopefully be the last update for a while.  I've
+been writing patches to fix little annoyances in E lately, so now there's
+only one entry left in this theme's Bugs section. :)  Also, I created a
+SMALLFIXED border, and put the finishing touches on the windowmatches.  Oh,
+and I created an ICONBOX border, which is just a clone of the BORDERLESS
+border.
+
+9/28/99 (no. 2): I finished the "About This Theme" window and put in all of
+the Eterm auto mode pixmaps, including the not-yet-supported ones (the left
+arrow and right arrow).  I scaled down the background image to make it a
+reasonable size.  Eterm's menu doesn't seem to work when I set its images
+to auto mode, but the normal image mode is so much faster that I don't
+think anyone will use auto mode, anyway. :)
+
+9/28/99: I put the original non-resizable VERYSMALL border back into the
+theme.  It's now called VERYSMALLFIXED, and is used for the menus.  I also
+added in images for the focuslist, and for the four dialog widget
+imageclasses that I was missing.
+
+9/27/99: I replaced the SMALL border.  It's now basically a cross between
+the DEFAULT and TRANSIENT borders (like DEFAULT, but with TRANSIENT's
+titlebar, and no maximize button).  I also modified the VERYSMALL border,
+so its sides, buttom, and bottom corners are all resizable.  The
+windowmatches.cfg file gives windows LEFTSIDE, SMALL, or VERYSMALL borders
+if they're too small to be fitted with DEFAULT.  All of enlightenment's
+dialog boxes use the DEFAULT border, for some reason.  I've emailed raster
+about this.
+
+9/26/99: I fixed a couple of bugs, added in an imageclass and textclass for
+the pager tooltips, created a new border named LEFTPAGER for all you
+weirdos who put your pagers on the left side of your screen (note: it has
+problems with shading that will hopefully be resolved soon), and, thanks to
+Martin Tyler (martin@boo.org), put a couple of lines into the
+windowmatches.cfg to make enlightenment give the LEFTSIDE border to windows
+that aren't wide enough to use the DEFAULT border.  I'll make another small
+resizable border for the next update and add it here as well.
+
+9/25/99: Colormodifiers are no longer in enlightenment, so this theme isn't
+using them anymore.  I rewrote all the config files, so this theme should
+fully comply with the 0.16 theme standard now (see BrushedMetal's README
+file).  This means that the buttons will no longer be included with the
+theme.  The imageclasses used by Eterm's auto mode aren't quite done yet,
+but Eterm runs so slowly in that mode on my computer that I don't think
+anyone will care.  On second thought, I'll just leave them out of the theme
+for the time being, since the background takes up a huge amount of space.
+I also added in the "unshade" imageclass for the pagers, and created two
+cursors for shading.
+
+9/4/99: Huge update this time.  I redid a bunch of the graphics, and as a
+result, you can now select the foreground and background colors of the
+borders/border text/buttons/iconbox.  The theme is also using
+colormodifiers for the unfocused graphics now, so it should be taking up a
+little less memory.  I'll add more colors with the next update.  Oh, and I
+drew some tooltip graphics and replaced the old ones with them.
+
+8/25/99: I finished the small and verysmall borders, made all of the
+windows stay the same width when shading,  and fixed some more little bugs.
+The GTK pixmap theme has been updated with some minor bugfixes as well, and
+can now be downloaded from http://gtk.themes.org.
+
+8/21/99: I removed the maximize button from the fixed-width border, got rid
+of the annoying dark spot to the immediate right of the titlebar, added
+edit and audio buttons, added a few more executables to the buttons'
+actionclasses, added tooltips for all the buttons, converted all the
+tooltips to the new "action" format that visually displays the different
+actions that the user can perform, and made the gfx and ftp icons better.
+I have an almost finished theme for the CVS version of Eterm that can be
+downloaded from http://www2.ucsc.edu/~erat/.
+
+8/19/99: I added a few more buttons and fixed a few small things that were
+bugging me.  I also finished the GTK pixmap theme.  It can be downloaded
+from http://www2.ucsc.edu/~erat/BlueSteel-pixmap.tar.gz, and I might upload
+it to gtk.themes.org soon as well.
+
+8/18/99: I added some buttons and have almost finished the GTK pixmap
+theme.  I'm releasing a version of this theme for Enlightenment 0.15, too.
+
+8/10/99: I've added the > 0.16.devel.4 imageclasses for the iconbox, along
+with default background and window imageclasses for the pagers.  As a
+result (of the iconbox stuff), this theme _might_ crash earlier versions of
+CVS E (0.16.devel.3, in particular).  The iconbox won't look right unless
+you have the scrollbar on the bottom or the right, with the arrows at both
+ends.  I can change this if people really want me to, although the iconbox
+won't fit in as well with the rest of the theme then.  I'm not going to
+make the rightside and upsidedown border styles, because of the massive
+increase they would produce in the theme's memory consumption.
+
+8/5/99: I replaced the last of the buttons (not counting unshade, which
+isn't displayed because it doesn't work).  I also finished a gtkrc-only
+GTK+ theme that (sort of) matches the E theme.  You can download it from
+http://www2.ucsc.edu/~erat/BlueSteel-gtk.tar.gz.  I'm still going to trying
+to finish a pixmap version, which will match the E theme's widget set.
+
+8/4/99: I replaced the buttons once again.  I like these and think I'm done
+replacing buttons. :)  I still need to change the buttons on the dragbar
+and the pager border.
+
+8/3/99: I replaced the close, maximize, minimize, shade, and dragbar
+buttons.  Let me know if you liked the old ones more. :)
+
+8/2/99: This is my first (released) theme for Enlightenment (yes, I suck at
+naming things).  It's kinda inspired by Markus Kniebes' c2h8 theme,
+although I did all the graphics myself in Gimp with the exception of the
+font (from..  ugh.. Microsoft), the tooltips (which I got from the
+ShinyMetal theme), and the two backgrounds (from propaganda.themes.org).
+It's not quite done yet, so if you want to see what I still have planned
+for it, read the following:
+
+Bugs / To do
+-------------
+
+- CPU utilization goes to 100% and the graphics flicker in the
+  Desktop->Backgrounds menu (a bug in E that will be fixed in 0.17)
+
+Contact Information
+-------------------
+
+If you have any comments, find any bugs not on the above list, or think of
+anything else that I should add to this theme, please email me at
+erat@cats.ucsc.edu or danerat@mindspring.com.  Enjoy!
+
+hunchback a.k.a. Daniel Erat
+erat@cats.ucsc.edu - danerat@mindspring.com

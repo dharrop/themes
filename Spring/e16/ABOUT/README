@@ -1,0 +1,131 @@
+--- ABOUT SPRING THEME ---
+
+Spring theme is based on Winter theme originally made by Rephorm,
+without his work Spring would probably never exist.
+
+
+Spring was designed for Enlightenment 0.16.x (better 0.16.7+)
+It was essentialy inspired and made to pursue the concept of
+seasons introduced by Winter, with a nice green-fashioned visual 
+style dedicated to the beauty of spring.
+ 
+Also it have few enhancements and minors bugfixes (like biger
+fonts more confortable for high-resolution screen, better pager,
+alternate color background for every virtual desktops, fixed
+display of percentage progress at startup, etc) you'll certainly
+appreciate when using Spring theme.
+                                                THR4K
+
+
+
+
+Quick FAQ
+
+
+- How to install Spring E16 theme ?
+
+First uncompress the tar.gz theme file with the tar -xzvf command,
+after that, simply put the Spring directory obtained in your home
+directory under ~/.enlightenment/themes
+
+
+- The theme doesn't work for me, what can I do ?
+
+Verify your version of Enlightenment : if you use an older version
+(eg. before 0.16.5) the theme will probably not work correctly. So
+if you're in this case update your Enlightenement version if you
+want use Spring.
+
+
+- Can I use this theme under E17 ?
+
+A quick answer : no. E17 theme engine is not the same as E16 and
+work with a different theme format. For this reason all E16 themes
+including Spring will NOT work with E17.
+
+
+- Do you plane to port this theme under E17 ?
+
+Hum that seems to be a good idea in the future ;-) I probably did
+a port of Spring soon after official release of E17, because it
+still misses a lot of features in his actual state of development.
+Currently I'm focused on the realisation of two other seasonal
+fashioned themes (Summer and Autumn) for the last fans of E16 :-)
+
+
+
+
+CHANGELOG
+
+
+10/29/2005
+------------------------------------------------------------------
+- Eterm.cfg file updated
+- Wrong grey color on inactive window / elements corrected
+- New 'round design' for tooltips boxes
+- New 'round design' for selection in E menus added
+- New 'round design' for init progress bar added
+- New 'round design' for iconbox added
+- New 'round design' for pager added
+- New 'round design' for focuslist added
+- Round border shape design for E windows updated
+- New 'round design' for dragbar added
+- New colored state on hilight for min/max/close buttons
+- New shape design for min/max/close buttons added
+- 'Round design' updated on few dialogboxes elements
+
+10/23/2005
+------------------------------------------------------------------
+- Minors errors in some config files fixed
+- New 'round design' for Eterm Spring theme
+- Better icons visibility for small Epplets buttons
+- New 'round design' for Epplets Spring theme
+- New 'round design' for dialogboxes elements added
+
+10/04/2005
+------------------------------------------------------------------
+- Little changes for the pager/virtual desktop on selection
+- Text update in the ABOUT dialog box
+
+08/01/2005
+------------------------------------------------------------------
+- Eterm theme improvement.
+
+06/20/2005
+------------------------------------------------------------------
+- Changed background for selected entry in E menus
+- Changed font style for the E menus
+- Changed/added new startup background
+- Fixed loading percentage that doesn't appears at startup
+- Fixed little init bug with background loading at startup
+- Fixed some bugs with certains epplets
+
+05/27/2005
+------------------------------------------------------------------
+- ABOUT dialog window added
+- Optimized file size for images and main elements of Spring
+- Cleaned code for *many* (all ?) config files
+- Added shared images for common elements
+- Added gradient tints for background
+- Usable/readable tooltips box/fonts
+- Lot of enhancements for pager (background, knot, slidebar)
+- Dragbar redesign
+- Themed epplets added
+- Themed dialog boxes added (checkbox, radio, buttons, sliders)
+- Alternate background colors for every virtual desktops
+- Corrected borders for shaded pagers
+
+04/04/2005
+------------------------------------------------------------------
+Development version and early stage of production
+a lot of bugs and many functionality not implemented
+The first working elements of the theme are mainly the borders :-)
+------------------------------------------------------------------
+
+
+
+
+For any questions, suggestions or for reporting bugs (wich only
+concern Spring, not Enlightenment himself, of course) you can
+contact me (in english or french) at : thr4k@i-glooo.com
+

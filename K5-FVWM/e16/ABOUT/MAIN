@@ -1,0 +1,28 @@
+<page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#555599
+name=page1>
+<font face=9x15 color=#ffffff>
+<p align=50%>
+
+K5-FVWM
+
+<font face=7x13 color=#cacaca>
+<p>
+
+This theme is modified from the cyrusFVWM theme by mk. It looks pretty much 
+like the original but here's the list what HAS changed:
+<p>
+*  Border, titlebar and menu graphics <br>
+*  Fonts <br>
+*  There are two new border styles: NOBUTTONS and PLAIN_BORDER <br>
+<p>
+
+<p align=50%>
+--------------------------------------------<p align=50%>
+
+"Consciousness reset by beer" <p align=50%>
+
+// kvas@iki.fi
+
+<p>
+
+

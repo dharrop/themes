@@ -1,0 +1,22 @@
+<page columns=1 padding=8 name=front background=../artwork/common/bg.png>
+<font face=benjamingothic/30 color=#FFFFFF>
+<img src=../artwork/common/logo.png x=205 y=10>
+<br>
+<br>
+<br>
+<br>
+<p align=50%>
+Alchemy<br>
+<font face=benjamingothic/10 color=#FFFFFF>
+<br>
+<br>
+Images in this theme were made with The GIMP.
+<br>
+<br>
+Feel free to send comments and suggestions to the address below.<br>
+This theme is under the GPL.
+<br>
+<br>
+Matthew Kirsch<br>
+http://www.kirsch.cx<br>
+kirsch@kirsch.cx

@@ -1,0 +1,96 @@
+D.A.E. CHANGELOG
+
+figured it was high time to add one of these so i can at least keep up with
+what i have/haven't done ;)
+
+27 April 2001
+
+  Added CONCEPT and CONCEPT2. None of these border types are all that useful, 
+  but think of the concept cars. (I did have CONCEPT 1 thru 5 but that was
+  getting really silly :)
+
+26 April 2001 
+
+  sorted out that stupid bug i left in all the border.cfg files wrong link
+  to wrong cursor type was RESIZE_TR (whatever the hell that is) is now 
+  RESIZE_BL. As a punishment for my stupidity i made myself change all
+  references from RESIZE_TR to RESIZE_BL by hand.
+
+  changed the STYLE3 border coz it was actually a bit crap ;)
+
+25 April 2001
+
+  Made a few updates/changes to the ABOUT/MAIN, also figured that although
+  most of us know what widgets are and how they work it just felt right to
+  include them in the dox. Besides that it looks pretty too (isn't that why
+  we use enlightenment?)
+
+  Been tinkering with the windowmatches.cfg file this should mean that i can
+  keep the DEFAULT border as a typical generic border type and use all the
+  "flashy" border types for more important things like Eterms...
+
+  /me loves Eterms
+
+  Added CHANGELOG (bits from a cluttered memory ;) DAE.FAQ TODO and README.DAE
+  Added 2 more border styles "MINIMAL" and "SHAPED"
+  *note: i will now have to fill up the border menu again
+
+     Current Border list stands at 21
+
+        BORDERLESS
+        BORDER_ONLY
+        DEFAULT
+        DEFAULT2
+        FIXED_SIZE
+        GIMP
+        ICONBOX
+        LEFT_SIDE
+        LEFT_SIDE2
+        MENU
+        MENU_BORDER_ONLY
+        MINIMAL
+        PAGER
+        PAGER_DOWN
+        SHAPED
+        STANDARD
+        STYLE
+        STYLE2
+        STYLE3
+        TOP
+        TRANSIENT
+
+24 April 2001
+
+  Eterm theme hacking time. Managed to get a colour scheme going on :)
+  now to work on the gfx.
+  btw, if any one is actually interested here is the Eterm.cfg i have in
+  my E user_apps.menu
+
+  Eterm -O -F -lfp-smooth-medium-r-normal-*-*-90-*-*--*-iso8859-1
+  --cmod 160 --scrollbar 0
+
+23 APRIL 2001
+
+  Added a base image for the icons in the icon box, Thanks again to Nate Godin.
+  Started hacking at gtk themes for some ideas. Decided for final that the
+  Xenophilia engine IS the way to go (pixmap engine and my measly 400Mhz CPU
+  with it's paltry 64MB ram does not work well). It does mean the gfx will be
+  less pretty but Xenophilia supports gradients on the fly (this is good).
+  
+
+20 April 2001
+
+  Ripped cursor ideas from various themes and changed the cursor colours
+  to match DAE a bit more, thanks to Nate Godin for that one :) Also changed
+  the DEFAULT border to what was the TRANSIENT border due to Gimp & E clashes
+  and crashes.
+
+  epplet, iconbox and dialog gfx now all tie in with the theme.
+
+
+01 April 2001 to 20 April 2001
+
+   Some stuff happened but i'm buggered if i can remember what ;)
+   
+   I still have some of the origional D.A.E. gfx designes and i'm so glad
+   i waited 'till i released it ;)

@@ -1,0 +1,30 @@
+# Maintained at theming.effishiency.com
+# $Id$
+
+author = ""
+theme_alternatives = 1
+
+frame_left_width = 4
+frame_right_width = 4
+
+chart_in_color = #666677
+chart_out_color = #9999aa
+
+bg_grid_mode = 1
+
+StyleChart  *.border = 3,3,2,2
+
+StylePanel  *.border = 2,2,2,2
+#StylePanel  *.label_position = 50
+StylePanel  *.margin = 3
+#StylePanel  net.border = 0,0,3,0
+#StylePanel  net.label_position = 35
+
+StyleMeter  *.border = 3,3,2,2
+#StyleMeter  *.label_position = 50
+StylePanel  *.margin = 3
+#StyleMeter  mem.label_position = 100
+#StyleMeter  swap.label_position = 100
+
+StyleMeter  fs.label_position = 0
+
