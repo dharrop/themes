@@ -1,44 +1,50 @@
-# Maintained at themes.effx.us
-# $Id$
+author = "Mathias Meisfjordskar"
 
-author = "-(n0l0G1k)- <n0l0G1k@sdf.lonestar.org> Http://n0l0G1k.de.st"
+theme_alternatives = 1
 
-frame_left_width = 4
+frame_left_width  = 4
 frame_right_width = 4
+
+bg_separator_height = 2
+
+chart_in_color       = #cbcbcb
+chart_in_color_grid  = #8d8d8d
+chart_out_color      = #cbcbcb
+chart_out_color_grid = #8d8d8d
 
 bg_grid_mode = 1
 
-large_font = nexus
-normal_font = nexus
-small_font = nexus
+large_font  = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+normal_font = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
+small_font  = -adobe-helvetica-medium-r-normal-*-*-80-*-*-p-*-iso8859-1
 
-rx_led_x = 43
-rx_led_y = 4
-tx_led_x = 43
-tx_led_y = 12
+rx_led_x = -4
+rx_led_y = 6 
+tx_led_x = -4
+tx_led_y = 3 
 
-StyleChart  *.border = 3,3,2,2
-StyleChart  *.transparency = 2
+#                     l,r,t,b
+button_panel_border = 0,0,2,2
+button_meter_border = 0,0,2,2
 
-StylePanel  *.border = 2,2,2,3
-StylePanel  *.margin = 3
-StylePanel  *.transparency = 2
+StylePanel  *.margin = 0
+StyleMeter  *.margin = 4
+#StyleMeter  fs.label_position = 5
 
-StyleMeter  *.border = 2,2,4,4
-StyleMeter  *.label_position = 50
-StyleMeter  *.transparency = 1
-StylePanel  *.margin = 3
-
-StyleMeter  fs.label_position = 0
-
-StyleChart  *.textcolor = #ffffff #ffffff none
-StyleChart  *.alt_textcolor = #ffffff #ffffff none
-
-StylePanel  *.textcolor = #ffffff #ffffff none
-StyleMeter cal.textcolor = #ffffff #ffffff none
-
-StylePanel  *.alt_textcolor = #ffffff #ffffff none
-StyleMeter  host.textcolor = #ffffff #ffffff none
-
-StyleMeter  *.textcolor = #ffffff #ffffff none
-StyleMeter  *.alt_textcolor = #ffffff #ffffff none
+#alt2_color
+StyleChart  *.textcolor     = #ddeeff #000000 shadow
+StyleChart  *.alt_textcolor = #ddeeff #000000 shadow
+#label_color
+StylePanel  *.textcolor     = #ffffff #000000 shadow
+StyleMeter	cal.textcolor   = #ffffff #000000 shadow
+#alt1_color
+StylePanel  *.alt_textcolor = #ddeeff #000000 shadow
+StyleMeter  host.textcolor  = #ddeeff #000000 shadow
+#time_color
+StyleMeter  *.textcolor     = #ddeeff #000000 shadow
+StyleMeter  *.alt_textcolor = #ddeeff #000000 shadow
+#meter_color
+StyleMeter	fs.textcolor    = #ffffff #000000 shadow
+StyleMeter	mem.textcolor   = #ffffff #000000 shadow
+StyleMeter	swap.textcolor  = #ffffff #000000 shadow
+StyleMeter	mail.textcolor  = #ffffff #000000 shadow
