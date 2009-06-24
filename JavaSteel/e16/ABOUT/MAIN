@@ -1,0 +1,19 @@
+<page columns=1 padding=10 name=front background=Edoc_bg.png edge_scaling linkcolor=#ffffff>
+
+<font face=Vera/14 color=#000000>
+<p>
+<p>
+<p align=50%>
+"Java Steel"<br>
+by Don Harrop<br>
+
+<font face=Vera/11 color=#000000>
+<p>
+<p>
+<p align=0%>
+This is a near complete rewrite for the theme previously known as 'Metal' which was unfortunately plagued with misunderstood syntax and odd graphic choices.<br><br>
+The new rendition is in tribute to all those at Sun Microsystems who have poured their heart and soul into the massive "Open Source" efforts preluding the Oracle acquisition.<br><br>
+May you have the best future possible!<br><br>
+
+-- Maintained at --<br>
+http://themes.effx.us/e16
