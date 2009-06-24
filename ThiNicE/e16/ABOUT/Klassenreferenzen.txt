@@ -1,0 +1,29 @@
+Klassen + Beinhaltung:
+init.cfg:		-
+dialogs.cfg     	Button + Schriftarten für Basisdialoge
+
+imageclasses.cfg:	coords.cfg
+			dock.cfg
+			dragbar.cfg
+			focuslist.cfg
+			iconbox.cfg
+			pager.cfg
+
+borders.cfg (borders):	common.cfg
+			less.cfg
+			default.cfg
+			dialog.cfg
+			menu.cfg
+			autoshade.cfg
+			iconbox.cfg
+			pager.cfg
+			right_pager.cfg
+			pager_shade_right.cfg
+			righ_pager_shade_left.cfg
+			pager_autoshade.cfg
+			fixed_size.cfg
+			shaped.cfg
+			tansient.cfg
+
+buttons.cfg		leer
+desktops.cfg		leer

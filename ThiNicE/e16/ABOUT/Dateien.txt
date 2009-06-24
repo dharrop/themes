@@ -1,0 +1,31 @@
+init.cfg		- Startpunkt, Hintergrundbild, Fortschrittsbalken beim Start
+imageclasses.cfg	- Referenzen auf sämtliche Designs
+dialogs.cfg		- Achtung: Wird im Tutorial alles in der Init abgehandelt
+			  Hintergrund + Buttons + Schriften in allen Enlightenment-Dialogen
+actionclasses.cfg	- Definition der ganzen Aktionen (Mousebutton gedrückt usw.)
+			  Ist nur in einigen Themes vorhanden - nicht benutzt
+borders.cfg		- Einbettung der einzelnen Rahmen
+borders/common.cfg	- Dateinamen der Rahmen + Schriftarten
+borders/default.cfg	- Ränderposition + Ränderdicke für Fenster Standardanwendungen 	(fertig)
+borders/dialog.cfg	- Ränder für Dialogboxen (z.B. Enlightenment-Settings)		(fertig)
+borders/autoshade.cfg	- Ränder für Borderstyle Autoshade (Fenstermenü)		(fertig)
+borders/borderless.cfg	- Borderstyle für Fenster ohne Ränder				(fertig)
+borders/fixed_size.cfg	- Borderstyle für Fenster mit fester Größe (kann man trotzdem ändern)	(fertig)
+borders/iconbox.cfg	- Borderstyle Iconbox						(fertig)
+borders/shaped.cfg	- Borderstyle Shaped - Achtung benutzt Klasse TOP_ICONBOX (Shaped Iconbox) (fertig)
+borders/transient.cfg	- Borderstyle Transient 					(fertig)
+borders/pager.cfg	- Borderstyle Pager + right + shade usw.			(fertig)
+coords.cfg		- Koordinatenbox beim Verschieben von Fenstern (Format 105x28)	(fertig)
+dock.cfg		- keine Ahnung ???
+dragbar.cfg		- Animation, die beim E16-Start angezeigt wird. 
+focuslist.cfg		- Alt + TAB Programmliste					(fertig)
+iconbox.cfg		- Definition Inhalt Iconbox
+pager.cfg		- Definition Inhalt Pager
+
+borders.cfg		- alle gesamten Ränder						(fertig)
+buttons.cfg		- leer
+desktops.cfg		- leer
+fonts.cfg	
+menustyles.cfg
+slideouts.cfg
+

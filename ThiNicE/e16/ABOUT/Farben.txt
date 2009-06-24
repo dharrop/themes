@@ -1,0 +1,16 @@
+verwendete Farbcodes:
+Basisblau:	4350ce
+Hellblau:	acb9cb
+Dunkelblauf:	2b3384
+
+Hintergrund:
+hell:		f0f1d7
+dunkel:		57564d
+dunkel Button:	34342f
+Farbverlauf:	000000 -> 4350ce / 57564d
+
+Buttons:
+-> Einfärben -> Farbton 215
+
+Titelleiste - inaktiv:
+-> Farbton/Sättigung -> Sättigung -60

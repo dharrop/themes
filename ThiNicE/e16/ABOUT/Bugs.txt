@@ -1,0 +1,14 @@
+Fensterausdehnung bei maximieren geht nicht bis zum rechten und unteren Rand
+Iconbox (borders/iconbox.cfg - borders/common.cfg) Ecke unten rechts sieht doof aus.
+
+Progress Bar: init.cfg - sieht irgendwie Scheiße, fehlt außerdem schwarzer Hintergrund
+
+imageclasses/dialogs.cfg - 	DIALOG_WIDGET_CHECK_BUTTON - Schrift neben Checkbuttons
+				DIALOG_WIDGET_RADIO_BUTTON
+				Die Schrift ist zu hoch, Padding funktioniert aber nur nach links und rechts
+Die Schrift ist generell zu weit oben, auch bei Menütitel und bei den Menüpunkten
+
+Menü - 	wenn das Menü verschoben wird, da es nicht mehr auf den Bildschirm paßt, 
+	dann bleibt beim Hintergrund unter dem zuletzt gewählten Punkt ein Abdruck der Auswahl zurück				
+				
+Die Tooltips im Browser werden mit Titelleiste angezeigt. -> Borderonly machen
