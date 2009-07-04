@@ -1,0 +1,11 @@
+; Do not change anything!
+; ideas? deelight@flashmail.com
+; -----------------------------
+[Text]
+NormalBG=#9AC1EA
+Normal=#000000
+Current=#3966A0
+SelectedBG=#9AC1EA
+Font=Tahoma
+mbBG=#FFFFFF
+mbFG=#000000

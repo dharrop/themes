@@ -1,0 +1,52 @@
+SKIN NAME: AbsoluteE Xmms
+SKIN VERSION: 1.0
+DATE CREATED: AUG 12, 1999
+SKIN DESIGNER: JazzMidi
+EMAIL: jazzmidi@mindspring.com
+SKIN GRAPHICS BY: Hallvar Helleseth
+EMAIL: hallvar@ii.uib.no
+WEB SITE: http://www.ii.uib.no/~hallvar/
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+SKIN NOTES:
+Skin should be viewed with 24bit colors or higher.
+A some what dark background is also recommended.
+
+DISIGNER NOTES:
+This skin was inspired by Hallvar's Enlightenment
+Theme called "AbsoluteE" for Linux.
+I liked the color combination and the out side
+bead around the shell. So to make my desktop more
+complete I decided to make a xmms skin to along
+with the theme. I really had a lot of fun making
+this skin, well that's why I make them - 
+just for fun and to share them with you. =)
+
+NOTE FOR ENLIGHTENMENT USERS:
+You need to edit the pledit.txt file and
+change the "NormalBG" to a darker pallet color
+for the background color for the PlayList. It
+looks a little light in enlightenment.
+You can try:
+NormalBG=#363d36
+or someting else around that shade.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ACKNOWLEDGEMENTS:
+To Hallvar - thank you for creating some awesome
+graphics and a kick ass e.theme  =)
+
+To You - Thank you for downloading this skin
+and Enjoy.
+
+JazzMidi
+Jazz Alley XG Midis
+jazzmidi@mindspring.com
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+CHANGE LOG:
+V1.0
+- None
+
+THINGS TO DO:
+- Shorten up winshade modes to match the length
+  on Main and Equalizer title bars. I'm having
+  problems with the transparency on the EQ
+  winshade mode. xmms does not like it. =(

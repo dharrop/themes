@@ -1,0 +1,28 @@
+48,59,81      // 0 = black (background color #1)
+48,59,81      // 1 = grey (background color #2)
+255,255,255   // 2 = top of spec
+235,237,243   // 3
+214,220,231   // 4
+194,202,219   // 5
+174,185,206   // 6
+154,167,194   // 7
+133,150,182   // 8
+113,132,170   // 9
+113,132,170   // 10 = mid of spec
+106,124,162   // 11
+99,117,153    // 12
+92,110,145    // 13
+85,102,137    // 14
+78,94,128     // 15
+71,87,120     // 16
+71,87,120     // 17 = bottom of spec
+255,255,255   // 18 osc 1 (brightest)
+218,222,222   // 19 osc 2
+181,189,189   // 20 osc 3
+164,172,177   // 21 osc 4
+148,156,165   // 22 osc 5 (dimmest)
+150,150,150   // 23 spectrum peaks
+
+Made by VisEditor from 4Q Software
+http://members.xoom.com/4qdownloads/frame.htm
+Programmed by sCud

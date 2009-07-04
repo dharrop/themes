@@ -1,0 +1,21 @@
+
+minEguE XMMS Skin version 2
+===========================
+
+This XMMS skin is loosely based on the and the Enlightenment minEguE theme
+and the XMMS Ultrafina skin . Any feedback welcome :o)
+
+Thanks to:
+  - Ben (frantb@rpi.edu) for the Enlightenment minEguE theme.
+  - The unknow author of the XMMS Ultrafina skin.
+
+This skin is released under the GNU GPL; see the file COPYING.
+
+Changes since version 1:
+  - The borders are thinner.
+  - The titlebar's buttons have been modified to match the look of the
+    other buttons.
+  - The titlebars have been modified.
+
+Andréas Saudemont
+asaudemont@voila.fr

@@ -1,0 +1,9 @@
+[Text]
+Normal=#cdcacd
+Current=#628b8b
+NormalBG=#303532
+SelectedBG=#182323
+Font=Arial
+;Font=Beijing SSi
+mbBG=#303431
+mbFG=#cdcacd

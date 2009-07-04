@@ -1,0 +1,9 @@
+[Text]
+Normal=#000000
+Current=#ffffff
+NormalBG=#5f7c79
+SelectedBG=#7f9c99
+Font=Arial
+;Font=PenguinLight
+mbBG=#6f8c89
+mbFG=#000000

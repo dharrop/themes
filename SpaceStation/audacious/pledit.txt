@@ -1,0 +1,9 @@
+;Spinner.com
+[Text]
+Normal=#ffc10c
+Current=#4a81a8
+NormalBG=#04355b
+SelectedBG=#054b81
+Font=Arial
+mbBG=#2E451A
+mbFG=#6C854D

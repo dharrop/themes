@@ -1,0 +1,9 @@
+[Text]
+Normal=#ffffff
+Current=#a8caff
+NormalBG=#152f56
+SelectedBG=#295ba5
+Font=Arial
+;Font=Vixar ASCI
+mbBG=#152f56
+mbFG=#ffffff

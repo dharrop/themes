@@ -1,0 +1,9 @@
+[Text]
+Normal=#ffffff
+Current=#9393B9
+NormalBG=#23232A
+SelectedBG=#3A3A42
+Font=Arial
+;Font=Swiss 721 BT
+mbBG=#2A2A32
+mbFG=#ffffff

@@ -1,0 +1,16 @@
+[Normal]
+NumPoints = 4, 4
+PointList = 4,0, 271,0, 271,10, 4,10,       0,10, 275,10, 275,116, 0,116
+
+[Equalizer]
+NumPoints = 4, 4
+PointList = 4,0, 271,0, 271,10, 4,10,       0,10, 275,10, 275,116, 0,116
+
+
+[WindowShade]
+NumPoints=4
+PointList = 4,0, 271,0, 271,13, 4,13
+
+[EqualizerWS]
+NumPoints = 4
+PointList = 4,0, 271,0, 271,13, 4,13

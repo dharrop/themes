@@ -1,0 +1,9 @@
+[Text]
+Normal=#FFFFFF
+Current=#738DB1
+NormalBG=#303B51
+SelectedBG=#000000
+Font=Arial
+;Font=Lucida Snas Unicode
+mbBG=#303B51
+mbFG=#FFFFFF
