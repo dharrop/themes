@@ -1,0 +1,93 @@
+<page columns=1 padding=16 name=front background=ribbon.jpg edge_scaling linkcolor=#930000>
+  <font face=SantasSleighFull/20 color=#930000>
+  <p>
+  <p>
+  <p>
+  <p>
+  <font face=SantasSleighFull/16 color=#930000>
+  <p align=30%>
+    To: _Amber(amber)
+  <p>
+  <p>
+  <p>
+  <font face=Candcu__/28 color=#930000>
+  <p align=50%>
+    _CandyCane(index)
+  <p>
+
+<page columns=1 padding=16 name=index background=card.jpg edge_scaling linkcolor=#930000>
+  <font face=SantasSleighFull/18 color=#3c3c3c>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p align=50%>
+    _Front_Page(front)
+    <p align=50%>
+    _About(about)
+    <p align=50%>
+    _Copyright(copyright)
+
+<page columns=1 padding=12 name=amber background=card.jpg edge_scaling linkcolor=#930000>
+  <font face=SantasSleighFull/18 color=#930000>
+    <p align=50%>
+    In the season of Miricles and Magic
+    <p align=50%>
+     - Because of you -<br>
+    there are bright colors.<br>
+     - Because of you -<br>
+    the air;  sweet like candy.<br>
+     - Because of you -<br>
+    it is special. <br>
+    <p align=50%>
+    You are my Miricle -- you are the Magic!<br>
+    
+
+  <font face=SantasSleighFull/14 color=#3c3c3c>
+    <p align=50%>
+    _Back(front)
+
+<page columns=1 padding=16 name=about background=Reason_for_the_Season.jpg edge_scaling linkcolor=#930000>
+  <font face=SantasSleighFull/24 color=#3c3c3c>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+    <p>
+  <font face=SantasSleighFull/14 color=#3c3c3c>
+    <p>
+    <p align=50%>
+    _Back(index)
+
+<page columns=1 padding=16 name=copyright background=card.jpg edge_scaling linkcolor=#930000>
+  <font face=Vera/14 color=#3c3c3c>
+    <p>
+    Copyright 2009
+    <font face=Vera/09 color=#3c3c3c>
+    <p>
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to
+    deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+    sell copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    <p>
+    The above copyright notice and this permission notice shall be included in
+    all copies of the Software, its documentation and marketing & publicity 
+    materials, and acknowledgment shall be given in the documentation, materials
+    and software packages that this Software was used.
+    <p>
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+    THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    <p>
+    <font face=SantasSleighFull/14 color=#930000>
+    <p align=50%>
+    _Back(index).
+
