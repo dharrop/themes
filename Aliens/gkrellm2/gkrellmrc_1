@@ -1,6 +1,3 @@
-# Maintained at themes.effx.us
-# $Id$
-
 frame_top_border = 35,20,0,0
 frame_bottom_border = 64,40,0,0
 frame_left_border = 0,0,144,44

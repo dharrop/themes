@@ -1,8 +1,5 @@
 <Eterm-0.9.2>
 
-# Maintained at themes.effx.us
-# $Id$
-
 begin menu
   title "Simple Foreground Colors"
   begin menuitem
