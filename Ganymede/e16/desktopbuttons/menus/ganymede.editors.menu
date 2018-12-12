@@ -1,0 +1,6 @@
+"Ganymede Editors"
+XEmacs	EDITOR 	exec "xemacs"
+Emacs	EDITOR	exec "emacs"
+GEdit	EDITOR	exec "gedit"
+vi	EDITOR	exec "xterm -e vim"
+pico	EDITOR	exec "xterm -e pico"

@@ -1,4 +1,4 @@
-<page columns=1 padding=15 name=front background=../common/images/bevel_bg_normal2.png>
+<page columns=1 padding=15 name=front background=../artwork/common/bevel_bg_normal2.png>
 <font face=aircut3/30 color=#999999>
 <p align=50%>
 <img src=../common/images/logo_small.png x=150 y=15>

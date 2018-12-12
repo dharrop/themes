@@ -1,0 +1,4 @@
+"Ganymede Networking"
+"Netscape" 		NET 	exec "netscape -no-about-splash"
+"Firefox" 		NET 	exec "firefox"
+"lynx"  		NET 	exec "xterm -e lynx"

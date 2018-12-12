@@ -1,0 +1,6 @@
+"Ganymede Others"
+"Imlib Settings"	TOOL 	exec "imlib_config"
+Xmag	TOOL	exec "xmag"
+Xman	TOOL	exec "xman"
+XMMS	TOOL	exec "xmms"
+Htop	TOOL	exec "xterm -e htop"

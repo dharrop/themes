@@ -1,4 +1,4 @@
-<page columns=1 padding=15 name=front background=../graphics/bevel_bg_normal.png>
+<page columns=1 padding=15 name=front background=../artwork/bevel_bg_normal.png>
 <font face=aircut3/30 color=#000000>
 <p align=50%>
 Absolute E

@@ -1,0 +1,5 @@
+"Ganymede Graphics"
+"Blender"	GRAPHIC	exec "blender"
+"The Gimp"	GIMP	exec "gimp"
+"Eye of Gnome"	EOG	exec "eog"
+"dia"	DIA	exec "dia"
