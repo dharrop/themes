@@ -1,5 +1,6 @@
-<page columns=1 padding=16 name=front background=Edoc_bg.png edge_scaling linkcolor=#88dddd>
-<font face=aircut3/12 color=#ffffff>
+<page columns=1 padding=16 name=front background=../artwork/common/light_brushed.png edge_scaling linkcolor=#88dddd>
+<font face=aircut3/12 color=#000000>
+<img src=../artwork/backgrounds/Eazel_logo.png x=10 y=10>
 <p align=50%>
 <br>
 <br>
@@ -8,19 +9,17 @@
 <br>
 <br>
 <br>
-
-Eazel-E.port 
-This is a port of the original Eazel sawfish theme using Green and g0ld
-borders 
-This was easier to ported cuz i already have port the Eazel-blue so i just had
-to change the images :) 
-
-Enjoy -- --- --
-
-btw as at the Eazel-blue you need nexus font to have this one running porperly
-too if you dont got em get them from the ttfonts dir
-
+This is a port of the original Eazel sawfish theme.  Enjoy!
+<br>
+<br>
+<br>
+</p>
+<p>
+<br>
 -(n0l0G1k)-
+<br>
 -(n0l0g1k@sdf.lonestar.org)-
+<br>
 -(Http://n0l0G1k.de.st)-
-
+<br>
+</p>
