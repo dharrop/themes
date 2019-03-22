@@ -1,0 +1,19 @@
+nexus
+Font for X
+
+Raster: <raster@rasterman.com>
+       aka. Carsten Haitzler
+Jonathan Perkin: <sketch@rd.bbc.co.uk>
+Giblet: <gilbertt@linuxbrit.co.uk>
+       aka. Tom Gilbert
+Horms: <horms@vergenet.net>
+       aka. Simon Horman
+
+This font is released under the terms of the BSD licence.
+
+The full text of this licence can be found in the file
+/usr/share/common-licenses/BSD
+
+This package is available by FTP from:
+ftp://ftp.vergenet.net/pub/nexus/
+
