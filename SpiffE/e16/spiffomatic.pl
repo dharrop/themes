@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-## Script by Garrett LeSage <garrett@linux.com>
+## Script by Garrett LeSage (https://garrettlesage.com/)
 ## "probably not the most elegant way to do things, but it works..."
 ## Released under the GPL v2 see http://gnu.org/ for more.
 
