@@ -1,14 +1,14 @@
 <page columns=1 padding=16 name=front background=Edoc_bg.png linkcolor=#555599
 name=page1>
-<font face=verdana/24 color=#ffffff>
+<font face=arimo/24 color=#ffffff>
 <p align=50%>
 
 spiffE
 
-<font face=verdana/7 color=#000000>
+<font face=arimo/7 color=#000000>
 "the spiffiest theme for E" [tm]
 
-<font face=verdana/11 color=#000000>
+<font face=arimo/11 color=#000000>
 <p>
 I made this theme since I wanted a fast, clean, small, good looking, 
 and original theme for Enlightenment.
@@ -28,16 +28,16 @@ but I have found that it works quite well on a three button trackball as well.
 *grin*
 
 <p align=50%>
-<font face=verdana/11 color=#444444>
+<font face=arimo/11 color=#444444>
 _continued_on_page_2...(page2)
 
 <page columns=1 padding=11 name=front background=Edoc_bg.png linkcolor=#555599
 name=page2>
-<font face=verdana/11 color=#ffffff>
+<font face=arimo/11 color=#ffffff>
 <p>
 [ _Page_1(page1) ]  [ Page 2 ]
 
-<font face=verdana/11 color=#000000>
+<font face=arimo/11 color=#000000>
 <p>
 If you dislike this feature (you should at least try it out first) and want to
 get the defaults back, rename the actionclasses.cfg in this theme's directory,
@@ -47,16 +47,13 @@ purge the config cache, restart, and you should be happy.
 I have put a lot of work into this theme (making it 0.16.x compliant as well),
 and I hope you enjoy it!
 
-<p>
-For more info, consult http://themes.org/ or http://linuxart.com/
-<br>
-(Linuxart.com also has several hundred pictures I took with my digital camera
--- Great for backgrounds, etc.)
 <hr>
+
+<p>
+spiffE is licensed under the GPLv2 or higher.
 
 <p>
 Thanks for using my theme,
 
 <p>
-Garrett LeSage<br>
-garrett@linux.com
+Garrett LeSage
