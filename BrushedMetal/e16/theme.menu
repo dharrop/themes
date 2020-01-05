@@ -1,0 +1,5 @@
+"Menu options" "ROOT"
+"Variant: Turquoise" NULL "theme use :turquoise"
+"Variant: Turquoise with yellow buttons" NULL "theme use :turquoise_btnalt1"
+"Variant: Blue" NULL "theme use :blue"
+"Variant: Blue with yellow buttons" NULL "theme use :blue_btnalt1"
