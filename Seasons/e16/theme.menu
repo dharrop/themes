@@ -1,0 +1,5 @@
+"Menu options" "ROOT"
+"Variant: winter" NULL "theme use :winter"
+"Variant: spring" NULL "theme use :spring"
+"Variant: summer" NULL "theme use :summer"
+"Variant: autumn" NULL "theme use :autumn"

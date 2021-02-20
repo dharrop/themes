@@ -1,0 +1,37 @@
+<page columns=1 padding=10 name=front background=white_bg.png linkcolor=#222222>
+<img href=winter src=winter_button.png x=8 y=8>
+<img href=spring src=spring_button.png x=8 y=96>
+<img href=summer src=summer_button.png x=8 y=184>
+<img href=autumn src=autumn_button.png x=8 y=272>
+<img href=seasons src=seasons_button.png x=178 y=360>
+
+<page columns=1 padding=40 name=winter linkcolor=#222222>
+<img href=front src=winter_bg.png x=0 y=0>
+
+<page columns=1 padding=40 name=spring linkcolor=#222222>
+<img href=front src=spring_bg.png x=0 y=0>
+
+<page columns=1 padding=40 name=summer linkcolor=#222222>
+<img href=front src=summer_bg.png x=0 y=0>
+
+<page columns=1 padding=40 name=autumn linkcolor=#222222>
+<img href=front src=autumn_bg.png x=0 y=0>
+
+<page columns=1 padding=40 name=seasons background=white_bg.png linkcolor=#0000ff>
+<img href=front src=seasons_button.png x=178 y=360>
+<font face=Vera/12 color=#222222>
+<p>
+<p>
+<p>
+The border geometry configuration for Winter, Spring, and Summer were all identical.  By leveraging a new feature in e16 known as variants, Autumn was added and Seasons was born.
+<p align=90%>
+Enjoy!
+<p>
+<p>
+<p>
+<p>
+<font face=Vera/10 color=#222222>
+* Winter done by rephorm.<br>
+* Spring and Summer done by by thr4k.<br>
+* Autumn and consolidation work done by Don Harrop.<br>
+
